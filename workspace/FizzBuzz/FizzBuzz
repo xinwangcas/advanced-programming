@@ -1,0 +1,16 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int multi_three;
+	int multi_five;
+	int integer = 100;
+	int multi_three_five;
+	int i;
+	for (i = 1; i <= 100; i ++ )
+	{
+		
+	}
+}

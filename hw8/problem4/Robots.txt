@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Robots exclusion standard - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf4" />
+<link rel="canonical" href="/wiki/Robots_exclusion_standard" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit" />
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit" />
+<link rel="apple-touch-icon" href="//en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.geshi.local%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Robots_exclusion_standard","wgTitle":"Robots exclusion standard","wgCurRevisionId":522232160,"wgArticleId":101673,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing cleanup from November 2009","All pages needing cleanup","Articles containing how-to sections","All articles with unsourced statements","Articles with unsourced statements from July 2011","Articles to be expanded from January 2011","All articles to be expanded","World Wide Web"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Robots_exclusion_standard","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Robots.txt","wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"827f1896d6e483bd4a4301fa01577a87","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false},"wikilove-recipient":"","wikilove-anon":0,"mbEmailEnabled":true,"mbUserEmail":false,"mbIsEmailConfirmationPending":false,"wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":101673,"title":"Robots exclusion standard","namespace":0,"categories":["All articles to be expanded","All articles with unsourced statements","All pages needing cleanup","Articles containing how-to sections","Articles needing cleanup from November 2009","Articles to be expanded from January 2011","Articles with unsourced statements from July 2011","World Wide Web"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikilove-enabled":1,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,
+"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:013a65dbaca8076556d129e802aa8c3c */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<style type="text/css">/*<![CDATA[*/
+.source-robots {line-height: normal;}
+.source-robots li, .source-robots pre {
+	line-height: normal; border: 0px none white;
+}
+/**
+ * GeSHi Dynamically Generated Stylesheet
+ * --------------------------------------
+ * Dynamically generated stylesheet for robots
+ * CSS class: source-robots, CSS id: 
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ * --------------------------------------
+ */
+.robots.source-robots .de1, .robots.source-robots .de2 {font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;}
+.robots.source-robots  {font-family:monospace;}
+.robots.source-robots .imp {font-weight: bold; color: red;}
+.robots.source-robots li, .robots.source-robots .li1 {font-weight: normal; vertical-align:top;}
+.robots.source-robots .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.robots.source-robots .li2 {font-weight: bold; vertical-align:top;}
+.robots.source-robots .kw1 {color: #b1b100;}
+.robots.source-robots .co1 {color: #808080; font-style: italic;}
+.robots.source-robots .es0 {color: #000099; font-weight: bold;}
+.robots.source-robots .br0 {color: #66cc66;}
+.robots.source-robots .sy0 {color: #66cc66;}
+.robots.source-robots .st0 {color: #ff0000;}
+.robots.source-robots .nu0 {color: #cc66cc;}
+.robots.source-robots .ln-xtra, .robots.source-robots li.ln-xtra, .robots.source-robots div.ln-xtra {background-color: #ffc;}
+.robots.source-robots span.xtra { display:block; }
+
+/*]]>*/
+</style><script src="//bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="//meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins-1.21wmf4/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Robots_exclusion_standard skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading"><span dir="auto">Robots exclusion standard</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub">  (Redirected from <a href="/w/index.php?title=Robots.txt&amp;redirect=no" title="Robots.txt">Robots.txt</a>)</div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink"><span class="plainlinks selfreference">"Robots.txt" redirects here. For Wikipedia's robots.txt file, see <a href="/wiki/MediaWiki:Robots.txt" title="MediaWiki:Robots.txt">MediaWiki:Robots.txt</a> and <i><code><a class="external text" href="//en.wikipedia.org/robots.txt">en.wikipedia.org/robots.txt</a></code>.</i></span></div>
+<table class="metadata plainlinks ambox ambox-content" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="//upload.wikimedia.org/wikipedia/en/f/f4/Ambox_content.png" width="40" height="40" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article <b>contains <a href="/wiki/Wikipedia:What_Wikipedia_is_not#NOTHOWTO" title="Wikipedia:What Wikipedia is not">instructions, advice, or how-to content</a></b>. <span class="hide-when-compact">The purpose of Wikipedia is to present facts, not to train. Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Robots_exclusion_standard&amp;action=edit">improve this article</a> either by rewriting the how-to content or by <a href="//meta.wikimedia.org/wiki/Help:Transwiki" class="extiw" title="m:Help:Transwiki">moving</a> it to <a href="//en.wikiversity.org/wiki/" class="extiw" title="v:">Wikiversity</a> or <a href="//en.wikibooks.org/wiki/" class="extiw" title="b:">Wikibooks</a>.</span> <small><i>(November 2009)</i></small> </span></td>
+</tr>
+</table>
+<p>The <b>Robot Exclusion Standard</b>, also known as the <b>Robots Exclusion Protocol</b> or <b>robots.txt protocol</b>, is a convention to prevent cooperating <a href="/wiki/Web_crawler" title="Web crawler">web crawlers</a> and other <a href="/wiki/Web_robot" title="Web robot" class="mw-redirect">web robots</a> from accessing all or part of a <a href="/wiki/Website" title="Website">website</a> which is otherwise publicly viewable. Robots are often used by <a href="/wiki/Search_engines" title="Search engines" class="mw-redirect">search engines</a> to categorize and archive web sites, or by webmasters to proofread source code. The standard is different from, but can be used in conjunction with, <a href="/wiki/Sitemaps" title="Sitemaps">Sitemaps</a>, a robot <i>inclusion</i> standard for websites.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#About_the_standard"><span class="tocnumber">2</span> <span class="toctext">About the standard</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Disadvantages"><span class="tocnumber">3</span> <span class="toctext">Disadvantages</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Alternatives"><span class="tocnumber">4</span> <span class="toctext">Alternatives</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Examples"><span class="tocnumber">5</span> <span class="toctext">Examples</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Nonstandard_extensions"><span class="tocnumber">6</span> <span class="toctext">Nonstandard extensions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Crawl-delay_directive"><span class="tocnumber">6.1</span> <span class="toctext">Crawl-delay directive</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Allow_directive"><span class="tocnumber">6.2</span> <span class="toctext">Allow directive</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Sitemap"><span class="tocnumber">6.3</span> <span class="toctext">Sitemap</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Universal_.22.2A.22_match"><span class="tocnumber">6.4</span> <span class="toctext">Universal "*" match</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit&amp;section=1" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<p>The invention of "robots.txt" is attributed to Martijn Koster, when working for <a href="/wiki/WebCrawler" title="WebCrawler">WebCrawler</a> in 1994.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> "robots.txt" was then popularized with the advent of <a href="/wiki/AltaVista" title="AltaVista">AltaVista</a>, and other popular search engines, in the following years.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from July 2011">citation needed</span></a></i>]</sup></p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit&amp;section=2" title="Edit section: About the standard">edit</a>]</span> <span class="mw-headline" id="About_the_standard">About the standard</span></h2>
+<table class="metadata plainlinks ambox mbox-small-left ambox-content" style="">
+<tr>
+<td class="mbox-image"><a href="/wiki/File:Wiki_letter_w_cropped.svg" class="image"><img alt="[icon]" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/20px-Wiki_letter_w_cropped.svg.png" width="20" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/30px-Wiki_letter_w_cropped.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/40px-Wiki_letter_w_cropped.svg.png 2x" /></a></td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This section requires <a class="external text" href="//en.wikipedia.org/w/index.php?title=Robots_exclusion_standard&amp;action=edit">expansion</a> with: which search engines follow that standard.. <small><i>(January 2011)</i></small></span></td>
+</tr>
+</table>
+<p>If a site owner wishes to give instructions to web robots they must place a text file called <tt>robots.txt</tt> in the root of the web site hierarchy (e.g. <tt>www.example.com/robots.txt</tt>). This text file should contain the instructions in a specific format (see examples below). Robots that <i>choose</i> to follow the instructions try to fetch this file and read the instructions before fetching any other file from the web site. If this file doesn't exist web robots assume that the web owner wishes to provide no specific instructions.</p>
+<p>A robots.txt file on a website will function as a request that specified robots ignore specified files or directories when crawling a site. This might be, for example, out of a preference for privacy from search engine results, or the belief that the content of the selected directories might be misleading or irrelevant to the categorization of the site as a whole, or out of a desire that an application only operate on certain data. Links to pages listed in robots.txt can still appear in search results if they are linked to from a page that is crawled.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></p>
+<p>For websites with multiple subdomains, each subdomain must have its own robots.txt file. If <tt>example.com</tt> had a robots.txt file but <tt>a.example.com</tt> did not, the rules that would apply for <tt>example.com</tt> would not apply to <tt>a.example.com</tt>.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit&amp;section=3" title="Edit section: Disadvantages">edit</a>]</span> <span class="mw-headline" id="Disadvantages">Disadvantages</span></h2>
+<p>Despite the use of the terms "allow" and "disallow", the protocol is purely advisory. It relies on the cooperation of the <a href="/wiki/Web_robot" title="Web robot" class="mw-redirect">web robot</a>, so that marking an area of a site out of bounds with robots.txt does not guarantee exclusion of all web robots. In particular, malicious web robots are unlikely to honor robots.txt.</p>
+<p>While it is possible to prevent directory searches by anybody including web robots by setting up the security of the server properly, when the disallow directives are provided in the robots.txt file, the existence of these directories are disclosed to everyone.</p>
+<p>There is no official standards body or <a href="/wiki/Request_for_Comments" title="Request for Comments">RFC</a> for the robots.txt protocol. It was <a rel="nofollow" class="external text" href="http://www.robotstxt.org/wc/norobots.html">created by consensus</a> in June 1994 by members of the robots mailing list (robots-request@nexor.co.uk). The information specifying the parts that should not be accessed is specified in a file called <b>robots.txt</b> in the top-level directory of the website. The robots.txt patterns are matched by simple substring comparisons, so care should be taken to make sure that patterns matching directories have the final '/' character appended, otherwise all files with names starting with that substring will match, rather than just those in the directory intended.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit&amp;section=4" title="Edit section: Alternatives">edit</a>]</span> <span class="mw-headline" id="Alternatives">Alternatives</span></h2>
+<p>Many robots also pass a special <a href="/wiki/User-agent" title="User-agent" class="mw-redirect">user-agent</a> to the web server when fetching content<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup>. A web administrator could also configure the server to automatically return failure (or pass alternative content) when it detects a connection using one of the robots<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup><sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup>.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit&amp;section=5" title="Edit section: Examples">edit</a>]</span> <span class="mw-headline" id="Examples">Examples</span></h2>
+<p>This example tells <b>all robots</b> to visit <b>all files</b> because the wildcard <code>*</code> specifies all robots:</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="robots source-robots">
+<pre class="de1">
+<span class="kw1">User-agent</span><span class="sy0">:</span> *
+<span class="kw1">Disallow</span><span class="sy0">:</span>
+</pre></div>
+</div>
+<p>This example tells <b>all robots</b> to stay out of a website:</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="robots source-robots">
+<pre class="de1">
+<span class="kw1">User-agent</span><span class="sy0">:</span> *
+<span class="kw1">Disallow</span><span class="sy0">:</span> /
+</pre></div>
+</div>
+<p>The next is an example that tells <b>all robots</b> not to enter four directories of a website:</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="robots source-robots">
+<pre class="de1">
+<span class="kw1">User-agent</span><span class="sy0">:</span> *
+<span class="kw1">Disallow</span><span class="sy0">:</span> /cgi-bin/
+<span class="kw1">Disallow</span><span class="sy0">:</span> /images/
+<span class="kw1">Disallow</span><span class="sy0">:</span> /tmp/
+<span class="kw1">Disallow</span><span class="sy0">:</span> /private/
+</pre></div>
+</div>
+<p>Example that tells <b>a specific robot</b> not to enter one specific directory:</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="robots source-robots">
+<pre class="de1">
+<span class="kw1">User-agent</span><span class="sy0">:</span> BadBot <span class="co1"># replace 'BadBot' with the actual user-agent of the bot</span>
+<span class="kw1">Disallow</span><span class="sy0">:</span> /private/
+</pre></div>
+</div>
+<p>Example that tells <b>all robots</b> not to enter one specific file:</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="robots source-robots">
+<pre class="de1">
+<span class="kw1">User-agent</span><span class="sy0">:</span> *
+<span class="kw1">Disallow</span><span class="sy0">:</span> /directory/file.html
+</pre></div>
+</div>
+<p>Note that all other files in the specified directory will be processed.</p>
+<p>Example demonstrating how comments can be used:</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="robots source-robots">
+<pre class="de1">
+<span class="co1"># Comments appear after the "#" symbol at the start of a line, or after a directive</span>
+<span class="kw1">User-agent</span><span class="sy0">:</span> * <span class="co1"># match all bots</span>
+<span class="kw1">Disallow</span><span class="sy0">:</span> / <span class="co1"># keep them out</span>
+</pre></div>
+</div>
+<p>It is also possible to list multiple <b>robot</b>s with their own rules. The actual <b>robot</b> string is defined by the crawler. A few sites, such as <a href="/wiki/Google" title="Google">Google</a>, support several user-agent strings that allow you to turn off a subset of their services by using specific user-agent strings.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup></p>
+<p>Example demonstrating multiple user-agents:</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="robots source-robots">
+<pre class="de1">
+<span class="kw1">User-agent</span><span class="sy0">:</span> googlebot        <span class="co1"># all services</span>
+<span class="kw1">Disallow</span><span class="sy0">:</span> /private           <span class="co1"># disallow this directory</span>
+ 
+<span class="kw1">User-agent</span><span class="sy0">:</span> googlebot-news   <span class="co1"># only the news service</span>
+<span class="kw1">Disallow</span><span class="sy0">:</span> /                  <span class="co1"># on everything</span>
+ 
+<span class="kw1">User-agent</span><span class="sy0">:</span> *                <span class="co1"># all robots</span>
+<span class="kw1">Disallow</span><span class="sy0">:</span> /something         <span class="co1"># on this folder</span>
+</pre></div>
+</div>
+<h2><span class="editsection">[<a href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit&amp;section=6" title="Edit section: Nonstandard extensions">edit</a>]</span> <span class="mw-headline" id="Nonstandard_extensions">Nonstandard extensions</span></h2>
+<h3><span class="editsection">[<a href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit&amp;section=7" title="Edit section: Crawl-delay directive">edit</a>]</span> <span class="mw-headline" id="Crawl-delay_directive">Crawl-delay directive</span></h3>
+<p>Several major crawlers support a <code>Crawl-delay</code> parameter, set to the number of seconds to wait between successive requests to the same server:<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup><sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup><sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup></p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="robots source-robots">
+<pre class="de1">
+<span class="kw1">User-agent</span><span class="sy0">:</span> *
+<span class="kw1">Crawl-delay</span><span class="sy0">:</span> <span class="nu0">10</span>
+</pre></div>
+</div>
+<h3><span class="editsection">[<a href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit&amp;section=8" title="Edit section: Allow directive">edit</a>]</span> <span class="mw-headline" id="Allow_directive">Allow directive</span></h3>
+<p>Some major crawlers support an <code>Allow</code> directive which can counteract a following <code>Disallow</code> directive.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> <sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup> This is useful when one tells robots to avoid an entire directory but still wants some HTML documents in that directory crawled and indexed. While by standard implementation the first matching robots.txt pattern always wins, Google's implementation differs in that Allow patterns with equal or more characters in the directive path win over a matching Disallow pattern.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup> Bing uses the <code>Allow</code> or <code>Disallow</code> directive which is the most specific.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup></p>
+<p>In order to be compatible to all robots, if one wants to allow single files inside an otherwise disallowed directory, it is necessary to place the Allow directive(s) first, followed by the Disallow, for example:</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="robots source-robots">
+<pre class="de1">
+<span class="kw1">Allow</span><span class="sy0">:</span> /folder1/myfile.html
+<span class="kw1">Disallow</span><span class="sy0">:</span> /folder1/
+</pre></div>
+</div>
+<p>This example will Disallow anything in /folder1/ except /folder1/myfile.html, since the latter will match first. In case of Google, though, the order is not important.</p>
+<h3><span class="editsection">[<a href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit&amp;section=9" title="Edit section: Sitemap">edit</a>]</span> <span class="mw-headline" id="Sitemap">Sitemap</span></h3>
+<p>Some crawlers support a <code>Sitemap</code> directive, allowing multiple <a href="/wiki/Sitemaps" title="Sitemaps">Sitemaps</a> in the same robots.txt in the form:<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup></p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="robots source-robots">
+<pre class="de1">
+<span class="kw1">Sitemap</span><span class="sy0">:</span> http<span class="sy0">:</span>//www.gstatic.com/s2/sitemaps/profiles-sitemap.xml
+<span class="kw1">Sitemap</span><span class="sy0">:</span> http<span class="sy0">:</span>//www.google.com/hostednews/sitemap_index.xml
+</pre></div>
+</div>
+<h3><span class="editsection">[<a href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit&amp;section=10" title="Edit section: Universal &quot;*&quot; match">edit</a>]</span> <span class="mw-headline" id="Universal_.22.2A.22_match">Universal "*" match</span></h3>
+<p>The <i>Robot Exclusion Standard</i> does not mention anything about the "*" character in the <code>Disallow:</code> statement. Some crawlers like Googlebot and Slurp recognize strings containing "*", while MSNbot and Teoma interpret it in different ways.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit&amp;section=11" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="/wiki/File:Crystal_Clear_app_browser.png" class="image"><img alt="Portal icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Crystal_Clear_app_browser.png/28px-Crystal_Clear_app_browser.png" width="28" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Crystal_Clear_app_browser.png/42px-Crystal_Clear_app_browser.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Crystal_Clear_app_browser.png/56px-Crystal_Clear_app_browser.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="/wiki/Portal:Internet" title="Portal:Internet">Internet  portal</a></td>
+</tr>
+</table>
+</div>
+<ul>
+<li><a href="/wiki/Automated_Content_Access_Protocol" title="Automated Content Access Protocol">Automated Content Access Protocol</a> - a failed proposal to extend robots.txt</li>
+<li><a href="/wiki/BotSeer" title="BotSeer">BotSeer</a> - search engine for robots.txt files</li>
+<li><a href="/wiki/Distributed_web_crawling" title="Distributed web crawling">Distributed web crawling</a></li>
+<li><a href="/wiki/Focused_crawler" title="Focused crawler">Focused crawler</a></li>
+<li><a href="/wiki/Humans.txt" title="Humans.txt">Humans.txt</a> - a file intended for humans to read as opposed to robots</li>
+<li><a href="/wiki/Internet_Archive" title="Internet Archive">Internet Archive</a></li>
+<li><a href="/wiki/Library_of_Congress_Digital_Library_project" title="Library of Congress Digital Library project">Library of Congress Digital Library project</a></li>
+<li><a href="/wiki/National_Digital_Information_Infrastructure_and_Preservation_Program" title="National Digital Information Infrastructure and Preservation Program">National Digital Information Infrastructure and Preservation Program</a></li>
+<li><a href="/wiki/Sitemaps" title="Sitemaps">Sitemaps</a></li>
+<li><a href="/wiki/Spam_in_blogs#nofollow" title="Spam in blogs">Nofollow and Link Spam</a></li>
+<li><a href="/wiki/Spider_trap" title="Spider trap">Spider trap</a></li>
+<li><a href="/wiki/Web_archiving" title="Web archiving">Web archiving</a></li>
+<li><a href="/wiki/Web_crawler" title="Web crawler">Web crawler</a></li>
+<li><a href="/wiki/Robots_meta_tag" title="Robots meta tag" class="mw-redirect">Meta Elements</a> for Search Engines</li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit&amp;section=12" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.robotstxt.org/orig.html#status">http://www.robotstxt.org/orig.html#status</a></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.robotstxt.org/norobots-rfc.txt">http://www.robotstxt.org/norobots-rfc.txt</a></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.youtube.com/watch?v=KBdEwpRQRD0#t=196s">http://www.youtube.com/watch?v=KBdEwpRQRD0#t=196s</a></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.user-agents.org/">http://www.user-agents.org/</a></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://httpd.apache.org/docs/2.2/howto/access.html">https://httpd.apache.org/docs/2.2/howto/access.html</a></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings">http://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings</a></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://developers.google.com/webmasters/control-crawl-index/docs/robots_txt">https://developers.google.com/webmasters/control-crawl-index/docs/robots_txt</a></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://help.yahoo.com/l/us/yahoo/search/webcrawler/slurp-03.html">"How can I reduce the number of requests you make on my web site?"</a>. <i>Yahoo! Slurp</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://help.yahoo.com/l/us/yahoo/search/webcrawler/slurp-03.html">http://help.yahoo.com/l/us/yahoo/search/webcrawler/slurp-03.html</a></span><span class="reference-accessdate">. Retrieved 2007-03-31</span>.</span></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://search.msn.com/docs/siteowner.aspx?t=SEARCH_WEBMASTER_FAQ_MSNBotIndexing.htm&amp;FORM=WFDD#D">"MSNBot is crawling a site too frequently"</a>. <i>Troubleshoot issues with MSNBot and site crawling</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://search.msn.com/docs/siteowner.aspx?t=SEARCH_WEBMASTER_FAQ_MSNBotIndexing.htm&amp;FORM=WFDD#D">http://search.msn.com/docs/siteowner.aspx?t=SEARCH_WEBMASTER_FAQ_MSNBotIndexing.htm&amp;FORM=WFDD#D</a></span><span class="reference-accessdate">. Retrieved 2007-02-08</span>.</span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://about.ask.com/en/docs/about/webmasters.shtml#15">"About Ask.com: Webmasters"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://about.ask.com/en/docs/about/webmasters.shtml#15">http://about.ask.com/en/docs/about/webmasters.shtml#15</a></span>.</span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=156449&amp;from=40364">"Webmaster Help Center - How do I block Googlebot?"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=156449&amp;from=40364">http://www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=156449&amp;from=40364</a></span><span class="reference-accessdate">. Retrieved 2007-11-20</span>.</span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://help.yahoo.com/l/us/yahoo/search/webcrawler/slurp-02.html">"How do I prevent my site or certain subdirectories from being crawled? - Yahoo Search Help"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://help.yahoo.com/l/us/yahoo/search/webcrawler/slurp-02.html">http://help.yahoo.com/l/us/yahoo/search/webcrawler/slurp-02.html</a></span><span class="reference-accessdate">. Retrieved 2007-11-20</span>.</span></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://blog.semetrical.com/googles-secret-approach-to-robots-txt/">"Google's Hidden Interpretation of Robots.txt"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://blog.semetrical.com/googles-secret-approach-to-robots-txt/">http://blog.semetrical.com/googles-secret-approach-to-robots-txt/</a></span><span class="reference-accessdate">. Retrieved 2010-11-15</span>.</span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.bing.com/community/site_blogs/b/webmaster/archive/2008/06/03/robots-exclusion-protocol-joining-together-to-provide-better-documentation.aspx">"Robots Exclusion Protocol - joining together to provide better documentation"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.bing.com/community/site_blogs/b/webmaster/archive/2008/06/03/robots-exclusion-protocol-joining-together-to-provide-better-documentation.aspx">http://www.bing.com/community/site_blogs/b/webmaster/archive/2008/06/03/robots-exclusion-protocol-joining-together-to-provide-better-documentation.aspx</a></span><span class="reference-accessdate">. Retrieved 2009-12-03</span>.</span></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://ysearchblog.com/2007/04/11/webmasters-can-now-auto-discover-with-sitemaps/">"Yahoo! Search Blog - Webmasters can now auto-discover with Sitemaps"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://ysearchblog.com/2007/04/11/webmasters-can-now-auto-discover-with-sitemaps/">http://ysearchblog.com/2007/04/11/webmasters-can-now-auto-discover-with-sitemaps/</a></span><span class="reference-accessdate">. Retrieved 2009-03-23</span>.</span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://ghita.org/search-engines-dynamic-content-issues.html">"Search engines and dynamic content issues"</a>. <i>MSNbot issues with robots.txt</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://ghita.org/search-engines-dynamic-content-issues.html">http://ghita.org/search-engines-dynamic-content-issues.html</a></span><span class="reference-accessdate">. Retrieved 2007-04-01</span>.</span></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit&amp;section=13" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.robotstxt.org/">www.robotstxt.org - The Web Robots Pages</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.antipope.org/charlie/blog-static/2009/06/how_i_got_here_in_the_end_part_3.html">History of robots.txt</a> - (how <a href="/wiki/Charles_Stross" title="Charles Stross">Charles Stross</a> prompted its invention; <a rel="nofollow" class="external text" href="http://yro.slashdot.org/comments.pl?sid=377285&amp;cid=21554125">original comment</a> on <a href="/wiki/Slashdot" title="Slashdot">Slashdot</a>)</li>
+<li><a rel="nofollow" class="external text" href="http://www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=156449">Block or remove pages using a robots.txt file - Google Webmaster Tools Help = Using the robots.txt analysis tool</a></li>
+<li><a class="external text" href="http://www.mediawiki.org/wiki/Robots.txt">About Robots.txt at the Mediawiki website</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.kloth.net/internet/badbots.php">List of Bad Bots</a> - rogue robots and spiders which ignore these guidelines</li>
+<li><a class="external text" href="http://en.wikipedia.org/robots.txt">Wikipedia's Robots.txt - an example</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.mcanerin.com/EN/search-engine/robots-txt.asp">Robots.txt Generator + Tutorial</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.howrank.com/Robots.txt-Tool.php">Robots.txt Generator Tool</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:SearchEngineOptimization" title="Template:SearchEngineOptimization"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:SearchEngineOptimization" title="Template talk:SearchEngineOptimization"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:SearchEngineOptimization&amp;action=edit"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="/wiki/Search_engine_optimization" title="Search engine optimization">Search engine optimization</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Exclusion standards</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><strong class="selflink">Robots exclusion standard</strong></li>
+<li><a href="/wiki/Meta_element" title="Meta element">Meta tags</a></li>
+<li><a href="/wiki/Nofollow" title="Nofollow">nofollow</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Related marketing topics</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Internet_marketing" title="Internet marketing">Internet marketing</a></li>
+<li><a href="/wiki/E-mail_marketing" title="E-mail marketing" class="mw-redirect">E-mail marketing</a></li>
+<li><a href="/wiki/Display_advertising" title="Display advertising">Display advertising</a></li>
+<li><a href="/wiki/Web_analytics" title="Web analytics">Web analytics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Search marketing related topics</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Search_engine_marketing" title="Search engine marketing">Search engine marketing</a></li>
+<li><a href="/wiki/Social_media_optimization" title="Social media optimization">Social media optimization</a></li>
+<li><a href="/wiki/Online_identity_management" title="Online identity management">Online identity management</a></li>
+<li><a href="/wiki/Paid_inclusion" title="Paid inclusion">Paid inclusion</a></li>
+<li><a href="/wiki/Pay_per_click" title="Pay per click">Pay per click (PPC)</a></li>
+<li><a href="/wiki/Google_bomb" title="Google bomb">Google bomb</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Search engine spam</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Spamdexing" title="Spamdexing">Spamdexing</a></li>
+<li><a href="/wiki/Web_scraping" title="Web scraping">Web scraping</a></li>
+<li><a href="/wiki/Scraper_site" title="Scraper site">Scraper site</a></li>
+<li><a href="/wiki/Link_farm" title="Link farm">Link farm</a></li>
+<li><a href="/wiki/Methods_of_website_linking#Free_for_all_linking" title="Methods of website linking">Free for all linking</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Linking</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Methods_of_website_linking" title="Methods of website linking">Methods of website linking</a></li>
+<li><a href="/wiki/Link_exchange" title="Link exchange">Link exchange</a></li>
+<li><a href="/wiki/Backlink" title="Backlink">Backlink</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Other</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Geotargeting" title="Geotargeting">Geotargeting</a></li>
+<li><a href="/wiki/Human_search_engine" title="Human search engine">Human search engine</a></li>
+<li><a href="/wiki/Stop_words" title="Stop words">Stop words</a></li>
+<li><a href="/wiki/Poison_words" title="Poison words">Poison words</a></li>
+<li><a href="/wiki/Content_farm" title="Content farm">Content farm</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 6239/1000000
+Preprocessor generated node count: 27043/1500000
+Post-expand include size: 46361/2048000 bytes
+Template argument size: 18007/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 4/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:101673-0!*!0!!en!4!* and timestamp 20121123123700 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="http://en.wikipedia.org/w/index.php?title=Robots_exclusion_standard&amp;oldid=522232160">http://en.wikipedia.org/w/index.php?title=Robots_exclusion_standard&amp;oldid=522232160</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/Category:World_Wide_Web" title="Category:World Wide Web">World Wide Web</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_needing_cleanup_from_November_2009" title="Category:Articles needing cleanup from November 2009">Articles needing cleanup from November 2009</a></li><li><a href="/wiki/Category:All_pages_needing_cleanup" title="Category:All pages needing cleanup">All pages needing cleanup</a></li><li><a href="/wiki/Category:Articles_containing_how-to_sections" title="Category:Articles containing how-to sections">Articles containing how-to sections</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_July_2011" title="Category:Articles with unsourced statements from July 2011">Articles with unsourced statements from July 2011</a></li><li><a href="/wiki/Category:Articles_to_be_expanded_from_January_2011" title="Category:Articles to be expanded from January 2011">Articles to be expanded from January 2011</a></li><li><a href="/wiki/Category:All_articles_to_be_expanded" title="Category:All articles to be expanded">All articles to be expanded</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h5>Personal tools</h5>
+	<ul>
+<li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Robots.txt&amp;type=signup">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Robots.txt" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Robots_exclusion_standard"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Talk:Robots_exclusion_standard"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/Robots_exclusion_standard" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="/w/index.php?title=Robots_exclusion_standard&amp;action=edit"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Robots_exclusion_standard&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button name="button" title="Search Wikipedia for this text" id="searchButton"><img src="//bits.wikimedia.org/static-1.21wmf4/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(//upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h5>Navigation</h5>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C12_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h5>Interaction</h5>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Robots_exclusion_standard" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Robots_exclusion_standard" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="/wiki/Wikipedia:Upload" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="/w/index.php?title=Robots_exclusion_standard&amp;oldid=522232160" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="/w/index.php?title=Robots_exclusion_standard&amp;action=info">Page information</a></li>
+<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=Robots_exclusion_standard&amp;id=522232160" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h5>Print/export</h5>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Robots+exclusion+standard" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Robots+exclusion+standard&amp;oldid=522232160&amp;writer=rl" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Robots_exclusion_standard&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h5>Languages</h5>
+	<div class="body">
+		<ul>
+			<li class="interwiki-bar"><a href="//bar.wikipedia.org/wiki/Robots_Exclusion_Standard" title="Robots Exclusion Standard" lang="bar" hreflang="bar">Boarisch</a></li>
+			<li class="interwiki-ca"><a href="//ca.wikipedia.org/wiki/Protocol_d%27exclusi%C3%B3_de_robots" title="Protocol d'exclusió de robots" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="//cs.wikipedia.org/wiki/Protokol_pro_zak%C3%A1z%C3%A1n%C3%AD_p%C5%99%C3%ADstupu_robot%C5%AFm" title="Protokol pro zakázání přístupu robotům" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="//da.wikipedia.org/wiki/Robot_Exclusion_Standard" title="Robot Exclusion Standard" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="//de.wikipedia.org/wiki/Robots_Exclusion_Standard" title="Robots Exclusion Standard" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="//es.wikipedia.org/wiki/Est%C3%A1ndar_de_exclusi%C3%B3n_de_robots" title="Estándar de exclusión de robots" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fr"><a href="//fr.wikipedia.org/wiki/Protocole_d%27exclusion_des_robots" title="Protocole d'exclusion des robots" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="//ko.wikipedia.org/wiki/%EB%A1%9C%EB%B4%87_%EB%B0%B0%EC%A0%9C_%ED%91%9C%EC%A4%80" title="로봇 배제 표준" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-id"><a href="//id.wikipedia.org/wiki/Robots.txt" title="Robots.txt" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-it"><a href="//it.wikipedia.org/wiki/Protocollo_di_esclusione_robot" title="Protocollo di esclusione robot" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="//he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%95%D7%98%D7%95%D7%A7%D7%95%D7%9C_%D7%90%D7%99_%D7%94%D7%9B%D7%9C%D7%9C%D7%AA_%D7%A8%D7%95%D7%91%D7%95%D7%98%D7%99%D7%9D" title="פרוטוקול אי הכללת רובוטים" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-nl"><a href="//nl.wikipedia.org/wiki/Robots_Exclusion_Protocol" title="Robots Exclusion Protocol" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="//ja.wikipedia.org/wiki/Robots_Exclusion_Standard" title="Robots Exclusion Standard" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-pl"><a href="//pl.wikipedia.org/wiki/Robots_Exclusion_Protocol" title="Robots Exclusion Protocol" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="//pt.wikipedia.org/wiki/Protocolo_de_Exclus%C3%A3o_de_Rob%C3%B4s" title="Protocolo de Exclusão de Robôs" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="//ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82_%D0%B8%D1%81%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B9_%D0%B4%D0%BB%D1%8F_%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D0%B2" title="Стандарт исключений для роботов" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-simple"><a href="//simple.wikipedia.org/wiki/Robots_exclusion_standard" title="Robots exclusion standard" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-fi"><a href="//fi.wikipedia.org/wiki/Robotin_rajausstandardi" title="Robotin rajausstandardi" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="//sv.wikipedia.org/wiki/Robots_Exclusion_Standard" title="Robots Exclusion Standard" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tr"><a href="//tr.wikipedia.org/wiki/Robot_engelleme_standard%C4%B1" title="Robot engelleme standardı" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-zh"><a href="//zh.wikipedia.org/wiki/Robots.txt" title="Robots.txt" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 9 November 2012 at 20:44.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/w/index.php?title=Robots.txt&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="//wikimediafoundation.org/"><img src="//bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="//bits.wikimedia.org/static-1.21wmf4/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.lib","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&amp;action=raw&amp;ctype=text/javascript&amp;508635914"></script>
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<!-- Served by mw36 in 0.138 secs. -->
+	</body>
+</html>

@@ -1,0 +1,37 @@
+# These are the SunLab Xeon boxes.  They have 4 cores, each of which is 2-way
+# hyperthreaded.  In the most optimistic case, we can run 8 threads per box,
+# but we might want a hostfile that only says cpu=4 (the number of cores) or
+# even cpu=1 (because of bottlenecks)
+
+ariel.eecs.lehigh.edu cpu=8
+caliban.eecs.lehigh.edu cpu=8
+callisto.eecs.lehigh.edu cpu=8
+dactyl.eecs.lehigh.edu cpu=8
+enceladus.eecs.lehigh.edu cpu=8
+eris.eecs.lehigh.edu cpu=8
+ganymede.eecs.lehigh.edu cpu=8
+iapetus.eecs.lehigh.edu cpu=8
+io.eecs.lehigh.edu cpu=8
+jupiter.eecs.lehigh.edu cpu=8
+kiviuq.eecs.lehigh.edu cpu=8
+mars.eecs.lehigh.edu cpu=8
+mercury.eecs.lehigh.edu cpu=8
+nereid.eecs.lehigh.edu cpu=8
+puck.eecs.lehigh.edu cpu=8
+saturn.eecs.lehigh.edu cpu=8
+sycorax.eecs.lehigh.edu cpu=8
+tethys.eecs.lehigh.edu cpu=8
+titania.eecs.lehigh.edu cpu=8
+triton.eecs.lehigh.edu cpu=8
+
+# These are the SunLab Opteron boxes.  They have 2 cores each.  They are
+# slow.  If one of these squeezes in with the Xeons, it will create huge load
+# imbalance.  For the time being, they are all turned off, as indicated by
+# the lines being commented.
+
+#ceres.eecs.lehigh.edu cpu=2
+#chiron.eecs.lehigh.edu cpu=2
+#hydra.eecs.lehigh.edu cpu=2
+#nix.eecs.lehigh.edu cpu=2
+#pan.eecs.lehigh.edu cpu=2
+#xena.eecs.lehigh.edu cpu=2

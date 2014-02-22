@@ -1,0 +1,65 @@
+SSH Key Configuration (Adapted from a guide by Ben Vandurme)
+
+This is specifically targeted towards those that operate in an
+NFS/AFS type setup, where the user's home directory is on a
+network filespace, and the user is regularly connecting to 
+multiple machines within this network.
+
+Step 1: Setting up keys
+
+Note: ssh-keygen will ask you for a passphrase. If you are making
+a set of keys for bouncing around inside a trusted network, then
+just hit enter (blank passphrase). If you are are planning on
+using these keys for connecting to truely remote, untrusted
+machines, you should probably be using a passphrase.
+
+% cd ~
+% ssh-keygen -t dsa
+
+This will create a public and private key-pair in your home
+directory under ~/.ssh.  The file names should be:
+
+  ~/.ssh/id_dsa
+  ~/.ssh/id_dsa.pub
+
+
+Step 2: Copy public key
+
+Since your home directory is shared between all the machines you
+will be connecting to, your authorized_keys file will be the same
+locally as it is remote.  Concatenate it into your
+authorized_keys file like this:
+
+% cd ~/.ssh/
+% cat id_dsa.pub >> authorized_keys
+
+Step 3: Set permissions
+
+The permissions of the key files must be set correctly.  Use your
+username (e.g., abc123) and your groupname (either grad or
+ugrad... if you aren't sure, type 'groups') where I say "X.Y"
+below.
+
+% cd ~/.ssh
+% chown X.Y . *
+% chmod 700 .
+% chmod 600 *
+
+Example for the first line:
+% chown jshmoe.persons . *
+
+Step 4: Test it
+
+% ssh other.machine.on.network
+
+Hopefully you should not have been prompted for a password.  Note
+that in our case, you will need to log in to every other machine
+on the network at least once to get rid of the pesky permission
+prompts, or else MPI won't work.  The machine names can be found
+in the 'hostfile' file provided with this howto.
+
+Step 5: Find errant processes
+
+% ~spear/bin/checkme
+
+This will list your processes on all sunlab machines

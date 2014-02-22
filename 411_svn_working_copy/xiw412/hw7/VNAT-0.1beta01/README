@@ -1,0 +1,54 @@
+Quick Introduction: Virtual Network Address Translation (VNAT)
+--------------------------------------------------------------
+
+1. What is VNAT?
+
+VNAT is a system that allows transparent migration of live transport
+layer end-to-end network connections, such as TCP connections, when
+either endpoint of the connections migrates to a completely different
+network. For example, when VNAT is installed on a client and a server,
+either the client or the server can be suspended and then resumed on
+a different network and the live connections between the client and
+the server will be preserved.
+
+VNAT can migrate a single connection of a process when used with a process
+migration mechanism. VNAT can also migrate all connections of a host when
+used with a host suspend/resume mechanism.
+
+2. What system does VNAT run on?
+
+Currently, VNAT runs on Linux x86 platform only. Although it should also
+run on other Linux platforms (e.g., PPC, Alpha, etc.) since there is no
+platform specific code. But I don't have those platforms to test it.
+
+3. How to compile and run VNAT?
+
+VNAT uses Linux netfilter to perform DNAT and SNAT on locally generated
+packets. Currently Linux netfilter does not have full support for doing
+this. So you need to apply a patch and recompile your netfilter modules.
+In addition, if you are using versions of the usersapce tool iptables
+prior to 1.2.6, you will also need to either apply a patch and recompile
+your iptables or upgrade to version 1.2.6. Note that the patched kernel
+netfilter module and userspace iptables tool are COMPLETELY backward
+compatible with the existing netfilter and iptables. More detailed
+instructions on how to compile and install VNAT are given in the file
+INSTALL.
+
+Once built, VNAT is a kernel module that can be loaded into a running
+kernel at any time. Beside a few /proc entries created by VNAT that are
+used to see the runtime status of VNAT and to change certain runtime
+parameters of VNAT, the operations of VNAT are largely non-interactive.
+In general, once you load VNAT module, you tell it which connection(s)
+to virtualize by modify a list of process names, which is done via one
+of the /proc entry. And when you suspend or resume your machine, all
+you need to do is to let the system suspend/resume mechanism, e.g., apmd,
+notify VNAT about the events so that VNAT will suspend and resume virtualized
+connections accordingly. The file INSTALL describe how to interface VNAT
+with apmd. More detailed instructions on how to run VNAT are given in
+doc/man8/vnat.8.
+
+-- 
+Gong Su
+gongsu@cs.columbia.edu
+http://www.cs.columbia.edu/~gongsu
+November 2002

@@ -1,0 +1,1098 @@
+running the program with #nodes =  2
+0:received from 0
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\fs22,376
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,,314
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\plain,206
+
+0:received from 1
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrr\brdrdashdotstr\brdrw60\brdrcf5,226
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrb\brdrs\brdrw10,221
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrl\brdrnone,218
+
+0:received from 0
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,class=,383
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,<,315
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,href=,250
+
+0:received from 1
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,class=,594
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,<,422
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,>,414
+
+0:received from 0
+/tmp/xiw412/httpenwikipediaorgrobotstxt,disallow,462
+/tmp/xiw412/httpenwikipediaorgrobotstxt,wiki,432
+/tmp/xiw412/httpenwikipediaorgrobotstxt,#,175
+
+0:received from 1
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,<,135
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,>,120
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,href=,85
+
+0:received from 0
+/tmp/xiw412/httpwwwgooglecomhumanstxt,and,3
+/tmp/xiw412/httpwwwgooglecomhumanstxt,a,2
+/tmp/xiw412/httpwwwgooglecomhumanstxt,built,2
+
+0:received from 1
+/tmp/xiw412/httpwwwflickrcomhumanstxt,flickr,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,to,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,a,1
+
+0:received from 0
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,the,133
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,|,115
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,robots,75
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,,250
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,the,192
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,to,188
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,=,667
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,the,141
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,that,103
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,the,24
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,,15
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,a,13
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,|,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,you,40
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,the,32
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,,55
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,the,30
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,,65
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,the,31
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,|,24
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,,516
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,the,389
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,a,209
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,the,53
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,and,39
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,,70
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,the,50
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,|,38
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,the,51
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,,31
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,and,22
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,,1529
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,the,919
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,a,467
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,,47
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,and,10
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,,112
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,the,102
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,you,60
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,the,128
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,=,42
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,to,41
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,,152
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,the,149
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,=,74
+
+Number of cores: 2, running time : 2.223329 
+running the program with #nodes =  3
+0:received from 0
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\fs22,376
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,,314
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\plain,206
+
+0:received from 1
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrr\brdrdashdotstr\brdrw60\brdrcf5,226
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrb\brdrs\brdrw10,221
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrl\brdrnone,218
+
+0:received from 2
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,class=,383
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,<,315
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,href=,250
+
+0:received from 0
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,class=,594
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,<,422
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,>,414
+
+0:received from 1
+/tmp/xiw412/httpenwikipediaorgrobotstxt,disallow,462
+/tmp/xiw412/httpenwikipediaorgrobotstxt,wiki,432
+/tmp/xiw412/httpenwikipediaorgrobotstxt,#,175
+
+0:received from 2
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,<,135
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,>,120
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,href=,85
+
+0:received from 0
+/tmp/xiw412/httpwwwgooglecomhumanstxt,and,3
+/tmp/xiw412/httpwwwgooglecomhumanstxt,a,2
+/tmp/xiw412/httpwwwgooglecomhumanstxt,built,2
+
+0:received from 1
+/tmp/xiw412/httpwwwflickrcomhumanstxt,flickr,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,to,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,a,1
+
+0:received from 2
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,the,133
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,|,115
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,robots,75
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,,250
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,the,192
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,to,188
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,=,667
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,the,141
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,that,103
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,the,24
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,,15
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,a,13
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,|,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,you,40
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,the,32
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,,55
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,the,30
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,,65
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,the,31
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,|,24
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,,516
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,the,389
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,a,209
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,the,53
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,and,39
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,,70
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,the,50
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,|,38
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,the,51
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,,31
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,and,22
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,,47
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,and,10
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,,1529
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,the,919
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,a,467
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,,112
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,the,102
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,you,60
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,the,128
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,=,42
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,to,41
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,,152
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,the,149
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,=,74
+
+Number of cores: 3, running time : 1.799614 
+running the program with #nodes =  4
+0:received from 0
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\fs22,376
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,,314
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\plain,206
+
+0:received from 1
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrr\brdrdashdotstr\brdrw60\brdrcf5,226
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrb\brdrs\brdrw10,221
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrl\brdrnone,218
+
+0:received from 2
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,class=,383
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,<,315
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,href=,250
+
+0:received from 3
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,class=,594
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,<,422
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,>,414
+
+0:received from 0
+/tmp/xiw412/httpenwikipediaorgrobotstxt,disallow,462
+/tmp/xiw412/httpenwikipediaorgrobotstxt,wiki,432
+/tmp/xiw412/httpenwikipediaorgrobotstxt,#,175
+
+0:received from 2
+/tmp/xiw412/httpwwwgooglecomhumanstxt,and,3
+/tmp/xiw412/httpwwwgooglecomhumanstxt,a,2
+/tmp/xiw412/httpwwwgooglecomhumanstxt,built,2
+
+0:received from 3
+/tmp/xiw412/httpwwwflickrcomhumanstxt,flickr,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,to,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,a,1
+
+0:received from 1
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,<,135
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,>,120
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,href=,85
+
+0:received from 0
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,the,133
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,|,115
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,robots,75
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,,250
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,the,192
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,to,188
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,=,667
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,the,141
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,that,103
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,the,24
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,,15
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,a,13
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,|,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,you,40
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,the,32
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,,55
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,the,30
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,,65
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,the,31
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,|,24
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,,516
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,the,389
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,a,209
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,the,53
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,and,39
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,the,51
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,,31
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,and,22
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,,70
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,the,50
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,|,38
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,,1529
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,the,919
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,a,467
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,,47
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,and,10
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,the,128
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,=,42
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,to,41
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,,112
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,the,102
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,you,60
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,,152
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,the,149
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,=,74
+
+Number of cores: 4, running time : 1.586637 
+running the program with #nodes =  5
+0:received from 0
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\fs22,376
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,,314
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\plain,206
+
+0:received from 1
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrr\brdrdashdotstr\brdrw60\brdrcf5,226
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrb\brdrs\brdrw10,221
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrl\brdrnone,218
+
+0:received from 2
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,class=,383
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,<,315
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,href=,250
+
+0:received from 3
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,class=,594
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,<,422
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,>,414
+
+0:received from 4
+/tmp/xiw412/httpenwikipediaorgrobotstxt,disallow,462
+/tmp/xiw412/httpenwikipediaorgrobotstxt,wiki,432
+/tmp/xiw412/httpenwikipediaorgrobotstxt,#,175
+
+0:received from 0
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,<,135
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,>,120
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,href=,85
+
+0:received from 1
+/tmp/xiw412/httpwwwgooglecomhumanstxt,and,3
+/tmp/xiw412/httpwwwgooglecomhumanstxt,a,2
+/tmp/xiw412/httpwwwgooglecomhumanstxt,built,2
+
+0:received from 2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,flickr,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,to,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,a,1
+
+0:received from 4
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,,250
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,the,192
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,to,188
+
+0:received from 3
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,the,133
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,|,115
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,robots,75
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,=,667
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,the,141
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,that,103
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,the,24
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,,15
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,a,13
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,|,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,you,40
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,the,32
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,,55
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,the,30
+
+0:received from 4
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,,65
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,the,31
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,|,24
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,,516
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,the,389
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,a,209
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,the,53
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,and,39
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,,70
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,the,50
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,|,38
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,the,51
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,,31
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,and,22
+
+0:received from 4
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,,1529
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,the,919
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,a,467
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,,47
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,and,10
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,the,128
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,=,42
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,to,41
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,,152
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,the,149
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,=,74
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,,112
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,the,102
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,you,60
+
+Number of cores: 5, running time : 1.369468 
+running the program with #nodes =  6
+0:received from 0
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\fs22,376
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,,314
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\plain,206
+
+0:received from 1
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrr\brdrdashdotstr\brdrw60\brdrcf5,226
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrb\brdrs\brdrw10,221
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrl\brdrnone,218
+
+0:received from 2
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,class=,383
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,<,315
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,href=,250
+
+0:received from 3
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,class=,594
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,<,422
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,>,414
+
+0:received from 4
+/tmp/xiw412/httpenwikipediaorgrobotstxt,disallow,462
+/tmp/xiw412/httpenwikipediaorgrobotstxt,wiki,432
+/tmp/xiw412/httpenwikipediaorgrobotstxt,#,175
+
+0:received from 5
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,<,135
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,>,120
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,href=,85
+
+0:received from 0
+/tmp/xiw412/httpwwwgooglecomhumanstxt,and,3
+/tmp/xiw412/httpwwwgooglecomhumanstxt,a,2
+/tmp/xiw412/httpwwwgooglecomhumanstxt,built,2
+
+0:received from 4
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,=,667
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,the,141
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,that,103
+
+0:received from 5
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,the,24
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,,15
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,a,13
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,,250
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,the,192
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,to,188
+
+0:received from 1
+/tmp/xiw412/httpwwwflickrcomhumanstxt,flickr,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,to,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,a,1
+
+0:received from 2
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,the,133
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,|,115
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,robots,75
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,|,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,you,40
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,the,32
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,,55
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,the,30
+
+0:received from 4
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,the,53
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,and,39
+
+0:received from 5
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,,70
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,the,50
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,|,38
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,,516
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,the,389
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,a,209
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,,65
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,the,31
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,|,24
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,the,51
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,,31
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,and,22
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,,47
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,and,10
+
+0:received from 4
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,the,128
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,=,42
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,to,41
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,,112
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,the,102
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,you,60
+
+0:received from 5
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,,152
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,the,149
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,=,74
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,,1529
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,the,919
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,a,467
+
+Number of cores: 6, running time : 1.377519 
+running the program with #nodes =  7
+0:received from 0
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\fs22,376
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,,314
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\plain,206
+
+0:received from 1
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrr\brdrdashdotstr\brdrw60\brdrcf5,226
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrb\brdrs\brdrw10,221
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrl\brdrnone,218
+
+0:received from 2
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,class=,383
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,<,315
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,href=,250
+
+0:received from 3
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,class=,594
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,<,422
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,>,414
+
+0:received from 4
+/tmp/xiw412/httpenwikipediaorgrobotstxt,disallow,462
+/tmp/xiw412/httpenwikipediaorgrobotstxt,wiki,432
+/tmp/xiw412/httpenwikipediaorgrobotstxt,#,175
+
+0:received from 5
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,<,135
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,>,120
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,href=,85
+
+0:received from 6
+/tmp/xiw412/httpwwwgooglecomhumanstxt,and,3
+/tmp/xiw412/httpwwwgooglecomhumanstxt,a,2
+/tmp/xiw412/httpwwwgooglecomhumanstxt,built,2
+
+0:received from 0
+/tmp/xiw412/httpwwwflickrcomhumanstxt,flickr,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,to,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,a,1
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,,250
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,the,192
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,to,188
+
+0:received from 4
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,the,24
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,,15
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,a,13
+
+0:received from 5
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,|,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,you,40
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,the,32
+
+0:received from 6
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,,55
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,the,30
+
+0:received from 1
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,the,133
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,|,115
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,robots,75
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,=,667
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,the,141
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,that,103
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,,65
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,the,31
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,|,24
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,,70
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,the,50
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,|,38
+
+0:received from 6
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,,47
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,and,10
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,,516
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,the,389
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,a,209
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,the,53
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,and,39
+
+0:received from 5
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,,1529
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,the,919
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,a,467
+
+0:received from 4
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,the,51
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,,31
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,and,22
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,,112
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,the,102
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,you,60
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,the,128
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,=,42
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,to,41
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,,152
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,the,149
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,=,74
+
+Number of cores: 7, running time : 45.873660 
+running the program with #nodes =  8
+0:received from 0
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\fs22,376
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,,314
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\plain,206
+
+0:received from 1
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrr\brdrdashdotstr\brdrw60\brdrcf5,226
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrb\brdrs\brdrw10,221
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrl\brdrnone,218
+
+0:received from 2
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,class=,383
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,<,315
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,href=,250
+
+0:received from 3
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,class=,594
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,<,422
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,>,414
+
+0:received from 4
+/tmp/xiw412/httpenwikipediaorgrobotstxt,disallow,462
+/tmp/xiw412/httpenwikipediaorgrobotstxt,wiki,432
+/tmp/xiw412/httpenwikipediaorgrobotstxt,#,175
+
+0:received from 5
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,<,135
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,>,120
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,href=,85
+
+0:received from 6
+/tmp/xiw412/httpwwwgooglecomhumanstxt,and,3
+/tmp/xiw412/httpwwwgooglecomhumanstxt,a,2
+/tmp/xiw412/httpwwwgooglecomhumanstxt,built,2
+
+0:received from 7
+/tmp/xiw412/httpwwwflickrcomhumanstxt,flickr,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,to,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,a,1
+
+0:received from 0
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,the,133
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,|,115
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,robots,75
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,,250
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,the,192
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,to,188
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,=,667
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,the,141
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,that,103
+
+0:received from 5
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,,55
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,the,30
+
+0:received from 7
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,,516
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,the,389
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,a,209
+
+0:received from 6
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,,65
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,the,31
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,|,24
+
+0:received from 4
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,|,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,you,40
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,the,32
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,the,24
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,,15
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,a,13
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,the,53
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,and,39
+
+0:received from 4
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,,47
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,and,10
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,,70
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,the,50
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,|,38
+
+0:received from 6
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,the,128
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,=,42
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,to,41
+
+0:received from 5
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,,112
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,the,102
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,you,60
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,the,51
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,,31
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,and,22
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,,1529
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,the,919
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,a,467
+
+0:received from 7
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,,152
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,the,149
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,=,74
+
+Number of cores: 8, running time : 21.783169 
+running the program with #nodes =  9
+0:received from 0
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\fs22,376
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,,314
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\plain,206
+
+0:received from 1
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrr\brdrdashdotstr\brdrw60\brdrcf5,226
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrb\brdrs\brdrw10,221
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrl\brdrnone,218
+
+0:received from 2
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,class=,383
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,<,315
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,href=,250
+
+0:received from 3
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,class=,594
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,<,422
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,>,414
+
+0:received from 4
+/tmp/xiw412/httpenwikipediaorgrobotstxt,disallow,462
+/tmp/xiw412/httpenwikipediaorgrobotstxt,wiki,432
+/tmp/xiw412/httpenwikipediaorgrobotstxt,#,175
+
+0:received from 5
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,<,135
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,>,120
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,href=,85
+
+0:received from 6
+/tmp/xiw412/httpwwwgooglecomhumanstxt,and,3
+/tmp/xiw412/httpwwwgooglecomhumanstxt,a,2
+/tmp/xiw412/httpwwwgooglecomhumanstxt,built,2
+
+0:received from 7
+/tmp/xiw412/httpwwwflickrcomhumanstxt,flickr,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,to,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,a,1
+
+0:received from 8
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,the,133
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,|,115
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,robots,75
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,,250
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,the,192
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,to,188
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,=,667
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,the,141
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,that,103
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,the,24
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,,15
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,a,13
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,|,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,you,40
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,the,32
+
+0:received from 4
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,,55
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,the,30
+
+0:received from 5
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,,65
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,the,31
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,|,24
+
+0:received from 7
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,the,53
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,and,39
+
+0:received from 8
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,,70
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,the,50
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,|,38
+
+0:received from 6
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,,516
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,the,389
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,a,209
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,the,51
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,,31
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,and,22
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,,47
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,and,10
+
+0:received from 4
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,the,128
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,=,42
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,to,41
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,,112
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,the,102
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,you,60
+
+0:received from 5
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,,152
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,the,149
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,=,74
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,,1529
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,the,919
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,a,467
+
+Number of cores: 9, running time : 0.896310 
+running the program with #nodes =  10
+0:received from 0
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\fs22,376
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,,314
+/tmp/xiw412/wwwsqaborgnewsletter2002v9rtf,\plain,206
+
+0:received from 1
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrr\brdrdashdotstr\brdrw60\brdrcf5,226
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrb\brdrs\brdrw10,221
+/tmp/xiw412/wwwrubysemporiumorgweekplannerrtf,\clbrdrl\brdrnone,218
+
+0:received from 2
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,class=,383
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,<,315
+/tmp/xiw412/httpenwikipediaorgwikiRobotstxt,href=,250
+
+0:received from 3
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,class=,594
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,<,422
+/tmp/xiw412/httpenwikipediaorgwikiMediaWikiRobotstxt,>,414
+
+0:received from 4
+/tmp/xiw412/httpenwikipediaorgrobotstxt,disallow,462
+/tmp/xiw412/httpenwikipediaorgrobotstxt,wiki,432
+/tmp/xiw412/httpenwikipediaorgrobotstxt,#,175
+
+0:received from 5
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,<,135
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,>,120
+/tmp/xiw412/httpenwikipediaorgwikiHumanstxt,href=,85
+
+0:received from 6
+/tmp/xiw412/httpwwwgooglecomhumanstxt,and,3
+/tmp/xiw412/httpwwwgooglecomhumanstxt,a,2
+/tmp/xiw412/httpwwwgooglecomhumanstxt,built,2
+
+0:received from 7
+/tmp/xiw412/httpwwwflickrcomhumanstxt,flickr,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,to,2
+/tmp/xiw412/httpwwwflickrcomhumanstxt,a,1
+
+0:received from 8
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,the,133
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,|,115
+/tmp/xiw412/httpwwwrobotstxtorgnorobotsrfctxt,robots,75
+
+0:received from 9
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,,250
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,the,192
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGdisapptxt,to,188
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,=,667
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,the,141
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGccfraudtxt,that,103
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,the,24
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,,15
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGjamradartxt,a,13
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,|,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,you,40
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGlicensetxt,the,32
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,,55
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGreadmailtxt,the,30
+
+0:received from 4
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,,65
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,the,31
+/tmp/xiw412/httptextfilesserverracknetanarchyFREELOADINGvmbhacktxt,|,24
+
+0:received from 6
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,the,53
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFairporttxt,and,39
+
+0:received from 7
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,,70
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,the,50
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFfaxtxt,|,38
+
+0:received from 8
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,the,51
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,,31
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhuntingtxt,and,22
+
+0:received from 5
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,,516
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,the,389
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFacttbatxt,a,209
+
+0:received from 9
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,,1529
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,the,919
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFhomecomptxt,a,467
+
+0:received from 0
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,=,74
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,,47
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharassmttxt,and,10
+
+0:received from 2
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,the,128
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,=,42
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGcombkeymtxt,to,41
+
+0:received from 1
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,,112
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,the,102
+/tmp/xiw412/httptextfilesserverracknetanarchyMISCHIEFharass,you,60
+
+0:received from 3
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,,152
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,the,149
+/tmp/xiw412/httptextfilesserverracknetanarchyLOCKPICKINGgettexttxt,=,74
+
+Number of cores: 10, running time : 0.904115 

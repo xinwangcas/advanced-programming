@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<filteroptions>
+  <ruleset>
+    <rule grouping="all" source="local">
+      <_title>Important mail (local)</_title>
+      <partset>
+        <part name="status">
+          <value name="match-type" type="option" value="is"/>
+          <value name="flag" type="option" value="Flagged"/>
+        </part>
+      </partset>
+      <sources/>
+    </rule>
+    <rule grouping="all" source="local">
+      <_title>Unread mail (local)</_title>
+      <partset>
+        <part name="status">
+          <value name="match-type" type="option" value="is not"/>
+          <value name="flag" type="option" value="Seen"/>
+        </part>
+      </partset>
+      <sources/>
+    </rule>
+    <rule grouping="all" source="local_remote_active">
+      <_title>Today's mail (all)</_title>
+      <partset>
+        <part name="recv-date">
+          <value name="date-spec-type" type="option" value="after"/>
+          <value name="versus" type="datespec">
+            <datespec type="2" value="86400"/>
+          </value>
+        </part>
+      </partset>
+      <sources/>
+    </rule>
+    <rule grouping="all" source="local_remote_active">
+      <_title>Yesterday's mail (all)</_title>
+      <partset>
+        <part name="recv-date">
+          <value name="date-spec-type" type="option" value="before"/>
+          <value name="versus" type="datespec">
+            <datespec type="2" value="86400"/>
+          </value>
+        </part>
+        <part name="recv-date">
+          <value name="date-spec-type" type="option" value="after"/>
+          <value name="versus" type="datespec">
+            <datespec type="2" value="172800"/>
+          </value>
+        </part>
+      </partset>
+      <sources/>
+    </rule>
+  </ruleset>
+</filteroptions>

@@ -1,0 +1,40 @@
+/*
+Title: why partial pivoting makes calculation more precise than simple matrix inversion algorithm?
+Author: Xin Wang
+        xiw412
+*/
+Input matrix:
+
+0.0000000000000377 3.77 5.5598777
+3.2 0.0099999 0.00000000000000000000000000123
+8.16666 0.00000000000000000000066 0.41
+
+The inverse matrixes calculated by simple inversion algorithm and partial pivoting elimination algorithm are:
+Simple inversion algorithm:
+-0.001510 0.195343 0.045907
+0.150972 7.962932 -3.120172
+0.006580 -5.399445 2.115702
+
+Partial pivoting elimination algorithm:
+-0.000759 0.286225 0.010295
+0.242950 8.407996 -3.294564
+0.014122 -5.701231 2.233953
+
+Explanation:
+Partial pivoting gaussian elimination algorithm get a more precise result than the simple inversion algorithm when they are used to calculate this matrix. Since in gaussian elimination, when we try to subtract the elements xi, we first calculate the coefficients like a21/a11, a31/a11 etc. If the absolute magnitude of the upper rows are very small, the ratio of the coefficients like aj1/a11 (j>1) , aj2/a22 (j>2) may be very large (in this matrix, the ratio of a21/a11 = 3.2/0.0000000000000377 = 84880636604774.53580902 and a31/a11 = 8.16666/0.0000000000000377 = 216622281167108.75331565). Most computers use the floating point arithmetric instead of a fixed point arithmetric. Therefore, the number stored in computer in practice is different from the theoretical one because of this floating point arithmetric. The large ratio will therefore expand the tiny error caused by floating point arithmetric to a larger extent (in this example, a 2*10^(-15) error will expand to 1). In order to avoid underflow, overflow and roundoff errors in computers, we have to avoid pivots from being too small. In this way, when we multiply an equation by the large ratio and subtract that equation from the original one, the multiplier should not be too large. And partial pivoting is a good method to solve this problem.
+
+
+123 0.99999999 0.0000000000006
+4.87 0.000000000000000000021 0.33
+0.0000000000000000000000000000789 0.21 802.1
+
+The matrix above is a good example because the inverse matrixes calculated by simple inversion algorithm and partial pivoting algorithm are the same:
+0.000018 0.204892 -0.000084
+0.997823 -25.201680 0.010368
+-0.000261 0.006598 0.001244
+
+The reason why they are the same is: pivot with larger absolute magnitude has already been stored in the upper part of the matrix (123>4.87>0.0000000000000000000000000000789). Therefore, in partial pivoting, no swap operation took place in the first stage. However, if we change the sequence of the rows in the following way, difference will occur between the two algorithms. 
+
+0.0000000000000000000000000000789 0.21 802.1
+4.87 0.000000000000000000021 0.33
+123 0.99999999 0.0000000000006

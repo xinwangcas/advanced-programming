@@ -1,0 +1,60 @@
+*** iptables-1.2.4-stock/libiptc/libip4tc.c	Fri Jan  5 10:22:59 2001
+--- iptables-1.2.4-vnat/libiptc/libip4tc.c	Tue Apr  2 23:01:14 2002
+***************
+*** 364,385 ****
+  
+  		user_offset = h->info.hook_entry[NF_IP_LOCAL_OUT];
+  	} else if (strcmp(h->info.name, "nat") == 0) {
+! 		assert(h->info.valid_hooks
+! 		       == (1 << NF_IP_PRE_ROUTING
+! 			   | 1 << NF_IP_POST_ROUTING
+! 			   | 1 << NF_IP_LOCAL_OUT));
+  
+  		assert(h->info.hook_entry[NF_IP_PRE_ROUTING] == 0);
+  
+! 		n = get_chain_end(h, 0);
+! 		n += get_entry(h, n)->next_offset;
+! 		assert(h->info.hook_entry[NF_IP_POST_ROUTING] == n);
+  
+  		n = get_chain_end(h, n);
+  		n += get_entry(h, n)->next_offset;
+! 		assert(h->info.hook_entry[NF_IP_LOCAL_OUT] == n);
+  
+! 		user_offset = h->info.hook_entry[NF_IP_LOCAL_OUT];
+  	} else if (strcmp(h->info.name, "mangle") == 0) {
+  		assert(h->info.valid_hooks
+  		       == (1 << NF_IP_PRE_ROUTING
+--- 364,396 ----
+  
+  		user_offset = h->info.hook_entry[NF_IP_LOCAL_OUT];
+  	} else if (strcmp(h->info.name, "nat") == 0) {
+! 		assert((h->info.valid_hooks &
+! 			~(1 << NF_IP_PRE_ROUTING
+! 			  | 1 << NF_IP_POST_ROUTING
+! 			  | 1 << NF_IP_LOCAL_OUT
+! 			  | 1 << NF_IP_LOCAL_IN))
+! 		       == 0);
+  
+  		assert(h->info.hook_entry[NF_IP_PRE_ROUTING] == 0);
+  
+! 		n = 0;
+! 		if (h->info.valid_hooks & NF_IP_LOCAL_IN) {
+! 		    n = get_chain_end(h, n);
+! 		    n += get_entry(h, n)->next_offset;
+! 		    assert(h->info.hook_entry[NF_IP_LOCAL_IN] == n);
+! 		}
+! 
+! 		if (h->info.valid_hooks & NF_IP_LOCAL_OUT) {
+! 		    n = get_chain_end(h, n);
+! 		    n += get_entry(h, n)->next_offset;
+! 		    assert(h->info.hook_entry[NF_IP_LOCAL_OUT] == n);
+! 		}
+  
+  		n = get_chain_end(h, n);
+  		n += get_entry(h, n)->next_offset;
+! 		assert(h->info.hook_entry[NF_IP_POST_ROUTING] == n);
+  
+! 		user_offset = h->info.hook_entry[NF_IP_POST_ROUTING];
+  	} else if (strcmp(h->info.name, "mangle") == 0) {
+  		assert(h->info.valid_hooks
+  		       == (1 << NF_IP_PRE_ROUTING

@@ -1,0 +1,125 @@
+Compile and Install VNAT
+========================
+
+Compiling and installing VNAT is a fairly straightforward process for anyone
+who has experience in compiling Linux kernel. The process involves three
+simple parts, first is to patch and recompile your netfilter module, second
+to patch and recompile your userspace netfilter tool, iptables, and finally
+to compile and install VNAT modules themselves.
+
+1. Patch and recompile netfilter
+--------------------------------
+
+This assumes that you have compiled your netfilter as kernel modules. If
+you have compiled your netfilter into your kernel, you will have to recompile
+the whole kernel after patching the netfilter.
+
+Located under the "patches" subdirectory of the VNAT source tree is a
+collection of kernel patches for a few kernel versions. If you don't find a
+matching patch version for your kernel, chances are a close enough version
+of the patch will just work fine. In case none of the supplied patches applies
+cleanly to your kernel, please contact me at gongsu@cs.columbia.edu.
+
+To apply the patch, change directory to the top of your Linux kernel source
+tree, usually /usr/src/linux, and execute:
+
+	patch -p1 < local_NAT.patch-#.#.##
+
+where the #s are the appropriate version numbers. Once the patch is applied
+cleanly, you must do:
+
+	make config (or other variations you perfer)
+
+and answer "yes" to the question "NAT of local connections?"
+
+Now you can recompile your netfilter module (or the whole kernel) as you would
+normally do.
+
+2. Patch and recompile iptables
+-------------------------------
+
+If you are using iptables with a version prior to 1.2.6, you will need to
+patch and recompile your iptables if you elect not to upgrade to version
+1.2.6. To make this part as easy as possible, prepatched iptables source
+and binary are supplied under the "misc" subdirectory in the VNAT source
+tree, both in RPM format. You can simply install the binary RPM or compile
+your own binary from the source RPM. In case you really want to do everything
+manually, the patches for different versions of iptables are also supplied
+under the "patches" subdirectory.
+
+***NOTE***
+
+The changes to your kernel and iptables only _add_ functions without changing
+any of the existing functions. The new kernel and new iptables are _completely_
+backward compatible with your existing kernel and iptables.
+
+3. Compile and install VNAT modules
+-----------------------------------
+
+To compile VNAT modules, change directory to the "src" subdirectory and
+simply do:
+
+	make
+
+This will create the two VNAT modules kvnat.o and kvnatvif.o in the "src"
+subdirectory.
+
+To install VNAT modules, do
+
+	make install
+
+This will create a "vnat" subdirectory under /lib/modules/`uname -r`/,
+the system modules directory for the current kernel, and copy kvnat.o and
+kvnatvif.o to the "vnat" subdirectory. It will also run "depmod -a -e" to
+update the module dependency map.
+
+To uninstall VNAT modules, do
+
+	make uninstall
+
+4. Interface with apmd
+----------------------
+
+To automatically suspend and resume network connections when the host machine
+is suspended and resumed, one usually interfaces VNAT with the host
+suspending/resuming mechanism, usually the apmd. By convention, apmd allows
+custom actions to be performed during suspending and resuming and these
+custom actions are placed in a file called "apmcontine" under the directory
+/etc/sysconfig/apm-scripts (for a RedHat system). A sample apmcontinue is
+provided in the "misc" subdirectory under the VNAT source tree, which can be
+readily incorporated into your existing apmcontinue script.
+
+Although not absolutely needed, stopping the underlying networking system
+should be done, if possible, after VNAT finishes negotiating (optional)
+suspending options with the remote peer. When resuming the host machine, VNAT
+can only resume the suspended connections after the underlying networking
+system has been brought up. Therefore, one should disable stopping and
+restarting the underlying networking system by apmscript, since apmscript
+is executed before apmcontinue, by setting
+
+NET_RESTART=no
+
+in /etc/sysconfig/apmd. And the function of stopping and restarting the
+underlying networking system is moved (and thus delayed) to apmcontinue,
+as shown in the provided sample script.
+
+In addition, one should also delay stopping and restarting network file
+systems (e.g., NFS) by setting
+
+NETFS_RESTART=no
+
+in /etc/sysconfig/apmd and move the function into apmcontinue (also shown
+in the sample script).
+
+And that should be it. From now on, all your virtualized connections will
+be kept intact as you move from place to place, suspending and resuming
+your host (laptop) machine as usual. You can easily put into a startup script
+the most used applications whose connections you want to virtualize and
+keep alive when you move, using the /proc/sys/net/vnat/command entry described
+in the man page doc/man8/vnat.8.
+
+-- 
+Gong Su
+gongsu@cs.columbia.edu
+http://www.cs.columbia.edu/~gongsu
+November 2002

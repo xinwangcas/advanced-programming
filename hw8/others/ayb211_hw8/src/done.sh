@@ -1,0 +1,1 @@
+lamhalt hostfile.txt

@@ -1,0 +1,3476 @@
+SVN-fs-dump-format-version: 2
+
+UUID: f12c993d-2e99-cbe8-cd3e-ee50849787f4
+
+Revision-number: 0
+Prop-content-length: 56
+Content-length: 56
+
+K 8
+svn:date
+V 27
+2012-09-13T15:47:33.742204Z
+PROPS-END
+
+Revision-number: 1
+Prop-content-length: 113
+Content-length: 113
+
+K 7
+svn:log
+V 12
+first import
+K 10
+svn:author
+V 6
+xiw412
+K 8
+svn:date
+V 27
+2012-09-13T15:49:28.165851Z
+PROPS-END
+
+Node-path: test
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: test/test.txt
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 5
+Text-content-md5: d8e8fca2dc0f896fd7cb4cb0031ba249
+Text-content-sha1: 4e1243bd22c66e76c2ba9eddc1f91394e57f9f83
+Content-length: 15
+
+PROPS-END
+test
+
+
+Revision-number: 2
+Prop-content-length: 128
+Content-length: 128
+
+K 7
+svn:log
+V 27
+test and its folder deleted
+K 10
+svn:author
+V 6
+xiw412
+K 8
+svn:date
+V 27
+2012-09-14T00:38:23.673689Z
+PROPS-END
+
+Node-path: test
+Node-action: delete
+
+
+Revision-number: 3
+Prop-content-length: 127
+Content-length: 127
+
+K 7
+svn:log
+V 26
+the NetBeansProjects added
+K 10
+svn:author
+V 6
+xiw412
+K 8
+svn:date
+V 27
+2012-09-14T00:41:49.362895Z
+PROPS-END
+
+Node-path: hw2
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: hw2/.dep.inc
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 144
+Text-content-md5: 229af530443d9bac2a54035c9debd137
+Text-content-sha1: dca483b93fb1122ae3eb86e74325d0694cc3b408
+Content-length: 154
+
+PROPS-END
+# This code depends on make tool being used
+DEPFILES=$(wildcard $(addsuffix .d, ${OBJECTFILES}))
+ifneq (${DEPFILES},)
+include ${DEPFILES}
+endif
+
+
+Node-path: hw2/.make.state.Debug
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 1441
+Text-content-md5: 9a7f67e6ac0ae7a25214b188c532928c
+Text-content-sha1: 99a7a1cce451c83a9e93c753ec7208089799220d
+Content-length: 1451
+
+PROPS-END
+.MAKE_VERSION:	VERSION-1.0
+.BUILT_LAST_MAKE_RUN:
+.build-conf:
+	"/opt/sunstudio12.1/bin/dmake"  -f nbproject/Makefile-Debug.mk dist/Debug/OracleSolarisStudio-Solaris-x86/hw2
+.clean-conf:
+	rm -f -r build/Debug
+	rm -f dist/Debug/OracleSolarisStudio-Solaris-x86/hw2
+.BUILT_LAST_MAKE_RUN:
+.depcheck-impl:
+	echo "# This code depends on make tool being used" >.dep.inc
+	if [ -n "" ]; then \
+	    echo "DEPFILES=\$(wildcard \$(addsuffix .d, \${OBJECTFILES}))" >>.dep.inc; \
+	    echo "ifneq (\${DEPFILES},)" >>.dep.inc; \
+	    echo "include \${DEPFILES}" >>.dep.inc; \
+	    echo "endif" >>.dep.inc; \
+	else \
+	    echo ".KEEP_STATE:" >>.dep.inc; \
+	    echo ".KEEP_STATE_FILE:.make.state.\${CONF}" >>.dep.inc; \
+	fi
+build/Debug/OracleSolarisStudio-Solaris-x86/main.o:	/usr/include/stdio.h /usr/include/sys/feature_tests.h /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h /usr/include/iso/stdio_iso.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h /usr/include/iso/stdlib_c99.h 
+	mkdir -p build/Debug/OracleSolarisStudio-Solaris-x86
+	cc   -c -g -o build/Debug/OracleSolarisStudio-Solaris-x86/main.o main.c
+dist/Debug/OracleSolarisStudio-Solaris-x86/hw2:	/lib/libc.so 
+	mkdir -p dist/Debug/OracleSolarisStudio-Solaris-x86
+	cc    -o dist/Debug/OracleSolarisStudio-Solaris-x86/hw2 build/Debug/OracleSolarisStudio-Solaris-x86/main.o  
+
+
+Node-path: hw2/Makefile
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 3470
+Text-content-md5: 6ddb405f46abb1b06d0e4b64650fddfd
+Text-content-sha1: 85cca634362283e223b968910a0a1582b94c4642
+Content-length: 3480
+
+PROPS-END
+#
+#  There exist several targets which are by default empty and which can be 
+#  used for execution of your targets. These targets are usually executed 
+#  before and after some main targets. They are: 
+#
+#     .build-pre:              called before 'build' target
+#     .build-post:             called after 'build' target
+#     .clean-pre:              called before 'clean' target
+#     .clean-post:             called after 'clean' target
+#     .clobber-pre:            called before 'clobber' target
+#     .clobber-post:           called after 'clobber' target
+#     .all-pre:                called before 'all' target
+#     .all-post:               called after 'all' target
+#     .help-pre:               called before 'help' target
+#     .help-post:              called after 'help' target
+#
+#  Targets beginning with '.' are not intended to be called on their own.
+#
+#  Main targets can be executed directly, and they are:
+#  
+#     build                    build a specific configuration
+#     clean                    remove built files from a configuration
+#     clobber                  remove all built files
+#     all                      build all configurations
+#     help                     print help mesage
+#  
+#  Targets .build-impl, .clean-impl, .clobber-impl, .all-impl, and
+#  .help-impl are implemented in nbproject/makefile-impl.mk.
+#
+#  Available make variables:
+#
+#     CND_BASEDIR                base directory for relative paths
+#     CND_DISTDIR                default top distribution directory (build artifacts)
+#     CND_BUILDDIR               default top build directory (object files, ...)
+#     CONF                       name of current configuration
+#     CND_PLATFORM_${CONF}       platform name (current configuration)
+#     CND_ARTIFACT_DIR_${CONF}   directory of build artifact (current configuration)
+#     CND_ARTIFACT_NAME_${CONF}  name of build artifact (current configuration)
+#     CND_ARTIFACT_PATH_${CONF}  path to build artifact (current configuration)
+#     CND_PACKAGE_DIR_${CONF}    directory of package (current configuration)
+#     CND_PACKAGE_NAME_${CONF}   name of package (current configuration)
+#     CND_PACKAGE_PATH_${CONF}   path to package (current configuration)
+#
+# NOCDDL
+
+
+# Environment 
+MKDIR=mkdir
+CP=cp
+CCADMIN=CCadmin
+
+
+# build
+build: .build-post
+
+.build-pre:
+# Add your pre 'build' code here...
+
+.build-post: .build-impl
+# Add your post 'build' code here...
+
+
+# clean
+clean: .clean-post
+
+.clean-pre:
+# Add your pre 'clean' code here...
+
+.clean-post: .clean-impl
+# Add your post 'clean' code here...
+
+
+# clobber
+clobber: .clobber-post
+
+.clobber-pre:
+# Add your pre 'clobber' code here...
+
+.clobber-post: .clobber-impl
+# Add your post 'clobber' code here...
+
+
+# all
+all: .all-post
+
+.all-pre:
+# Add your pre 'all' code here...
+
+.all-post: .all-impl
+# Add your post 'all' code here...
+
+
+# build tests
+build-tests: .build-tests-post
+
+.build-tests-pre:
+# Add your pre 'build-tests' code here...
+
+.build-tests-post: .build-tests-impl
+# Add your post 'build-tests' code here...
+
+
+# run tests
+test: .test-post
+
+.test-pre:
+# Add your pre 'test' code here...
+
+.test-post: .test-impl
+# Add your post 'test' code here...
+
+
+# help
+help: .help-post
+
+.help-pre:
+# Add your pre 'help' code here...
+
+.help-post: .help-impl
+# Add your post 'help' code here...
+
+
+
+# include project implementation makefile
+include nbproject/Makefile-impl.mk
+
+# include project make variables
+include nbproject/Makefile-variables.mk
+
+
+Node-path: hw2/build
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: hw2/build/Debug
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: hw2/build/Debug/GNU-Solaris-x86
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: hw2/build/Debug/GNU-Solaris-x86/main.o.d
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 43
+Text-content-md5: cf3d0b5af6a785618abb179c25225f13
+Text-content-sha1: 11b2a17e4dd708d3e1f113e213d8ca1fd5c17245
+Content-length: 53
+
+PROPS-END
+build/Debug/GNU-Solaris-x86/main.o: main.c
+
+
+Node-path: hw2/build/Debug/OracleSolarisStudio-Solaris-x86
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: hw2/dist
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: hw2/dist/Debug
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: hw2/dist/Debug/GNU-Solaris-x86
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: hw2/dist/Debug/GNU-Solaris-x86/hw2
+Node-kind: file
+Node-action: add
+Prop-content-length: 84
+Text-content-length: 7420
+Text-content-md5: 94879e8226c8a66d50f4eeb8efca36f6
+Text-content-sha1: d17cef135a850b29958484f9e5dbde58c4e6e97b
+Content-length: 7504
+
+K 14
+svn:executable
+V 0
+
+K 13
+svn:mime-type
+V 24
+application/octet-stream
+PROPS-END
+ELF              ”4   ¬      4    ( " !    4   4                       Ô                                      0	  0	           0	  0	    `  |           l	  l	    Ğ              /usr/lib/ld.so.1                                
+                                                                                                         	                                                                                                   t          ô     
+ #   <
+   !  +               I   l	      R   
+      Y   @
+     a   0	      h   ğ     n                  ¨     ‡   lL     "   <
+     Œ   0	      ¢   4       ¨   (	     µ          ¿          Æ   „    "   Ş   ,{     £   $       ä   ¬
+      é   ”–     ğ   	     ö   p
+                                  3  l
+     E               printf _PROCEDURE_LINKAGE_TABLE_ _environ __deregister_frame_info_bases _DYNAMIC _edata ___Argv _etext _init __fsr_init_value _mcount main _GLOBAL_OFFSET_TABLE_ _exit _lib_version __fpstart atexit _get_exit_frame_monitor __fsr _end _start _fini __dso_handle _Jv_RegisterClasses __register_frame_info_bases __longdouble_used __1cG__CrunMdo_exit_code6F_v_ libc.so.1 SYSVABI_1.3 SUNWprivate_1.1 /usr/sfw/lib     c         ³Ì7    m     qÌN    y      5
+  L	  T	  \	  H
+  <	  @	  D	  H	  P	  X	  `	  d	  h	  ÿ54	ÿ%8	    ÿ%<	h    éàÿÿÿÿ%@	h   éĞÿÿÿÿ%D	h   éÀÿÿÿÿ%H	h   é°ÿÿÿÿ%P	h    é ÿÿÿÿ%X	h(   éÿÿÿÿ%`	h0   é€ÿÿÿÿ%d	h8   épÿÿÿÿ%h	h@   é`ÿÿÿj j ‹ì¸l	…Àt	Rè[ÿÿÿƒÄh	èNÿÿÿƒÄD
+‹ …ÀtH
+‹ …Àt	Pè-ÿÿÿƒÄ‹E‹<
+…Òu
+T…‰<
+ƒäğRU‰@
+RPèÿÿÿè"   èá  èX  ƒÄPPèÿÿÿƒÄèÿÿÿƒÄôU‹ìRQƒì¹    Ñéƒù t`›Ù|$ ‹ÑƒâŠ‚L
+ D$ ÷Á   t€d$ ı‹Ñƒâ`t‹Âƒà Ñà3ĞÁâfd$ ÿóf	T$ á€  tñ€  Ñáfd$ ÿüf	L$ Ùl$ ƒÄYZ]ÃÃ   U‰åSè    [Ã{ R€»`   të:ƒÀ‰ƒ\  ÿÒ‹ƒ\  ‹…Òué‹ƒ   …ÀtƒìƒT  PèLşÿÿƒÄÆƒ`  ‹]üÉÃU‰åSè    [Ã P‹ƒ$   …ÀtSj ƒd  PƒT  PèşÿÿƒÄ‹ƒX  …Àt‹‹,   …ÉtƒìƒX  PèşÿÿƒÄ‰ö‹]üÉÃ   U‰åƒìƒäğ¸    ƒÀƒÀÁèÁà)ÄÇEü   ‹Eü¯Eü‰Eøƒì‹Eü¯EøPh,	èÆıÿÿƒÄ¸    ÉÃU‰åVSè    [Ãn  ƒH  pü‹@üëƒîÿĞ‹ƒøÿuô[^ÉÃ        U‹ìSè    [Ã7  èÿÿÿè®ÿÿÿ[ÉÃ   U‹ìSè    [Ã  è‡şÿÿ[ÉÃ   %d
+ l	        
+*:    J    Z    jzŠ   c     ğ   	   ‰     ‰     è    ¼
+   –     Ü      øıÿo2  şÿÿoTÿÿÿo             H            ¬   „   p                üıÿo         ûÿÿo       0	                „    ÿßûÛïÏëË÷×óÓçÇãÃşŞúÚîÎêÊöÖòÒæÆâÂ        ÿÿÿÿ    ÿÿÿÿ            €
+                            ñÿ    Ô           è           Ü          ¼          T          „          Œ          ¤          ¬     	     ô     
+     ”          ğ          	          (	          0	          l	          <
+          t
+          |
+          „
+          ˆ
+          Œ
+          
+                                                                                                                                                  ! N  ¬
+      T                       ñÿ&   D
+     C   H
+     V   L
+      a            ñÿh            ñÿt            ñÿ   t
+         |
+      ›   „
+      ®   ˆ
+      »   Œ
+      ¿   
+     Ë   ¬      á   ”
+     ê         ö            ñÿt            ñÿı   x
+      
+  €
+        „
+      %  ˆ
+      1  ¸      G           ñÿ\  t       c  ô     
+ ~  <
+   !  †              ¤  l	      ­  
+      ´  @
+     ¼  0	      Ã  ğ     É              Ú  ¨     â  lL     }  <
+     ç  0	      ı  4         (	                       !  „    "   9  ,{     ş  $       ?  ¬
+      D  ”–     K  	     Q  p
+      ^              r                l
+                     dist/Debug/GNU-Solaris-x86/hw2 fsr.s __get_exit_frame_monitor_ptr __do_exit_code_ptr trap_table crti.s values-Xa.c crtstuff.c __CTOR_LIST__ __DTOR_LIST__ __EH_FRAME_BEGIN__ __JCR_LIST__ p.0 completed.1 __do_global_dtors_aux object.2 frame_dummy main.c __CTOR_END__ __DTOR_END__ __FRAME_END__ __JCR_END__ __do_global_ctors_aux crtn.s _END_ _START_ printf _PROCEDURE_LINKAGE_TABLE_ _environ __deregister_frame_info_bases _DYNAMIC _edata ___Argv _etext _init __fsr_init_value _mcount main _GLOBAL_OFFSET_TABLE_ _exit _lib_version __fpstart atexit _get_exit_frame_monitor __fsr _end _start _fini __dso_handle _Jv_RegisterClasses __register_frame_info_bases __longdouble_used __1cG__CrunMdo_exit_code6F_v_  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  @(#)SunOS 5.10 Generic January 2005 ld: Software Generation Utilities - Solaris Link Editors: 5.10-1.497 %  $ >  .?:;'I@
+   :;I
+  4 :;I
+   I              ¸lGNU C 3.4.3 (csl-sol210-3_4-branch+sol_rpath) main.c /home/xiw412/NetBeansProjects/hw2 char int unsigned char unsigned int long long int long int   main x   l¸Uargc x   ‘argv   ‘a x   ‘|b x   ‘x   p    6       û
+     main.c      l¬rœsV       ÿÿÿÿ |ˆ  $       lL      …   :   .           ½   main                  lL            .interp .hash .dynsym .dynstr .SUNW_version .rel.text .rel.got .rel.data .rel.plt .init .fini .rodata .dynamic .ctors .dtors .eh_frame .jcr .data.rel.local .bss .symtab .strtab .comment .debug_abbrev .debug_info .debug_line .debug_frame .debug_pubnames .debug_aranges .shstrtab                                                    Ô Ô                     	         è è   ô                         ÜÜ  à                    "   ¼¼  –                    şÿÿo   TT  0                -   	   B   „„                 7   	   B   ŒŒ                 @   	   B   ¤¤                 J   	   B   ¬¬  H      
+         N         ôô                    1         ””  T                 S         ğğ                    Y         		                    _         (	(	                    ;         0	0	  <                 g         l	l	  Ğ                D         <
+<
+  8                  p         t
+t
+                    w         |
+|
+                    ~         „
+„
+                    ˆ         ˆ
+ˆ
+                             Œ
+Œ
+                             
+
+                    ¢              
+        =         ª              0  ¾                 ²              î  u                 »              c  _                  É              Â                   Õ              ß  :                  á                <                  î              X                    ş              s                                  “                   
+
+Node-path: hw2/dist/Debug/OracleSolarisStudio-Solaris-x86
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: hw2/dist/Debug/OracleSolarisStudio-Solaris-x86/hw2
+Node-kind: file
+Node-action: add
+Prop-content-length: 84
+Text-content-length: 6640
+Text-content-md5: 491e330991b39a8ca5ad39e49bc6d5ad
+Text-content-sha1: a851280c35e2fc293dc5d1a2ec21a1b3087688c4
+Content-length: 6724
+
+K 14
+svn:executable
+V 0
+
+K 13
+svn:mime-type
+V 24
+application/octet-stream
+PROPS-END
+ELF              °4   @      4    (      4   4     À   À             ô                         ıÿÿo                                 8  8           8  8    0  0           \  \    À              /usr/lib/ld.so.1                                               	       
+                                                                                                                                                                                        Œ       	      !     <     	 +   \      4   8     <   h      C   8      J   ø     P            ñÿa   À8    
+         f   8      |   |       ‚   0        l       –   L           @{    
+ }   \       ¦   œ    "   ¾   h      Ã   °    
+ Ê        Ğ         ß   D     ñ                printf _environ _PROCEDURE_LINKAGE_TABLE_ _DYNAMIC ___Argv _edata _etext _init __fsr_init_value main _GLOBAL_OFFSET_TABLE_ _exit _lib_version atexit __fpstart __fsr _get_exit_frame_monitor _end _start _fini __environ_lock __longdouble_used __1cG__CrunMdo_exit_code6F_v_ libc.so.1 SYSVABI_1.3 SUNWprivate_1.1               ³Ì7         qÌN    %      @  D  H  L  P  T  X  ÿ5<ÿ%@    ÿ%Dh    éàÿÿÿÿ%Hh   éĞÿÿÿÿ%Lh   éÀÿÿÿÿ%Ph   é°ÿÿÿÿ%Th    é ÿÿÿÿ%Xh(   éÿÿÿ    j j ‹ìR¸\…Àtè§ÿÿÿhèÿÿÿ<‹ …Àt@‹ …Àt	PèÿÿÿƒÄ‹E‹…Òu
+T…‰ƒäğƒìRU‰8RPè.ÿÿÿè   èĞ   è“   ƒÄPè&ÿÿÿj è?ÿÿÿô  U‹ìRQƒì¹    Ñéƒù t`›Ù|$ ‹ÑƒâŠ‚H D$ ÷Á   t€d$ ı‹Ñƒâ`t‹Âƒà Ñà3ĞÁâfd$ ÿóf	T$ á€  tñ€  Ñáfd$ ÿüf	L$ Ùl$ ƒÄYZ]Ã     U‹ìƒìÇEø   ‹Eø¯Eø‰Eô‹Eø¯EôPh4è£şÿÿƒÄÇEü    ‹EüÉÃU‹ìWVSè    [Ã5  [^_ÉÂ   U‹ìWVSè    [Ã  [^_ÉÂ      %d
+ \        Rbr‚’¢        ø         œ
+   5     ü      øıÿoG^  şÿÿoÔÿÿÿo      0                  8                üıÿo     `       ûÿÿo       8                                        œ        ÿßûÛïÏëË÷×óÓçÇãÃşŞúÚîÎêÊöÖòÒæÆâÂ                            ñÿ    ô                               ü          œ          Ô                              <     	     °     
+     ø                    0          4          8          \                    h          h                                                                                                                                                  Ã   h      É           0            ñÿ7            ñÿ>            ñÿE   <     b   @     u            ñÿ{   H      †            ñÿ’             h       ¦   0       µ            ñÿ   h       ’          ¦   0       ¼            ñÿÑ   Œ       Ù      !  á   <     	 û   \        8       h        8        ø                 ñÿ1  À8    
+ Ø        6  8      L  |       R  0     _  l       f  L       p  @{    
+ M  \       v  œ    "     h      “  °    
+ š                ¯  D     Á               dist/Debug/OracleSolarisStudio-Solaris-x86/hw2 crti.s crt1.o crt1.s __get_exit_frame_monitor_ptr __do_exit_code_ptr fsr.s trap_table values-Xa.c Ddata.data Bbss.bss Drodata.rodata main.c crtn.s _END_ _START_ printf _environ _PROCEDURE_LINKAGE_TABLE_ _DYNAMIC ___Argv _edata _etext _init __fsr_init_value main _GLOBAL_OFFSET_TABLE_ _exit _lib_version atexit __fpstart __fsr _get_exit_frame_monitor _end _start _fini __environ_lock __longdouble_used __1cG__CrunMdo_exit_code6F_v_  anotate          anotate    0    ,  ( ¸\ÆI    <    @    @(#)stdio.h	1.84	04/09/28 SMI @(#)feature_tests.h	1.25	07/02/02 SMI @(#)ccompile.h	1.2	04/11/08 SMI @(#)isa_defs.h	1.29	08/06/06 SMI @(#)stdio_iso.h	1.8	05/08/16 SMI @(#)va_list.h	1.15	04/11/19 SMI @(#)stdio_tag.h	1.4	04/09/28 SMI @(#)stdio_impl.h	1.15	07/03/05 SMI @(#)stdio_c99.h	1.2	04/03/29 SMI @(#)stdlib.h	1.51	04/06/30 SMI @(#)stdlib_iso.h	1.9	04/09/28 SMI @(#)stdlib_c99.h	1.2	04/03/29 SMI acomp: Sun C 5.10 SunOS_i386 2009/06/03 as: Sun Compiler Common 12.1 SunOS_i386 Patch 141858-06 2010/05/13 ld: Software Generation Utilities - Solaris Link Editors: 5.10-1.497 ©       main.c /home/xiw412/NetBeansProjects/hw2  /opt/sunstudio12.1/prod/bin/cc -c -g -o build/Debug/OracleSolarisStudio-Solaris-x86/main.o  main.c -W0,-xp.XAASLeP0lgUQ1Pk. Xa;g;R=Sun C 5.10 SunOS_i386 2009/06/03;G=.XAASLeP0lgUQ1Pk.;backend;raw;cd; DBG_GEN 5.2.7     main ÀøUq  q  q  argc ‘…  argv ‘a q  ‘øÿÿÿb q  ‘ôÿÿÿ int char x  €  x  Š  printf q  	  
+   y    <    ÿ
+    /home/xiw412/NetBeansProjects/hw2  main.c     À Æ Í × ì ó …D‡D%  .?6:;@
+'IˆD   I:;
+  4 I:;
+  $ >   I  & I  .?<'IˆD  	 I  
+            ­    main      .interp .SUNW_cap .hash .dynsym .dynstr .SUNW_version .rel.data .rel.plt .text .init .fini .rodata .rodata1 .got .dynamic .bssf .bss .symtab .strtab .annotate .comment .debug_loc .debug_info .debug_line .debug_abbrev .debug_pubnames .shstrtab                                                  ô ô                     	   õÿÿo                                 ä                         üü                 !      "   œœ  5                 )   şÿÿo   ÔÔ  0                7   	   B                    A   	   B     0      	         E         <<  p                 J         °°  H                 P         øø                    V                             \         00                    d         44                    m         88  $                 r         \\  À                ;           L                  {         hh                              hh                     †              h        1                         ß                 –   ÷ÿÿo        è  T                                 <  >                 ©              z                     ´              z  ­                 À              '  }                  Ì              ¤                    Ú              1                    ê              L  ô                  
+
+Node-path: hw2/hw2
+Node-kind: file
+Node-action: add
+Prop-content-length: 84
+Text-content-length: 7392
+Text-content-md5: b80ca75f705e945c195d7e3ad4c10c40
+Text-content-sha1: 0b56e987d2baf98c25c105ab43b61ea6b3c15831
+Content-length: 7476
+
+K 14
+svn:executable
+V 0
+
+K 13
+svn:mime-type
+V 24
+application/octet-stream
+PROPS-END
+ELF              ”4         4    ( " !    4   4                       Ô                                      0	  0	           0	  0	    `  |           l	  l	    Ğ              /usr/lib/ld.so.1                                
+                                                                                                         	                                                                                                   t          ô     
+ #   <
+   !  +               I   l	      R   
+      Y   @
+     a   0	      h   ğ     n                  ¨     ‡   lL     "   <
+     Œ   0	      ¢   4       ¨   (	     µ          ¿          Æ   „    "   Ş   ,{     £   $       ä   ¬
+      é   ”–     ğ   	     ö   p
+                                  3  l
+     E               printf _PROCEDURE_LINKAGE_TABLE_ _environ __deregister_frame_info_bases _DYNAMIC _edata ___Argv _etext _init __fsr_init_value _mcount main _GLOBAL_OFFSET_TABLE_ _exit _lib_version __fpstart atexit _get_exit_frame_monitor __fsr _end _start _fini __dso_handle _Jv_RegisterClasses __register_frame_info_bases __longdouble_used __1cG__CrunMdo_exit_code6F_v_ libc.so.1 SYSVABI_1.3 SUNWprivate_1.1 /usr/sfw/lib     c         ³Ì7    m     qÌN    y      5
+  L	  T	  \	  H
+  <	  @	  D	  H	  P	  X	  `	  d	  h	  ÿ54	ÿ%8	    ÿ%<	h    éàÿÿÿÿ%@	h   éĞÿÿÿÿ%D	h   éÀÿÿÿÿ%H	h   é°ÿÿÿÿ%P	h    é ÿÿÿÿ%X	h(   éÿÿÿÿ%`	h0   é€ÿÿÿÿ%d	h8   épÿÿÿÿ%h	h@   é`ÿÿÿj j ‹ì¸l	…Àt	Rè[ÿÿÿƒÄh	èNÿÿÿƒÄD
+‹ …ÀtH
+‹ …Àt	Pè-ÿÿÿƒÄ‹E‹<
+…Òu
+T…‰<
+ƒäğRU‰@
+RPèÿÿÿè"   èá  èX  ƒÄPPèÿÿÿƒÄèÿÿÿƒÄôU‹ìRQƒì¹    Ñéƒù t`›Ù|$ ‹ÑƒâŠ‚L
+ D$ ÷Á   t€d$ ı‹Ñƒâ`t‹Âƒà Ñà3ĞÁâfd$ ÿóf	T$ á€  tñ€  Ñáfd$ ÿüf	L$ Ùl$ ƒÄYZ]ÃÃ   U‰åSè    [Ã{ R€»`   të:ƒÀ‰ƒ\  ÿÒ‹ƒ\  ‹…Òué‹ƒ   …ÀtƒìƒT  PèLşÿÿƒÄÆƒ`  ‹]üÉÃU‰åSè    [Ã P‹ƒ$   …ÀtSj ƒd  PƒT  PèşÿÿƒÄ‹ƒX  …Àt‹‹,   …ÉtƒìƒX  PèşÿÿƒÄ‰ö‹]üÉÃ   U‰åƒìƒäğ¸    ƒÀƒÀÁèÁà)ÄÇEü   ‹Eü¯Eü‰Eøƒì‹Eü¯EøPh,	èÆıÿÿƒÄ¸    ÉÃU‰åVSè    [Ãn  ƒH  pü‹@üëƒîÿĞ‹ƒøÿuô[^ÉÃ        U‹ìSè    [Ã7  èÿÿÿè®ÿÿÿ[ÉÃ   U‹ìSè    [Ã  è‡şÿÿ[ÉÃ   %d
+ l	        
+*:    J    Z    jzŠ   c     ğ   	   ‰     ‰     è    ¼
+   –     Ü      øıÿo2  şÿÿoTÿÿÿo             H            ¬   „   p                üıÿo         ûÿÿo       0	                „    ÿßûÛïÏëË÷×óÓçÇãÃşŞúÚîÎêÊöÖòÒæÆâÂ        ÿÿÿÿ    ÿÿÿÿ            €
+                            ñÿ    Ô           è           Ü          ¼          T          „          Œ          ¤          ¬     	     ô     
+     ”          ğ          	          (	          0	          l	          <
+          t
+          |
+          „
+          ˆ
+          Œ
+          
+                                                                                                                                                  ! 3  ¬
+      9                      ñÿ   D
+     (   H
+     ;   L
+      F            ñÿM            ñÿY            ñÿd   t
+      r   |
+      €   „
+      “   ˆ
+          Œ
+      ¤   
+     °   ¬      Æ   ”
+     Ï         Û            ñÿY            ñÿâ   x
+      ï   €
+      ü   „
+      
+  ˆ
+        ¸      ,           ñÿA  t       H  ô     
+ c  <
+   !  k              ‰  l	      ’  
+      ™  @
+     ¡  0	      ¨  ğ     ®              ¿  ¨     Ç  lL     b  <
+     Ì  0	      â  4       è  (	     õ         ÿ           „    "     ,{     ã  $       $  ¬
+      )  ”–     0  	     6  p
+      C              W              s  l
+     …               hw2 fsr.s __get_exit_frame_monitor_ptr __do_exit_code_ptr trap_table crti.s values-Xa.c crtstuff.c __CTOR_LIST__ __DTOR_LIST__ __EH_FRAME_BEGIN__ __JCR_LIST__ p.0 completed.1 __do_global_dtors_aux object.2 frame_dummy main.c __CTOR_END__ __DTOR_END__ __FRAME_END__ __JCR_END__ __do_global_ctors_aux crtn.s _END_ _START_ printf _PROCEDURE_LINKAGE_TABLE_ _environ __deregister_frame_info_bases _DYNAMIC _edata ___Argv _etext _init __fsr_init_value _mcount main _GLOBAL_OFFSET_TABLE_ _exit _lib_version __fpstart atexit _get_exit_frame_monitor __fsr _end _start _fini __dso_handle _Jv_RegisterClasses __register_frame_info_bases __longdouble_used __1cG__CrunMdo_exit_code6F_v_  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  @(#)SunOS 5.10 Generic January 2005 ld: Software Generation Utilities - Solaris Link Editors: 5.10-1.497 %  $ >  .?:;'I@
+   :;I
+  4 :;I
+   I              ¸lGNU C 3.4.3 (csl-sol210-3_4-branch+sol_rpath) main.c /home/xiw412/NetBeansProjects/hw2 char int unsigned char unsigned int long long int long int   main x   l¸Uargc x   ‘argv   ‘a x   ‘|b x   ‘x   p    6       û
+     main.c      l¬rœsV      ÿÿÿÿ |ˆ  $       lL      …   :   .           ½   main                  lL            .interp .hash .dynsym .dynstr .SUNW_version .rel.text .rel.got .rel.data .rel.plt .init .fini .rodata .dynamic .ctors .dtors .eh_frame .jcr .data.rel.local .bss .symtab .strtab .comment .debug_abbrev .debug_info .debug_line .debug_frame .debug_pubnames .debug_aranges .shstrtab                                                    Ô Ô                     	         è è   ô                         ÜÜ  à                    "   ¼¼  –                    şÿÿo   TT  0                -   	   B   „„                 7   	   B   ŒŒ                 @   	   B   ¤¤                 J   	   B   ¬¬  H      
+         N         ôô                    1         ””  T                 S         ğğ                    Y         		                    _         (	(	                    ;         0	0	  <                 g         l	l	  Ğ                D         <
+<
+  8                  p         t
+t
+                    w         |
+|
+                    ~         „
+„
+                    ˆ         ˆ
+ˆ
+                             Œ
+Œ
+                             
+
+                    ¢              
+        =         ª              0  £                 ²              Ó  u                 »              H  _                  É              §                   Õ              Ä  :                  á                 <                  î              <                    ş              W                                  w                   
+
+Node-path: hw2/main.c
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 278
+Text-content-md5: f5de9cea430db40351df3736cb9e5e05
+Text-content-sha1: feb45e5a015964a278b6e26f5e56eccaedd46919
+Content-length: 288
+
+PROPS-END
+/* 
+ * File:   main.c
+ * Author: xiw412
+ *
+ * Created on September 13, 2012, 12:02 PM
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+ * 
+ */
+int main(int argc, char** argv) {
+
+    int a,b;
+    a = 3;
+    b = a * a;
+    printf("%d\n", a * b);
+    
+    return (EXIT_SUCCESS);
+}
+
+
+
+Node-path: hw2/nbproject
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: hw2/nbproject/Makefile-Debug.mk
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 1619
+Text-content-md5: ac39cfb09b4e10f032aaabd387ce6fbb
+Text-content-sha1: f0ccf94902569261cb733a899ec917ec429511fa
+Content-length: 1629
+
+PROPS-END
+#
+# Generated Makefile - do not edit!
+#
+# Edit the Makefile in the project folder instead (../Makefile). Each target
+# has a -pre and a -post target defined where you can add customized code.
+#
+# This makefile implements configuration specific macros and targets.
+
+
+# Environment
+MKDIR=mkdir
+CP=cp
+GREP=grep
+NM=nm
+CCADMIN=CCadmin
+RANLIB=ranlib
+CC=gcc
+CCC=g++
+CXX=g++
+FC=gfortran
+AS=gas
+
+# Macros
+CND_PLATFORM=GNU-Solaris-x86
+CND_DLIB_EXT=so
+CND_CONF=Debug
+CND_DISTDIR=dist
+CND_BUILDDIR=build
+
+# Include project Makefile
+include Makefile
+
+# Object Directory
+OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
+
+# Object Files
+OBJECTFILES= \
+	${OBJECTDIR}/main.o
+
+
+# C Compiler Flags
+CFLAGS=
+
+# CC Compiler Flags
+CCFLAGS=
+CXXFLAGS=
+
+# Fortran Compiler Flags
+FFLAGS=
+
+# Assembler Flags
+ASFLAGS=
+
+# Link Libraries and Options
+LDLIBSOPTIONS=
+
+# Build Targets
+.build-conf: ${BUILD_SUBPROJECTS}
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hw2
+
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hw2: ${OBJECTFILES}
+	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
+	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hw2 ${OBJECTFILES} ${LDLIBSOPTIONS} 
+
+${OBJECTDIR}/main.o: main.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.c) -g -MMD -MP -MF $@.d -o ${OBJECTDIR}/main.o main.c
+
+# Subprojects
+.build-subprojects:
+
+# Clean Targets
+.clean-conf: ${CLEAN_SUBPROJECTS}
+	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hw2
+
+# Subprojects
+.clean-subprojects:
+
+# Enable dependency checking
+.dep.inc: .depcheck-impl
+
+include .dep.inc
+
+
+Node-path: hw2/nbproject/Makefile-Release.mk
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 1622
+Text-content-md5: 8a66a500df7b07c25db2ab75636ed097
+Text-content-sha1: b52ea54a0ad17f11d35728792b70d6a0e1228871
+Content-length: 1632
+
+PROPS-END
+#
+# Generated Makefile - do not edit!
+#
+# Edit the Makefile in the project folder instead (../Makefile). Each target
+# has a -pre and a -post target defined where you can add customized code.
+#
+# This makefile implements configuration specific macros and targets.
+
+
+# Environment
+MKDIR=mkdir
+CP=cp
+GREP=grep
+NM=nm
+CCADMIN=CCadmin
+RANLIB=ranlib
+CC=gcc
+CCC=g++
+CXX=g++
+FC=gfortran
+AS=gas
+
+# Macros
+CND_PLATFORM=GNU-Solaris-x86
+CND_DLIB_EXT=so
+CND_CONF=Release
+CND_DISTDIR=dist
+CND_BUILDDIR=build
+
+# Include project Makefile
+include Makefile
+
+# Object Directory
+OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
+
+# Object Files
+OBJECTFILES= \
+	${OBJECTDIR}/main.o
+
+
+# C Compiler Flags
+CFLAGS=
+
+# CC Compiler Flags
+CCFLAGS=
+CXXFLAGS=
+
+# Fortran Compiler Flags
+FFLAGS=
+
+# Assembler Flags
+ASFLAGS=
+
+# Link Libraries and Options
+LDLIBSOPTIONS=
+
+# Build Targets
+.build-conf: ${BUILD_SUBPROJECTS}
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hw2
+
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hw2: ${OBJECTFILES}
+	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
+	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hw2 ${OBJECTFILES} ${LDLIBSOPTIONS} 
+
+${OBJECTDIR}/main.o: main.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/main.o main.c
+
+# Subprojects
+.build-subprojects:
+
+# Clean Targets
+.clean-conf: ${CLEAN_SUBPROJECTS}
+	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hw2
+
+# Subprojects
+.clean-subprojects:
+
+# Enable dependency checking
+.dep.inc: .depcheck-impl
+
+include .dep.inc
+
+
+Node-path: hw2/nbproject/Makefile-impl.mk
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 4199
+Text-content-md5: 7bb4376cc3fafeb5da1de368db8a526c
+Text-content-sha1: 0faea6cb703fad352769e390dc4efb37467756ed
+Content-length: 4209
+
+PROPS-END
+# 
+# Generated Makefile - do not edit! 
+# 
+# Edit the Makefile in the project folder instead (../Makefile). Each target
+# has a pre- and a post- target defined where you can add customization code.
+#
+# This makefile implements macros and targets common to all configurations.
+#
+# NOCDDL
+
+
+# Building and Cleaning subprojects are done by default, but can be controlled with the SUB
+# macro. If SUB=no, subprojects will not be built or cleaned. The following macro
+# statements set BUILD_SUB-CONF and CLEAN_SUB-CONF to .build-reqprojects-conf
+# and .clean-reqprojects-conf unless SUB has the value 'no'
+SUB_no=NO
+SUBPROJECTS=${SUB_${SUB}}
+BUILD_SUBPROJECTS_=.build-subprojects
+BUILD_SUBPROJECTS_NO=
+BUILD_SUBPROJECTS=${BUILD_SUBPROJECTS_${SUBPROJECTS}}
+CLEAN_SUBPROJECTS_=.clean-subprojects
+CLEAN_SUBPROJECTS_NO=
+CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
+
+
+# Project Name
+PROJECTNAME=hw2
+
+# Active Configuration
+DEFAULTCONF=Debug
+CONF=${DEFAULTCONF}
+
+# All Configurations
+ALLCONFS=Debug Release 
+
+
+# build
+.build-impl: .build-pre .validate-impl .depcheck-impl
+	@#echo "=> Running $@... Configuration=$(CONF)"
+	"${MAKE}" -f nbproject/Makefile-${CONF}.mk QMAKE=${QMAKE} SUBPROJECTS=${SUBPROJECTS} .build-conf
+
+
+# clean
+.clean-impl: .clean-pre .validate-impl .depcheck-impl
+	@#echo "=> Running $@... Configuration=$(CONF)"
+	"${MAKE}" -f nbproject/Makefile-${CONF}.mk QMAKE=${QMAKE} SUBPROJECTS=${SUBPROJECTS} .clean-conf
+
+
+# clobber 
+.clobber-impl: .clobber-pre .depcheck-impl
+	@#echo "=> Running $@..."
+	for CONF in ${ALLCONFS}; \
+	do \
+	    "${MAKE}" -f nbproject/Makefile-$${CONF}.mk QMAKE=${QMAKE} SUBPROJECTS=${SUBPROJECTS} .clean-conf; \
+	done
+
+# all 
+.all-impl: .all-pre .depcheck-impl
+	@#echo "=> Running $@..."
+	for CONF in ${ALLCONFS}; \
+	do \
+	    "${MAKE}" -f nbproject/Makefile-$${CONF}.mk QMAKE=${QMAKE} SUBPROJECTS=${SUBPROJECTS} .build-conf; \
+	done
+
+# build tests
+.build-tests-impl: .build-impl .build-tests-pre
+	@#echo "=> Running $@... Configuration=$(CONF)"
+	"${MAKE}" -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .build-tests-conf
+
+# run tests
+.test-impl: .build-tests-impl .test-pre
+	@#echo "=> Running $@... Configuration=$(CONF)"
+	"${MAKE}" -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .test-conf
+
+# dependency checking support
+.depcheck-impl:
+	@echo "# This code depends on make tool being used" >.dep.inc
+	@if [ -n "${MAKE_VERSION}" ]; then \
+	    echo "DEPFILES=\$$(wildcard \$$(addsuffix .d, \$${OBJECTFILES}))" >>.dep.inc; \
+	    echo "ifneq (\$${DEPFILES},)" >>.dep.inc; \
+	    echo "include \$${DEPFILES}" >>.dep.inc; \
+	    echo "endif" >>.dep.inc; \
+	else \
+	    echo ".KEEP_STATE:" >>.dep.inc; \
+	    echo ".KEEP_STATE_FILE:.make.state.\$${CONF}" >>.dep.inc; \
+	fi
+
+# configuration validation
+.validate-impl:
+	@if [ ! -f nbproject/Makefile-${CONF}.mk ]; \
+	then \
+	    echo ""; \
+	    echo "Error: can not find the makefile for configuration '${CONF}' in project ${PROJECTNAME}"; \
+	    echo "See 'make help' for details."; \
+	    echo "Current directory: " `pwd`; \
+	    echo ""; \
+	fi
+	@if [ ! -f nbproject/Makefile-${CONF}.mk ]; \
+	then \
+	    exit 1; \
+	fi
+
+
+# help
+.help-impl: .help-pre
+	@echo "This makefile supports the following configurations:"
+	@echo "    ${ALLCONFS}"
+	@echo ""
+	@echo "and the following targets:"
+	@echo "    build  (default target)"
+	@echo "    clean"
+	@echo "    clobber"
+	@echo "    all"
+	@echo "    help"
+	@echo ""
+	@echo "Makefile Usage:"
+	@echo "    make [CONF=<CONFIGURATION>] [SUB=no] build"
+	@echo "    make [CONF=<CONFIGURATION>] [SUB=no] clean"
+	@echo "    make [SUB=no] clobber"
+	@echo "    make [SUB=no] all"
+	@echo "    make help"
+	@echo ""
+	@echo "Target 'build' will build a specific configuration and, unless 'SUB=no',"
+	@echo "    also build subprojects."
+	@echo "Target 'clean' will clean a specific configuration and, unless 'SUB=no',"
+	@echo "    also clean subprojects."
+	@echo "Target 'clobber' will remove all built files from all configurations and,"
+	@echo "    unless 'SUB=no', also from subprojects."
+	@echo "Target 'all' will will build all configurations and, unless 'SUB=no',"
+	@echo "    also build subprojects."
+	@echo "Target 'help' prints this message."
+	@echo ""
+
+
+
+Node-path: hw2/nbproject/Makefile-variables.mk
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 1222
+Text-content-md5: 1bd03647a30faa8852f9c9fa99f4a5dd
+Text-content-sha1: a7151ec43b894c4571b980ca44e2f07b3629bdb9
+Content-length: 1232
+
+PROPS-END
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+CND_BUILDDIR=build
+CND_DISTDIR=dist
+# Debug configuration
+CND_PLATFORM_Debug=GNU-Solaris-x86
+CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Solaris-x86
+CND_ARTIFACT_NAME_Debug=hw2
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Solaris-x86/hw2
+CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Solaris-x86/package
+CND_PACKAGE_NAME_Debug=hw2.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Solaris-x86/package/hw2.tar
+# Release configuration
+CND_PLATFORM_Release=GNU-Solaris-x86
+CND_ARTIFACT_DIR_Release=dist/Release/GNU-Solaris-x86
+CND_ARTIFACT_NAME_Release=hw2
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Solaris-x86/hw2
+CND_PACKAGE_DIR_Release=dist/Release/GNU-Solaris-x86/package
+CND_PACKAGE_NAME_Release=hw2.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Solaris-x86/package/hw2.tar
+#
+# include compiler specific variables
+#
+# dmake command
+ROOT:sh = test -f nbproject/private/Makefile-variables.mk || \
+	(mkdir -p nbproject/private && touch nbproject/private/Makefile-variables.mk)
+#
+# gmake command
+.PHONY: $(shell test -f nbproject/private/Makefile-variables.mk || (mkdir -p nbproject/private && touch nbproject/private/Makefile-variables.mk))
+#
+include nbproject/private/Makefile-variables.mk
+
+
+Node-path: hw2/nbproject/Package-Debug.bash
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 1405
+Text-content-md5: 96be52ebfad5f421350299f251224814
+Text-content-sha1: a1d33e6aa6fe4521a9fbfd19ab762517c79c7ff1
+Content-length: 1415
+
+PROPS-END
+#!/bin/bash -x
+
+#
+# Generated - do not edit!
+#
+
+# Macros
+TOP=`pwd`
+CND_PLATFORM=GNU-Solaris-x86
+CND_CONF=Debug
+CND_DISTDIR=dist
+CND_BUILDDIR=build
+NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
+TMPDIRNAME=tmp-packaging
+OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hw2
+OUTPUT_BASENAME=hw2
+PACKAGE_TOP_DIR=hw2/
+
+# Functions
+function checkReturnCode
+{
+    rc=$?
+    if [ $rc != 0 ]
+    then
+        exit $rc
+    fi
+}
+function makeDirectory
+# $1 directory path
+# $2 permission (optional)
+{
+    mkdir -p "$1"
+    checkReturnCode
+    if [ "$2" != "" ]
+    then
+      chmod $2 "$1"
+      checkReturnCode
+    fi
+}
+function copyFileToTmpDir
+# $1 from-file path
+# $2 to-file path
+# $3 permission
+{
+    cp "$1" "$2"
+    checkReturnCode
+    if [ "$3" != "" ]
+    then
+        chmod $3 "$2"
+        checkReturnCode
+    fi
+}
+
+# Setup
+cd "${TOP}"
+mkdir -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package
+rm -rf ${NBTMPDIR}
+mkdir -p ${NBTMPDIR}
+
+# Copy files and create directories and links
+cd "${TOP}"
+makeDirectory "${NBTMPDIR}/hw2/bin"
+copyFileToTmpDir "${OUTPUT_PATH}" "${NBTMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}" 0755
+
+
+# Generate tar file
+cd "${TOP}"
+rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/hw2.tar
+cd ${NBTMPDIR}
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/hw2.tar *
+checkReturnCode
+
+# Cleanup
+cd "${TOP}"
+rm -rf ${NBTMPDIR}
+
+
+Node-path: hw2/nbproject/Package-Release.bash
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 1407
+Text-content-md5: 635e44dcba153f4c81701f68a5ca1a67
+Text-content-sha1: ea2d0ea69a15837107ce6d341e7039d492324423
+Content-length: 1417
+
+PROPS-END
+#!/bin/bash -x
+
+#
+# Generated - do not edit!
+#
+
+# Macros
+TOP=`pwd`
+CND_PLATFORM=GNU-Solaris-x86
+CND_CONF=Release
+CND_DISTDIR=dist
+CND_BUILDDIR=build
+NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
+TMPDIRNAME=tmp-packaging
+OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hw2
+OUTPUT_BASENAME=hw2
+PACKAGE_TOP_DIR=hw2/
+
+# Functions
+function checkReturnCode
+{
+    rc=$?
+    if [ $rc != 0 ]
+    then
+        exit $rc
+    fi
+}
+function makeDirectory
+# $1 directory path
+# $2 permission (optional)
+{
+    mkdir -p "$1"
+    checkReturnCode
+    if [ "$2" != "" ]
+    then
+      chmod $2 "$1"
+      checkReturnCode
+    fi
+}
+function copyFileToTmpDir
+# $1 from-file path
+# $2 to-file path
+# $3 permission
+{
+    cp "$1" "$2"
+    checkReturnCode
+    if [ "$3" != "" ]
+    then
+        chmod $3 "$2"
+        checkReturnCode
+    fi
+}
+
+# Setup
+cd "${TOP}"
+mkdir -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package
+rm -rf ${NBTMPDIR}
+mkdir -p ${NBTMPDIR}
+
+# Copy files and create directories and links
+cd "${TOP}"
+makeDirectory "${NBTMPDIR}/hw2/bin"
+copyFileToTmpDir "${OUTPUT_PATH}" "${NBTMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}" 0755
+
+
+# Generate tar file
+cd "${TOP}"
+rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/hw2.tar
+cd ${NBTMPDIR}
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/hw2.tar *
+checkReturnCode
+
+# Cleanup
+cd "${TOP}"
+rm -rf ${NBTMPDIR}
+
+
+Node-path: hw2/nbproject/configurations.xml
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 1983
+Text-content-md5: 7161765dfa8f33979e64c349702be3c9
+Text-content-sha1: c79f3d18399056108618ef4f860e4210a3e3cf27
+Content-length: 1993
+
+PROPS-END
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>main.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
+
+
+Node-path: hw2/nbproject/private
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: hw2/nbproject/private/Makefile-variables.mk
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 88
+Text-content-md5: 910f053030c6129998bda57a65ed2068
+Text-content-sha1: 15d84b4edafb4f2f253aa6a19fe4914b8b14b1de
+Content-length: 98
+
+PROPS-END
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+# Debug configuration
+# Release configuration
+
+
+Node-path: hw2/nbproject/private/configurations.xml
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 2454
+Text-content-md5: a80cc3d4eeaec65bba5c469cd538346a
+Text-content-sha1: 9c9398ad84d3ae1a6b8e3406ff477f5e75e002b7
+Content-length: 2464
+
+PROPS-END
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>1</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>1</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
+
+
+Node-path: hw2/nbproject/private/private.xml
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 314
+Text-content-md5: a6a5f105c42e1ae8f784a7aa59e2e8f0
+Text-content-sha1: 026091f0dd1290b9acefc7c03cddd0ef1c3da863
+Content-length: 324
+
+PROPS-END
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>1</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+</project-private>
+
+
+Node-path: hw2/nbproject/project.xml
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 837
+Text-content-md5: 0830e09ead4a6adccdc0c97a545c45b2
+Text-content-sha1: fe9ff59978439a4d7cbe42573d4749f757120700
+Content-length: 847
+
+PROPS-END
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.cnd.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>hw2</name>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions/>
+            <sourceEncoding>UTF-8</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList/>
+            <confList>
+                <confElem>
+                    <name>Debug</name>
+                    <type>1</type>
+                </confElem>
+                <confElem>
+                    <name>Release</name>
+                    <type>1</type>
+                </confElem>
+            </confList>
+        </data>
+    </configuration>
+</project>
+
+
+Revision-number: 4
+Prop-content-length: 146
+Content-length: 146
+
+K 7
+svn:log
+V 45
+main.c modified into three a's multiplication
+K 10
+svn:author
+V 6
+xiw412
+K 8
+svn:date
+V 27
+2012-09-14T00:46:28.191722Z
+PROPS-END
+
+Node-path: hw2/main.c
+Node-kind: file
+Node-action: change
+Text-content-length: 282
+Text-content-md5: 9335108002dc66d7e8b5b29177d34499
+Text-content-sha1: 8da2069cfac01a54abb091c07cd1333ed14b5ebd
+Content-length: 282
+
+/* 
+ * File:   main.c
+ * Author: xiw412
+ *
+ * Created on September 13, 2012, 12:02 PM
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+ * 
+ */
+int main(int argc, char** argv) {
+
+    int a,b;
+    a = 3;
+    b = a * a * a;
+    printf("%d\n", a * b);
+    
+    return (EXIT_SUCCESS);
+}
+
+
+
+Revision-number: 5
+Prop-content-length: 112
+Content-length: 112
+
+K 7
+svn:log
+V 11
+hw2 deleted
+K 10
+svn:author
+V 6
+xiw412
+K 8
+svn:date
+V 27
+2012-09-14T00:51:30.946296Z
+PROPS-END
+
+Node-path: hw2/hw2
+Node-action: delete
+
+
+Revision-number: 6
+Prop-content-length: 109
+Content-length: 109
+
+K 7
+svn:log
+V 9
+hw2 start
+K 10
+svn:author
+V 6
+xiw412
+K 8
+svn:date
+V 27
+2012-09-14T03:10:22.868152Z
+PROPS-END
+
+Node-path: hw2/.dep.inc
+Node-kind: file
+Node-action: change
+Text-content-length: 94
+Text-content-md5: 5e392b271bdbe3f61a988080f686b6f7
+Text-content-sha1: c9cf1ed954ab518518be70ce96776e0c638ee932
+Content-length: 94
+
+# This code depends on make tool being used
+.KEEP_STATE:
+.KEEP_STATE_FILE:.make.state.${CONF}
+
+
+Node-path: hw2/.make.state.Debug
+Node-kind: file
+Node-action: change
+Text-content-length: 1896
+Text-content-md5: 09e3edee78c61936c9bb5cd8fc490b96
+Text-content-sha1: f6315026a9a27f2da821bdbb35806edcbeaf7a9f
+Content-length: 1896
+
+.MAKE_VERSION:	VERSION-1.0
+.BUILT_LAST_MAKE_RUN:
+.build-conf:
+	"make"  -f nbproject/Makefile-Debug.mk dist/Debug/GNU-Solaris-x86/hw2
+.clean-conf:
+	rm -f -r build/Debug
+	rm -f dist/Debug/OracleSolarisStudio-Solaris-x86/hw2
+.BUILT_LAST_MAKE_RUN:
+.depcheck-impl:
+	echo "# This code depends on make tool being used" >.dep.inc
+	if [ -n "" ]; then \
+	    echo "DEPFILES=\$(wildcard \$(addsuffix .d, \${OBJECTFILES}))" >>.dep.inc; \
+	    echo "ifneq (\${DEPFILES},)" >>.dep.inc; \
+	    echo "include \${DEPFILES}" >>.dep.inc; \
+	    echo "endif" >>.dep.inc; \
+	else \
+	    echo ".KEEP_STATE:" >>.dep.inc; \
+	    echo ".KEEP_STATE_FILE:.make.state.\${CONF}" >>.dep.inc; \
+	fi
+build/Debug/GNU-Solaris-x86/main.o:
+	mkdir -p build/Debug/GNU-Solaris-x86
+	rm -f build/Debug/GNU-Solaris-x86/main.o.d
+	gcc   -c -g -MMD -MP -MF build/Debug/GNU-Solaris-x86/main.o.d -o build/Debug/GNU-Solaris-x86/main.o main.c
+build/Debug/OracleSolarisStudio-Solaris-x86/main.o:	/usr/include/stdio.h /usr/include/sys/feature_tests.h /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h /usr/include/iso/stdio_iso.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h /usr/include/iso/stdlib_c99.h 
+	mkdir -p build/Debug/OracleSolarisStudio-Solaris-x86
+	cc   -c -g -o build/Debug/OracleSolarisStudio-Solaris-x86/main.o main.c
+dist/Debug/GNU-Solaris-x86/hw2:	/lib/libc.so /usr/sfw/lib/gcc/i386-pc-solaris2.10/3.4.3/libgcc_eh.a /usr/sfw/lib/gcc/i386-pc-solaris2.10/3.4.3/libgcc.a 
+	mkdir -p dist/Debug/GNU-Solaris-x86
+	gcc    -o dist/Debug/GNU-Solaris-x86/hw2 build/Debug/GNU-Solaris-x86/main.o  
+dist/Debug/OracleSolarisStudio-Solaris-x86/hw2:	/lib/libc.so 
+	mkdir -p dist/Debug/OracleSolarisStudio-Solaris-x86
+	cc    -o dist/Debug/OracleSolarisStudio-Solaris-x86/hw2 build/Debug/OracleSolarisStudio-Solaris-x86/main.o  
+
+
+Node-path: hw2/dist/Debug/GNU-Solaris-x86/hw2
+Node-kind: file
+Node-action: change
+Text-content-length: 7416
+Text-content-md5: 41f81ac6b67c50795dd03e604b42e819
+Text-content-sha1: 4490ebf06f71862bcb9fe443802baf909b23d713
+Content-length: 7416
+
+ELF              ”4   ¨      4    ( " !    4   4                       Ô                                      0	  0	           0	  0	    `  |           l	  l	    Ğ              /usr/lib/ld.so.1                                
+                                                                                                         	                                                                                                   t          ô     
+ #   <
+   !  +               I   l	      R   
+      Y   @
+     a   0	      h   ğ     n                  ¨     ‡   lL     "   <
+     Œ   0	      ¢   4       ¨   (	     µ          ¿          Æ   „    "   Ş   ,{     £   $       ä   ¬
+      é   ”–     ğ   	     ö   p
+                                  3  l
+     E               printf _PROCEDURE_LINKAGE_TABLE_ _environ __deregister_frame_info_bases _DYNAMIC _edata ___Argv _etext _init __fsr_init_value _mcount main _GLOBAL_OFFSET_TABLE_ _exit _lib_version __fpstart atexit _get_exit_frame_monitor __fsr _end _start _fini __dso_handle _Jv_RegisterClasses __register_frame_info_bases __longdouble_used __1cG__CrunMdo_exit_code6F_v_ libc.so.1 SYSVABI_1.3 SUNWprivate_1.1 /usr/sfw/lib     c         ³Ì7    m     qÌN    y      5
+  L	  T	  \	  H
+  <	  @	  D	  H	  P	  X	  `	  d	  h	  ÿ54	ÿ%8	    ÿ%<	h    éàÿÿÿÿ%@	h   éĞÿÿÿÿ%D	h   éÀÿÿÿÿ%H	h   é°ÿÿÿÿ%P	h    é ÿÿÿÿ%X	h(   éÿÿÿÿ%`	h0   é€ÿÿÿÿ%d	h8   épÿÿÿÿ%h	h@   é`ÿÿÿj j ‹ì¸l	…Àt	Rè[ÿÿÿƒÄh	èNÿÿÿƒÄD
+‹ …ÀtH
+‹ …Àt	Pè-ÿÿÿƒÄ‹E‹<
+…Òu
+T…‰<
+ƒäğRU‰@
+RPèÿÿÿè"   èá  èX  ƒÄPPèÿÿÿƒÄèÿÿÿƒÄôU‹ìRQƒì¹    Ñéƒù t`›Ù|$ ‹ÑƒâŠ‚L
+ D$ ÷Á   t€d$ ı‹Ñƒâ`t‹Âƒà Ñà3ĞÁâfd$ ÿóf	T$ á€  tñ€  Ñáfd$ ÿüf	L$ Ùl$ ƒÄYZ]ÃÃ   U‰åSè    [Ã{ R€»`   të:ƒÀ‰ƒ\  ÿÒ‹ƒ\  ‹…Òué‹ƒ   …ÀtƒìƒT  PèLşÿÿƒÄÆƒ`  ‹]üÉÃU‰åSè    [Ã P‹ƒ$   …ÀtSj ƒd  PƒT  PèşÿÿƒÄ‹ƒX  …Àt‹‹,   …ÉtƒìƒX  PèşÿÿƒÄ‰ö‹]üÉÃ   U‰åƒìƒäğ¸    ƒÀƒÀÁèÁà)ÄÇEü   ‹Eü¯Eü‰Eøƒì‹Eü¯EøPh,	èÆıÿÿƒÄ¸    ÉÃU‰åVSè    [Ãn  ƒH  pü‹@üëƒîÿĞ‹ƒøÿuô[^ÉÃ        U‹ìSè    [Ã7  èÿÿÿè®ÿÿÿ[ÉÃ   U‹ìSè    [Ã  è‡şÿÿ[ÉÃ   %d
+ l	        
+*:    J    Z    jzŠ   c     ğ   	   ‰     ‰     è    ¼
+   –     Ü      øıÿo2  şÿÿoTÿÿÿo             H            ¬   „   p                üıÿo         ûÿÿo       0	                „    ÿßûÛïÏëË÷×óÓçÇãÃşŞúÚîÎêÊöÖòÒæÆâÂ        ÿÿÿÿ    ÿÿÿÿ            €
+                            ñÿ    Ô           è           Ü          ¼          T          „          Œ          ¤          ¬     	     ô     
+     ”          ğ          	          (	          0	          l	          <
+          t
+          |
+          „
+          ˆ
+          Œ
+          
+                                                                                                                                                  ! N  ¬
+      T                       ñÿ&   D
+     C   H
+     V   L
+      a            ñÿh            ñÿt            ñÿ   t
+         |
+      ›   „
+      ®   ˆ
+      »   Œ
+      ¿   
+     Ë   ¬      á   ”
+     ê         ö            ñÿt            ñÿı   x
+      
+  €
+        „
+      %  ˆ
+      1  ¸      G           ñÿ\  t       c  ô     
+ ~  <
+   !  †              ¤  l	      ­  
+      ´  @
+     ¼  0	      Ã  ğ     É              Ú  ¨     â  lL     }  <
+     ç  0	      ı  4         (	                       !  „    "   9  ,{     ş  $       ?  ¬
+      D  ”–     K  	     Q  p
+      ^              r                l
+                     dist/Debug/GNU-Solaris-x86/hw2 fsr.s __get_exit_frame_monitor_ptr __do_exit_code_ptr trap_table crti.s values-Xa.c crtstuff.c __CTOR_LIST__ __DTOR_LIST__ __EH_FRAME_BEGIN__ __JCR_LIST__ p.0 completed.1 __do_global_dtors_aux object.2 frame_dummy main.c __CTOR_END__ __DTOR_END__ __FRAME_END__ __JCR_END__ __do_global_ctors_aux crtn.s _END_ _START_ printf _PROCEDURE_LINKAGE_TABLE_ _environ __deregister_frame_info_bases _DYNAMIC _edata ___Argv _etext _init __fsr_init_value _mcount main _GLOBAL_OFFSET_TABLE_ _exit _lib_version __fpstart atexit _get_exit_frame_monitor __fsr _end _start _fini __dso_handle _Jv_RegisterClasses __register_frame_info_bases __longdouble_used __1cG__CrunMdo_exit_code6F_v_  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  @(#)SunOS 5.10 Generic January 2005 ld: Software Generation Utilities - Solaris Link Editors: 5.10-1.497 %  $ >  .?:;'I@
+   :;I
+  4 :;I
+   I              ¸lGNU C 3.4.3 (csl-sol210-3_4-branch+sol_rpath) main.c /home/xiw412/NetBeansProject/hw2 char int unsigned char unsigned int long long int long int   main w   l¸Uargc w   ‘argv   ‘a w   ‘|b w   ‘x   o    6       û
+     main.c      l¬rœsV    ÿÿÿÿ |ˆ  $       lL      …   :   .           ¼   main                  lL            .interp .hash .dynsym .dynstr .SUNW_version .rel.text .rel.got .rel.data .rel.plt .init .fini .rodata .dynamic .ctors .dtors .eh_frame .jcr .data.rel.local .bss .symtab .strtab .comment .debug_abbrev .debug_info .debug_line .debug_frame .debug_pubnames .debug_aranges .shstrtab                                                    Ô Ô                     	         è è   ô                         ÜÜ  à                    "   ¼¼  –                    şÿÿo   TT  0                -   	   B   „„                 7   	   B   ŒŒ                 @   	   B   ¤¤                 J   	   B   ¬¬  H      
+         N         ôô                    1         ””  T                 S         ğğ                    Y         		                    _         (	(	                    ;         0	0	  <                 g         l	l	  Ğ                D         <
+<
+  8                  p         t
+t
+                    w         |
+|
+                    ~         „
+„
+                    ˆ         ˆ
+ˆ
+                             Œ
+Œ
+                             
+
+                    ¢              
+        =         ª              0  ¾                 ²              î  u                 »              c  _                  É              Â                   Õ              Ş  :                  á                <                  î              T                    ş              o                                                     
+
+Node-path: hw2/main.c
+Node-kind: file
+Node-action: change
+Text-content-length: 916
+Text-content-md5: 0714c7b751ac722c3fd8e966e9d64fd0
+Text-content-sha1: 30ce6abcbb94036c463f581b1769cbe064b016c9
+Content-length: 916
+
+/* 
+ * File:   main.c
+ * Author: xiw412
+ *
+ * Created on September 13, 2012, 12:02 PM
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+/*
+ * 
+ */
+int main(int argc, char** argv) {
+
+//If enter wc command, read files
+    char command; //command wc
+    int command_append; //options of command wc
+    opterr = 0; 
+
+    whie  ( getchar() = ' ')//if whitespaces are typed before command wc, it's ok
+	    command = getchar();
+    if ( command == 'w' )
+	    command = getchar();
+    else
+	    printf("This is not word counter command wc!");
+    if ( command == 'c' )
+	    command = getchar();
+    else
+	    printf("This is not word counter command wc!");
+    if ( command == ' ' )
+	    command_append = getchar();
+    else
+	    printf("This is not word counter command wc, or there is an error in input!");
+    while ((command_append = getopt ( argc, argv, "lcmC"))) 
+
+
+
+
+    
+    return (EXIT_SUCCESS);
+}
+
+
+
+Revision-number: 7
+Prop-content-length: 100
+Content-length: 100
+
+K 7
+svn:log
+V 0
+
+K 10
+svn:author
+V 6
+xiw412
+K 8
+svn:date
+V 27
+2012-09-14T16:15:13.691749Z
+PROPS-END
+
+Node-path: hw2/main.c
+Node-kind: file
+Node-action: change
+Text-content-length: 1562
+Text-content-md5: 62240e62c8e150b5954b0c28bed3834b
+Text-content-sha1: 1339fa7fb358322dd9a621ab54808456a4f1a71a
+Content-length: 1562
+
+/* 
+ * File:   main.c
+ * Author: xiw412
+ *
+ * Created on September 13, 2012, 12:02 PM
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+/*
+ * 
+ */
+int main(int argc, char** argv) {
+
+//If enter wc command, read files
+    char command; //command wc
+    int c_flag[3] = {0, 0, 0};
+    int l_flag = 0;
+    int w_flag = 0;
+    int command_append; //options of command wc
+    int opterr = 0; 
+
+    while  ( getchar() = ' ')//if whitespaces are typed before command wc, it's ok
+	    command = getchar();
+    if ( command == 'w' )
+	    command = getchar();
+    else
+	    printf("This is not word counter command wc!");
+    if ( command == 'c' )
+	    command = getchar();
+    else
+	    printf("This is not word counter command wc!");
+    if ( command == ' ' )
+	    command_append = getchar();
+    else
+	    printf("This is not word counter command wc, or there is an error in input!");
+    while ((command_append = getopt ( argc, argv, "lwcmC"))!=-1)
+    {
+        switch ( command_append )
+        {
+            case 'l':
+                l_flag = 1;
+                break;
+            case 'w':
+                w_flag = 1;
+                break;
+            case 'c':
+                c_flag[0] = 1;
+                break;
+            case 'C':
+                c_flag[1] = 1;
+                break;
+            case 'm':
+                c_flag[2] = 1;
+                break;
+            default:
+                l_flag = 1;
+                w_flag = 1;
+                c_flag[0] = 1;
+        }
+        
+    }
+        
+
+
+
+
+    
+    return (EXIT_SUCCESS);
+}
+
+
+
+Revision-number: 8
+Prop-content-length: 100
+Content-length: 100
+
+K 7
+svn:log
+V 0
+
+K 10
+svn:author
+V 6
+xiw412
+K 8
+svn:date
+V 27
+2012-09-15T23:42:38.336143Z
+PROPS-END
+
+Node-path: hw2/.make.state.Debug
+Node-kind: file
+Node-action: change
+Text-content-length: 1790
+Text-content-md5: 7bfffefdbd1e7d53489a0f6a8b893b9d
+Text-content-sha1: 29bb08dacc6c080d589139dbfadf104ef76e84de
+Content-length: 1790
+
+.MAKE_VERSION:	VERSION-1.0
+.clean-conf:
+	rm -f -r build/Debug
+	rm -f dist/Debug/OracleSolarisStudio-Solaris-x86/hw2
+.BUILT_LAST_MAKE_RUN:
+.depcheck-impl:
+	echo "# This code depends on make tool being used" >.dep.inc
+	if [ -n "" ]; then \
+	    echo "DEPFILES=\$(wildcard \$(addsuffix .d, \${OBJECTFILES}))" >>.dep.inc; \
+	    echo "ifneq (\${DEPFILES},)" >>.dep.inc; \
+	    echo "include \${DEPFILES}" >>.dep.inc; \
+	    echo "endif" >>.dep.inc; \
+	else \
+	    echo ".KEEP_STATE:" >>.dep.inc; \
+	    echo ".KEEP_STATE_FILE:.make.state.\${CONF}" >>.dep.inc; \
+	fi
+build/Debug/GNU-Solaris-x86/main.o:
+	mkdir -p build/Debug/GNU-Solaris-x86
+	rm -f build/Debug/GNU-Solaris-x86/main.o.d
+	gcc   -c -g -MMD -MP -MF build/Debug/GNU-Solaris-x86/main.o.d -o build/Debug/GNU-Solaris-x86/main.o main.c
+build/Debug/OracleSolarisStudio-Solaris-x86/main.o:	/usr/include/stdio.h /usr/include/sys/feature_tests.h /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h /usr/include/iso/stdio_iso.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h /usr/include/iso/stdlib_c99.h 
+	mkdir -p build/Debug/OracleSolarisStudio-Solaris-x86
+	cc   -c -g -o build/Debug/OracleSolarisStudio-Solaris-x86/main.o main.c
+dist/Debug/GNU-Solaris-x86/hw2:	/lib/libc.so /usr/sfw/lib/gcc/i386-pc-solaris2.10/3.4.3/libgcc_eh.a /usr/sfw/lib/gcc/i386-pc-solaris2.10/3.4.3/libgcc.a 
+	mkdir -p dist/Debug/GNU-Solaris-x86
+	gcc    -o dist/Debug/GNU-Solaris-x86/hw2 build/Debug/GNU-Solaris-x86/main.o  
+dist/Debug/OracleSolarisStudio-Solaris-x86/hw2:	/lib/libc.so 
+	mkdir -p dist/Debug/OracleSolarisStudio-Solaris-x86
+	cc    -o dist/Debug/OracleSolarisStudio-Solaris-x86/hw2 build/Debug/OracleSolarisStudio-Solaris-x86/main.o  
+
+
+Node-path: hw2/dist/Debug/GNU-Solaris-x86/hw2
+Node-kind: file
+Node-action: change
+Text-content-length: 9848
+Text-content-md5: 9c09b879ec59f6db943e355b8a88b43b
+Text-content-sha1: 69ccd1e02555dd1c8d4715ace6b0589d3b2d246a
+Content-length: 9848
+
+ELF              ì4   Ø       4    ( $ #    4   4                       Ô                                      ²  ²           ´  ´    l  X           ü  ü    Ğ              /usr/lib/ld.so.1    %   &                          	                   
+                                                                              "   $                                                                                                                        !       #       %                                         @À                   ,   Ì     5   Ä	ê    :   Ğ     B               `               |   ü      …        Œ   ¼       •    	        ¬       ¤   „{     ª   Ü    "   Â          É   ,       Ğ   à     Ö        İ   œ       ä   ü     ö                      !  ²      (        /  L       4  ì–     -   Ì   !  ;        @  Ì       I  <       .  \          @À  !  S  ´      i        p         }         __fsr_init_value __iob _Jv_RegisterClasses _environ main ___Argv __1cG__CrunMdo_exit_code6F_v_ __register_frame_info_bases _DYNAMIC optopt __filbuf _mcount printf __fsr _get_exit_frame_monitor _edata atexit _init optind getopt __longdouble_used __deregister_frame_info_bases _lib_version _etext _fini _exit _start _end iswspace __fpstart _GLOBAL_OFFSET_TABLE_ opterr __dso_handle _PROCEDURE_LINKAGE_TABLE_ libc.so.1 SUNW_1.1 SUNWprivate_1.1 /usr/sfw/lib    —         ‘'=
+    ¡     qÌN    ª        Ğ  Ø  à  Ø  
+   #    @  À  Ä  È  Ì   Ô  Ü  ä  è  ì  ğ  ô  ø  ÿ5¸ÿ%¼    ÿ%Àh    éàÿÿÿÿ%Äh   éĞÿÿÿÿ%Èh   éÀÿÿÿÿ%Ìh   é°ÿÿÿÿ%Ôh    é ÿÿÿÿ%Üh(   éÿÿÿÿ%äh0   é€ÿÿÿÿ%èh8   épÿÿÿÿ%ìh@   é`ÿÿÿÿ%ğhH   éPÿÿÿÿ%ôhP   é@ÿÿÿÿ%øhX   é0ÿÿÿj j ‹ì¸ü…Àt	Rè+ÿÿÿƒÄh èÿÿÿƒÄÔ‹ …ÀtØ‹ …Àt	PèışÿÿƒÄ‹E‹Ì…Òu
+T…‰ÌƒäğRU‰ĞRPèßşÿÿè"   èy  èX  ƒÄPPèÖşÿÿƒÄèŞşÿÿƒÄôU‹ìRQƒì¹    Ñéƒù t`›Ù|$ ‹ÑƒâŠ‚Ü D$ ÷Á   t€d$ ı‹Ñƒâ`t‹Âƒà Ñà3ĞÁâfd$ ÿóf	T$ á€  tñ€  Ñáfd$ ÿüf	L$ Ùl$ ƒÄYZ]ÃÃ   U‰åSè    [Ã§ R€»l   të:ƒÀ‰ƒh  ÿÒ‹ƒh  ‹…Òué‹ƒ   …Àtƒìƒ`  PèşÿÿƒÄÆƒl  ‹]üÉÃU‰åSè    [ÃK P‹ƒ$   …ÀtSj ƒp  Pƒ`  PèëıÿÿƒÄ‹ƒd  …Àt‹‹,   …Étƒìƒd  PèÕıÿÿƒÄ‰ö‹]üÉÃ   U‰åƒì8ƒäğ¸    ƒÀƒÀÁèÁà)ÄÇEø    ÇEô    ÇEğ    ÇEì    ÇEè    ÇEä    ÇEà    ÇEÜ    ƒìhÿuÿuèqıÿÿƒÄ‰EØƒ}Øÿ„Ş   ƒìÿuØÿ5ÿ5 ÿ5h$èOıÿÿƒÄ ‹EØ‰EĞƒ}Ğlt"ƒ}Ğlƒ}ĞCtXƒ}Ğct%ë}ƒ}ĞmtJƒ}ĞwtëoÇEğ   ëÇEì   éuÿÿÿÇEø   ƒ}ô „dÿÿÿƒìhPèëüÿÿƒÄÇEÔ   éÙ  ÇEô   ƒ}ø „7ÿÿÿƒìhPè¾üÿÿƒÄÇEÔ   é¬  ƒìhPè¢üÿÿƒÄÇEÔ   é  ƒìÿuôÿuøÿuìÿuğh|èzüÿÿƒÄ ƒ=uÇEğ   ÇEì   ÇEø   ƒìÿuôÿuøÿuìÿuğh|è@üÿÿƒÄ ÿ@ƒ=@ yƒìh@è1üÿÿƒÄˆEÏë¡DÿDŠ ˆEÏŠEÏˆEÿ<ÿ„   ƒì¾EÿPèüÿÿƒÄ…Àu_ƒì¾EÿPèúûÿÿƒÄ…ÀuFEàÿ EÜÿ ÿ@ƒ=@ yƒìh@è½ûÿÿƒÄˆEÎë¡DÿDŠ ˆEÎŠEÎˆEÿë¦Eäÿ €}ÿ
+uEèÿ Eàÿ EÜÿ é1ÿÿÿƒ}ğ tƒìÿuèh®èXûÿÿƒÄƒ}ì tƒìÿuäh®è?ûÿÿƒÄƒ}ø tƒìÿuàh®è&ûÿÿƒÄƒ}ô tƒìÿuÜh®èûÿÿƒÄÇEÔ    ‹EÔÉÃ  U‰åVSè    [Ãú  ƒT  pü‹@üëƒîÿĞ‹ƒøÿuô[^ÉÃU‹ìSè    [ÃË  èküÿÿè¶ÿÿÿ[ÉÃ   U‹ìSè    [Ã«  èïûÿÿ[ÉÃ   lwcmC   optind:%d opterr:%d optopt:%d getopt:%c
+    usage: wc [-c | -m | -C] [-lw] [file ...]
+  l_flag: %d, w_flag: %d, c_flag: %d, C_m_flag: %d
+ %8d   ü        2BRb    r    ‚    ’¢²ÂÒâ   —     à       º     º     è    |
+   Ç           øıÿoÄ¹  şÿÿoDÿÿÿo             `            ¼   t   ¨                üıÿo         ûÿÿo       ´                Ü    ÿßûÛïÏëË÷×óÓçÇãÃşŞúÚîÎêÊöÖòÒæÆâÂ        ÿÿÿÿ    ÿÿÿÿ                                        ñÿ    Ô           è                     |          D          t          |          ”          œ     	     ¼     
+               ì          à                               ´          ü          Ì                                                                                                                                                                                                 !              "              # N        T                       ñÿ&   Ô     C   Ø     V   Ü      a            ñÿh            ñÿt            ñÿ                  ›         ®         »         ¿         Ë   	      á   $     ê   `	      ö            ñÿt            ñÿı         
+                %        1  °      G           ñÿ\              m  @À    s              ‡  Ì       Ä	ê    •  Ğ                   »              ×  ü      à       ç  ¼       ğ   	     ø  ¬       ÿ  „{       Ü    "            $  ,       +  à     1       8  œ       ?  ü     Q              o       |  ²      ƒ        Š  L         ì–     ˆ  Ì   !  –        ›  Ì       ¤  <       ‰  \       n  @À  !  ®  ´      Ä        Ë         Ø         dist/Debug/GNU-Solaris-x86/hw2 fsr.s __get_exit_frame_monitor_ptr __do_exit_code_ptr trap_table crti.s values-Xa.c crtstuff.c __CTOR_LIST__ __DTOR_LIST__ __EH_FRAME_BEGIN__ __JCR_LIST__ p.0 completed.1 __do_global_dtors_aux object.2 frame_dummy main.c __CTOR_END__ __DTOR_END__ __FRAME_END__ __JCR_END__ __do_global_ctors_aux crtn.s _END_ _START_ __fsr_init_value __iob _Jv_RegisterClasses _environ main ___Argv __1cG__CrunMdo_exit_code6F_v_ __register_frame_info_bases _DYNAMIC optopt __filbuf _mcount printf __fsr _get_exit_frame_monitor _edata atexit _init optind getopt __longdouble_used __deregister_frame_info_bases _lib_version _etext _fini _exit _start _end iswspace __fpstart _GLOBAL_OFFSET_TABLE_ opterr __dso_handle _PROCEDURE_LINKAGE_TABLE_  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  @(#)SunOS 5.10 Generic January 2005 ld: Software Generation Utilities - Solaris Link Editors: 5.10-1.502 %  $ >   :;I  :;   :;I8
+   :;I8
+   I  $ >  	.?:;'I@
+  
+ :;I
+  4 :;I
+    .?:;I<     I  ! I/  4 :;I?<              ®Ä	GNU C 3.4.3 (csl-sol210-3_4-branch+sol_rpath) main.c /home/xiw412/NetBeansProject/hw2 char __FILE …   x  __FILE _cnt #x  # _ptr $  #_base &  #_flag '…  #_file (…  #__orientation *–  #__ionolock +–  #__seekable ,–  #__extendedfd -–  #__xf_nocheck .–  
+#__filler /–  
+ # int …  unsigned char     long long int long int     short int short unsigned int long long unsigned int long unsigned int o   long double 	>  main x  Ä	®U
+argc x  ‘
+argv >  ‘file_char o   ‘c_flag x  ‘xC_m_flag x  ‘tl_flag x  ‘pw_flag x  ‘ll_count x  ‘hw_count x  ‘dc_count x  ‘`C_m_count  x  ‘\command_append !x  ‘X±9iswspace Ux       T  w   º  ; __iob ’D  optind x  opterr x  optopt x   Â    f   û
+    /usr/include/iso /usr/include  main.c    stdio_iso.h   stdio_tag.h   stdio_impl.h     Ä	®rrrrrrrt#%.r-rWrğ¼rğ»ğ»«rrt®B;;VV<WeWV¡e-e-e-e-r       ÿÿÿÿ |ˆ  @       Ä	ê     …   _   .2   . d   .q   . Y   .         ”  (  main                  Ä	ê          unsigned int  .interp .hash .dynsym .dynstr .SUNW_version .rel.text .rel.got .rel.data .rel.bss .rel.plt .init .fini .rodata .dynamic .ctors .dtors .eh_frame .jcr .data.rel.local .symtab .strtab .comment .debug_abbrev .debug_info .debug_line .debug_frame .debug_pubnames .debug_aranges .debug_str .shstrtab                                                    Ô Ô                     	         è è   4                          `                    "   ||  Ç                    şÿÿo   DD  0                -   	   B   tt                 7   	   B   ||                 @   	   B   ””                 J   	   B   œœ                  S   	   B   ¼¼  `               W           Ğ                 1         ìì  ô                 \         àà                    b                               h           š                  ;         ´´  H                 p         üü  Ğ                D         ÌÌ  8                  y                             €                             ‡                             ‘                             –                             N             ì                 ¦                 @     ?         ®              `  ò                 ¶              R  u                 ¿              Ç  ì                  Í              ³  ”                 Ù              G  Æ                  å                X                  ò              h                                 ƒ                                  £                                 °  &                 
+
+Node-path: hw2/main.c
+Node-kind: file
+Node-action: change
+Text-content-length: 3324
+Text-content-md5: 1301bf5776f38a9a687918b8e33b3c62
+Text-content-sha1: f634d13ab1bba3fc99d7091a219becb16526de24
+Content-length: 3324
+
+/* 
+ * File:   main.c
+ * Author: xiw412
+ *
+ * Created on September 13, 2012, 12:02 PM
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+
+/*
+ * 
+ */
+extern int optind;
+extern int opterr;
+extern int optopt;
+
+int main(int argc, char** argv) {
+
+//If enter wc command, read files
+//    char command; //command wc
+    char file_char; //characters in input file
+    int c_flag = 0; //read options of wc command
+    int C_m_flag = 0;
+    int l_flag = 0;
+    int w_flag = 0;
+    int l_count = 0;
+    int w_count = 0;
+    int c_count = 0;
+    int C_m_count = 0;
+    int command_append; //options of command wc
+    int l_count_sum = 0;
+    int w_count_sum = 0;
+    int c_count_sum = 0;
+    int C_m_count = 0;
+
+    while ((command_append = getopt ( argc, argv, "lwcmC"))!= -1)
+    {
+//	    printf ("optind:%d opterr:%d optopt:%d getopt:%c\n", optind, opterr, optopt, command_append);
+        switch ( command_append )
+        {
+            case 'l':
+                l_flag = 1;
+		break;
+            case 'w':
+                w_flag = 1;
+		break;
+            case 'c':
+                c_flag = 1;
+		if ( C_m_flag )
+		{
+			printf ("usage: wc [-c | -m | -C] [-lw] [file ...]\n");
+			return 1;
+		}
+		break;
+            case 'C':
+	    case 'm':
+                C_m_flag = 1;
+		if ( c_flag )
+		{
+			printf ("usage: wc [-c | -m | -C] [-lw] [file ...]\n");
+			return 1;
+		}
+		break;
+            default:
+		printf ("usage: wc [-c | -m | -C] [-lw] [file ...]\n");
+		return 1;
+        }
+    }
+
+//    printf("l_flag: %d, w_flag: %d, c_flag: %d, C_m_flag: %d\n", l_flag, w_flag, c_flag, C_m_flag);
+    
+    if (optind == 1)  //Default option -lwc
+    {
+	    l_flag = 1;
+	    w_flag = 1;
+	    c_flag = 1;
+    }
+
+//    printf("l_flag: %d, w_flag: %d, c_flag: %d, C_m_flag: %d\n", l_flag, w_flag, c_flag, C_m_flag);
+
+    /**********************************************************************************************/
+
+    if ( optind < argc ) //count from a file, otherwise, count from standard input
+    {
+	    int i;
+	    FILE * fp;
+	    for ( i = 1 + optind ; i <= argc ; i ++ )
+	    {
+		   fp= fopen (argv[i],"r");
+		   if (fp == NULL)
+			   printf("wc: cannot open %s",argv[i]);
+		   else
+			   WCount (fp);
+	    }
+	    PrintOut (argv[i],optind);
+
+    }
+    else if (optind == argc)
+    {
+	WCount (stdin);
+	if ( l_flag )
+	{
+		printf ("%8d", l_count);
+	}
+	if ( w_flag )
+	{
+		printf ("%8d", w_count);
+	}
+	if ( c_flag )
+	{
+		printf ("%8d", c_count);
+	}
+	if ( C_m_flag )
+	{
+		printf ("%8d", C_m_count);
+	}
+	printf ("\n");
+
+    }
+
+
+
+//    printf("l_count: %d, w_count: %d, c_count: %d, C_m_count: %d\n", l_count, w_count, c_count, C_m_count);
+int PrintOut ( int FileName, int FileNumber )
+{
+	int i;
+	for ( i = 1 ; i <= FileNumber ; i ++ )
+	{
+		if ( l_flag )
+		{
+			printf ("%8d", l_count );
+		}
+		if ( w_flag )
+		{
+			printf ("%8d", w_count );
+		}
+		if ( c_flag )
+		{
+			printf ("%8d", c_count );
+		}
+		if ( C_m_flag )
+		{
+			printf ("%8d", C_m_count );
+		}
+		printf ("%1c\n", FileName);
+	}
+	l_count_sum = l_count + l_count_sum;
+	w_count_sum = w_count + w_count_sum;
+	c_count_sum = c_count + c_count_sum;
+	C_m_count_sum = C_m_count + C_m_count_sum;
+	
+	if ( FileNumber > 1 )
+	{
+		printf ("%8d,%8d,%8d,%8d",l_count_sum,w_count_sum,c_count_sum,C_m_count_sum);
+	}
+	printf ("  total\n");
+
+}
+
+    return (EXIT_SUCCESS);
+}
+
+
+
+Node-path: hw2/nbproject/private/private.xml
+Node-kind: file
+Node-action: change
+Text-content-length: 411
+Text-content-md5: 8e64ce617bdbd687e6a3159fe94e73c1
+Text-content-sha1: a9fc71ae997c964c687c4a50ae84393b6e059e7b
+Content-length: 411
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>1</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+</project-private>
+
+
+Revision-number: 9
+Prop-content-length: 113
+Content-length: 113
+
+K 7
+svn:log
+V 12
+hw2_version1
+K 10
+svn:author
+V 6
+xiw412
+K 8
+svn:date
+V 27
+2012-09-16T00:15:52.385377Z
+PROPS-END
+
+Node-path: hw2/.make.state.Debug
+Node-kind: file
+Node-action: change
+Text-content-length: 1896
+Text-content-md5: 09e3edee78c61936c9bb5cd8fc490b96
+Text-content-sha1: f6315026a9a27f2da821bdbb35806edcbeaf7a9f
+Content-length: 1896
+
+.MAKE_VERSION:	VERSION-1.0
+.BUILT_LAST_MAKE_RUN:
+.build-conf:
+	"make"  -f nbproject/Makefile-Debug.mk dist/Debug/GNU-Solaris-x86/hw2
+.clean-conf:
+	rm -f -r build/Debug
+	rm -f dist/Debug/OracleSolarisStudio-Solaris-x86/hw2
+.BUILT_LAST_MAKE_RUN:
+.depcheck-impl:
+	echo "# This code depends on make tool being used" >.dep.inc
+	if [ -n "" ]; then \
+	    echo "DEPFILES=\$(wildcard \$(addsuffix .d, \${OBJECTFILES}))" >>.dep.inc; \
+	    echo "ifneq (\${DEPFILES},)" >>.dep.inc; \
+	    echo "include \${DEPFILES}" >>.dep.inc; \
+	    echo "endif" >>.dep.inc; \
+	else \
+	    echo ".KEEP_STATE:" >>.dep.inc; \
+	    echo ".KEEP_STATE_FILE:.make.state.\${CONF}" >>.dep.inc; \
+	fi
+build/Debug/GNU-Solaris-x86/main.o:
+	mkdir -p build/Debug/GNU-Solaris-x86
+	rm -f build/Debug/GNU-Solaris-x86/main.o.d
+	gcc   -c -g -MMD -MP -MF build/Debug/GNU-Solaris-x86/main.o.d -o build/Debug/GNU-Solaris-x86/main.o main.c
+build/Debug/OracleSolarisStudio-Solaris-x86/main.o:	/usr/include/stdio.h /usr/include/sys/feature_tests.h /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h /usr/include/iso/stdio_iso.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h /usr/include/iso/stdlib_c99.h 
+	mkdir -p build/Debug/OracleSolarisStudio-Solaris-x86
+	cc   -c -g -o build/Debug/OracleSolarisStudio-Solaris-x86/main.o main.c
+dist/Debug/GNU-Solaris-x86/hw2:	/lib/libc.so /usr/sfw/lib/gcc/i386-pc-solaris2.10/3.4.3/libgcc_eh.a /usr/sfw/lib/gcc/i386-pc-solaris2.10/3.4.3/libgcc.a 
+	mkdir -p dist/Debug/GNU-Solaris-x86
+	gcc    -o dist/Debug/GNU-Solaris-x86/hw2 build/Debug/GNU-Solaris-x86/main.o  
+dist/Debug/OracleSolarisStudio-Solaris-x86/hw2:	/lib/libc.so 
+	mkdir -p dist/Debug/OracleSolarisStudio-Solaris-x86
+	cc    -o dist/Debug/OracleSolarisStudio-Solaris-x86/hw2 build/Debug/OracleSolarisStudio-Solaris-x86/main.o  
+
+
+Node-path: hw2/dist/Debug/GNU-Solaris-x86/hw2
+Node-kind: file
+Node-action: change
+Text-content-length: 11776
+Text-content-md5: d1668faf659fd772f7958faa96ac64b5
+Text-content-sha1: 016483c0b688ab3b7cfcf8d10c7623209d063fb0
+Content-length: 11776
+
+ELF              ô	4   `(      4    ( $ #    4   4                       Ô                                      6  6           8  8    p  Œ           „  „    Ğ              /usr/lib/ld.so.1    5   5                                                           
+                                                                            "   $   &   (   )       +   .       1       2       3   4                                   	                                                                                     !       #       %       '           *       ,   -       /   0                                                         ¨      $   Ø     -   D	       2        8   Â“    =   ä     I   ¤    ,   T	       R   È     _   ¸     i   $	       p   „     ‚   à     Œ   Ô     ”   Ü     œ   „      ¦   øÀ  !  «   °     ±   6      ¸   ”	       Á   È     Ê   X     Ò   è     Ş   À     å   4	       ï   ˆ      ü   ¤	       ¥   øÀ      ¼       Œ
+{       	      4              E  ğ     T  T   !  \  ô	–     c  ÌØ     j       r  8      ˆ  Ä                   S  T     ­              Á  Ğ     È  Ä      Í  Ì     Ô  ì     à  Ô	       æ  ä	    "   ş  ´	                     #  Ä	        __register_frame_info_bases _edata w_count _exit _init main l_count_sum PrintOut _lib_version file_char atexit __longdouble_used C_m_count l_count c_count _DYNAMIC __iob _fini _etext __filbuf C_m_flag ___Argv w_count_sum optind __fpstart __dso_handle iswspace command_append __fsr _PROCEDURE_LINKAGE_TABLE_ __fsr_init_value C_m_count_sum _environ _start WCount _mcount _GLOBAL_OFFSET_TABLE_ c_flag __deregister_frame_info_bases _Jv_RegisterClasses w_flag _end l_flag c_count_sum fopen _get_exit_frame_monitor printf __1cG__CrunMdo_exit_code6F_v_ getopt libc.so.1 SUNW_1.1 SUNWprivate_1.1 /usr/sfw/lib     *         ‘'=
+    4     qÌN    =      •
+!  T)  \  d+  `3  À  ø  D  H  L  P	  X)  `  h+  l  p  t2  x4  |0  €1  ÿ5<ÿ%@    ÿ%Dh    éàÿÿÿÿ%Hh   éĞÿÿÿÿ%Lh   éÀÿÿÿÿ%Ph   é°ÿÿÿÿ%Xh    é ÿÿÿÿ%`h(   éÿÿÿÿ%hh0   é€ÿÿÿÿ%lh8   épÿÿÿÿ%ph@   é`ÿÿÿÿ%thH   éPÿÿÿÿ%xhP   é@ÿÿÿÿ%|hX   é0ÿÿÿÿ%€h`   é ÿÿÿj j ‹ì¸„…Àt	RèÿÿÿƒÄh°èÿÿÿƒÄ\‹ …Àt`‹ …Àt	PèíşÿÿƒÄ‹E‹T…Òu
+T…‰TƒäğRU‰XRPèÏşÿÿè"   è!  èN  ƒÄPPèÆşÿÿƒÄèÎşÿÿƒÄôU‹ìRQƒì¹    Ñéƒù t`›Ù|$ ‹ÑƒâŠ‚d D$ ÷Á   t€d$ ı‹Ñƒâ`t‹Âƒà Ñà3ĞÁâfd$ ÿóf	T$ á€  tñ€  Ñáfd$ ÿüf	L$ Ùl$ ƒÄYZ]ÃÃ   U‰åSè    [Ã# R€»p   të:ƒÀ‰ƒl  ÿÒ‹ƒl  ‹…Òué‹ƒ   …Àtƒìƒd  PèşÿÿƒÄÆƒp  ‹]üÉÃU‰åSè    [ÃÇ P‹ƒ$   …ÀtSj ƒt  Pƒd  PèÛıÿÿƒÄ‹ƒh  …Àt‹‹,   …Étƒìƒh  PèÅıÿÿƒÄ‰ö‹]üÉÃ   U‰åƒì‹Eÿƒ8 yƒìÿuè­ıÿÿƒÄˆEÿë‹E‹Pÿ@ŠˆUÿŠEÿ¢¸<ÿ„•   ƒì¾¸Pè‡ıÿÿƒÄ…Àu^ƒì¾¸PèpıÿÿƒÄ…ÀuAÿÜÿà‹Eÿƒ8 yƒìÿuè8ıÿÿƒÄˆEşë‹E‹Pÿ@ŠˆUşŠEş¢¸ë¨ÿØ€=¸
+uÿÔÿÜÿàé0ÿÿÿÉÃU‰åƒìÇEü   ‹Eü;E™   ƒ=Ì tƒìÿ5ÔhÌèÛüÿÿƒÄƒ=Ğ tƒìÿ5ØhÌè¼üÿÿƒÄƒ=Ä tƒìÿ5ÜhÌèüÿÿƒÄƒ=È tƒìÿ5àhÌè~üÿÿƒÄƒìÿuhĞèküÿÿƒÄEüÿ é[ÿÿÿ¡Ôä¡Øè¡Üì¡àğƒ}~(ƒìÿ5ğÿ5ìÿ5èÿ5ähÕèüÿÿƒÄ ƒìhåè÷ûÿÿƒÄÉÃU‰åƒìƒäğ¸    ƒÀƒÀÁèÁà)ÄƒìhîÿuÿuèÓûÿÿƒÄ£¼ƒ=¼ÿ„Í   ¡¼‰Eğƒ}ğlt%ƒ}ğlƒ}ğCtdƒ}ğct+éŒ   ƒ}ğmtSƒ}ğwtë~ÇÌ   ë™ÇĞ   ëÇÄ   ƒ=È „vÿÿÿƒìhôè?ûÿÿƒÄÇEô   éÌ  ÇÈ   ƒ=Ä „CÿÿÿƒìhôèûÿÿƒÄÇEô   é™  ƒìhôèğúÿÿƒÄÇEô   é}  ƒ=ÀuÇÌ   ÇĞ   ÇÄ   ¡À;E—   ¡À@‰Eü‹Eü;E`ƒìh‹Eü…    ‹Eÿ4èúÿÿƒÄ‰Eøƒ}ø u"ƒì‹Eü…    ‹Eÿ4h!èUúÿÿƒÄëƒìÿuøè]üÿÿƒÄEüÿ ë˜ƒìÿ5À‹Eü…    ‹Eÿ4èıÿÿƒÄéª   ¡À;E…œ   ƒìhøèüÿÿƒÄƒ=Ì tƒìÿ5ÔhÌèÛùÿÿƒÄƒ=Ğ tƒìÿ5ØhÌè¼ùÿÿƒÄƒ=Ä tƒìÿ5ÜhÌèùÿÿƒÄƒ=È tƒìÿ5àhÌè~ùÿÿƒÄƒìh4ènùÿÿƒÄÇEô    ‹EôÉÃ   U‰åVSè    [ÃÖ  ƒX  pü‹@üëƒîÿĞ‹ƒøÿuô[^ÉÃ        U‹ìSè    [ÃŸ  èÃúÿÿè®ÿÿÿ[ÉÃ   U‹ìSè    [Ã  èGúÿÿ[ÉÃ   %8d %1c
+ %8d,%8d,%8d,%8d   total
+ lwcmC usage: wc [-c | -m | -C] [-lw] [file ...]
+ r wc: cannot open %s 
+   „        *	:	J	Z	    j	    z	    Š	š	ª	º	Ê	Ú	ê	   *        °   M     M     è    è
+   Z     ˜      øıÿo—j  şÿÿoDÿÿÿo             h            ¬   t                    üıÿo         ûÿÿo       8                ä	    ÿßûÛïÏëË÷×óÓçÇãÃşŞúÚîÎêÊöÖòÒæÆâÂ        ÿÿÿÿ    ÿÿÿÿ            ˜                            ñÿ    Ô           è           ˜          è          D          t          |          ”          œ     	     ¬     
+     	          ô	                    °          È          8          „          T          Œ          ”          œ                     ¤          ¨                                                                                                                                    !              "              # N  Ä      T                       ñÿ&   \     C   `     V   d      a            ñÿh            ñÿt            ñÿ   Œ         ”      ›   œ      ®          »   ¤      ¿   ¨     Ë         á   ¬     ê   h      ö            ñÿt            ñÿı         
+  ˜        œ      %         1  X      G           ñÿ\              x  ¨        Ø     ˆ  D	              “  Â“    ˜  ä     ¤  ¤    ‡  T	       ­  È     º  ¸     Ä  $	       Ë  „     İ  à     ç  Ô     ï  Ü     ÷  „        øÀ  !    °       6        ”	         È     %  X     -  è     9  À     @  4	       J  ˆ      W  ¤	          øÀ    `  ¼     o  Œ
+{     u  	                       ğ     ¯  T   !  ·  ô	–     ¾  ÌØ     Å       Í  8      ã  Ä     ê              ®  T                     Ğ     #  Ä      (  Ì     /  ì     ;  Ô	       A  ä	    "   Y  ´	       `              ~  Ä	        dist/Debug/GNU-Solaris-x86/hw2 fsr.s __get_exit_frame_monitor_ptr __do_exit_code_ptr trap_table crti.s values-Xa.c crtstuff.c __CTOR_LIST__ __DTOR_LIST__ __EH_FRAME_BEGIN__ __JCR_LIST__ p.0 completed.1 __do_global_dtors_aux object.2 frame_dummy main.c __CTOR_END__ __DTOR_END__ __FRAME_END__ __JCR_END__ __do_global_ctors_aux crtn.s _END_ _START_ __register_frame_info_bases _edata w_count _exit _init main l_count_sum PrintOut _lib_version file_char atexit __longdouble_used C_m_count l_count c_count _DYNAMIC __iob _fini _etext __filbuf C_m_flag ___Argv w_count_sum optind __fpstart __dso_handle iswspace command_append __fsr _PROCEDURE_LINKAGE_TABLE_ __fsr_init_value C_m_count_sum _environ _start WCount _mcount _GLOBAL_OFFSET_TABLE_ c_flag __deregister_frame_info_bases _Jv_RegisterClasses w_flag _end l_flag c_count_sum fopen _get_exit_frame_monitor printf __1cG__CrunMdo_exit_code6F_v_ getopt  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  @(#)SunOS 5.10 Generic January 2005 ld: Software Generation Utilities - Solaris Link Editors: 5.10-1.497 %  $ >   :;I  :;   :;I8
+   :;I8
+   I  $ >  	.?:;'I@
+  
+ :;I
+    .?:;I<     4 :;I
+  I  ! I/  4 :;I?<  4 :;I?
+   ¸           UÌGNU C 3.4.3 (csl-sol210-3_4-branch+sol_rpath) main.c /home/xiw412/NetBeansProject/hw2 char __FILE …   x  __FILE _cnt #x  # _ptr $  #_base &  #_flag '…  #_file (…  #__orientation *–  #__ionolock +–  #__seekable ,–  #__extendedfd -–  #__xf_nocheck .–  
+#__filler /–  
+ # int …  unsigned char     long long int FILE Jw   long int     short int short unsigned int long long unsigned int long unsigned int o   long double 	~  WCount $x  Ì¤U
+fp #~  ‘iswspace 'x     ®  	Ù  PrintOut ;x  ¤ÂU
+FileName :x  ‘
+FileNumber :x  ‘i <x  ‘| 	7  main _x  ÂUU
+argc _x  ‘
+argv _7  ‘ši “x  ‘|fp ”~  ‘x    M  w   Æ  ; __iob ’=  optind x  file_char o   ¸c_flag x  ÄC_m_flag x  Èl_flag x  Ìw_flag x  Ğl_count x  Ôw_count x  Øc_count x  ÜC_m_count x  àcommand_append x  ¼l_count_sum x  äw_count_sum x  èc_count_sum  x  ìC_m_count_sum !x  ğ ç    f   û
+    /usr/include/iso /usr/include  main.c    stdio_iso.h   stdio_tag.h   stdio_impl.h     Ì#d;eedd5eed«.e-WWWWn+›ªªª«e(ñ.¬(3œ-œ-œÇğ¼œÇğ»ğ½œœ¢×ÿ#dÿzÓy&ÕğWWWWör      ÿÿÿÿ |ˆ  $       ÌØ      …      . 4       ¤     …   -   .Ô   .    .   $       Â“     …   '   . ò        ¼  4  WCount „  PrintOut Ù  main l  file_char „  c_flag ™  C_m_flag °  l_flag Å  w_flag Ú  l_count ğ  w_count   c_count   C_m_count 4  command_append Q  l_count_sum k  w_count_sum …  c_count_sum Ÿ  C_m_count_sum                  Ì‰          unsigned int  .interp .hash .dynsym .dynstr .SUNW_version .rel.text .rel.got .rel.data .rel.bss .rel.plt .init .fini .rodata .dynamic .ctors .dtors .eh_frame .jcr .data.rel.local .symtab .strtab .comment .debug_abbrev .debug_info .debug_line .debug_frame .debug_pubnames .debug_aranges .debug_str .shstrtab                                                     Ô Ô                     	         è è   °                        ˜˜  P                    "   èè  Z                    şÿÿo   DD  0                -   	   B   tt                 7   	   B   ||                 @   	   B   ””                 J   	   B   œœ                 S   	   B   ¬¬  h               W         		  à                 1         ô	ô	  ”                 \                             b         °°                    h         ÈÈ  n                  ;         88  L                 p         „„  Ğ                D         TT  8                  y         ŒŒ                    €         ””                    ‡         œœ                    ‘                               –         ¤¤                    N         ¨¨                   ¦              ¨  0     ?         ®              Ø  …                 ¶              ]  u                 ¿              Ò  ı                  Í              Ï  ¼                 Ù              ‹$  ë                  å              x%  œ                  ò              &  ö                               
+'                                  *'                                 7'  &                 
+
+Node-path: hw2/main.c
+Node-kind: file
+Node-action: change
+Text-content-length: 3519
+Text-content-md5: 42b68f5d84d2b7efddf1800bfcdb8545
+Text-content-sha1: 8a8f8f8e4d1634ac51a75e2bf8d84665e7ba7317
+Content-length: 3519
+
+/* 
+ * File:   main.c
+ * Author: xiw412
+ *
+ * Created on September 13, 2012, 12:02 PM
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+
+/*
+ * 
+ */
+extern int optind;
+extern int opterr;
+extern int optopt;
+
+char file_char; //characters in input file
+int c_flag = 0; //read options of wc command
+int C_m_flag = 0;
+int l_flag = 0;
+int w_flag = 0;
+int l_count = 0;
+int w_count = 0;
+int c_count = 0;
+int C_m_count = 0;
+int command_append; //options of command wc
+int l_count_sum = 0;
+int w_count_sum = 0;
+int c_count_sum = 0;
+int C_m_count_sum = 0;
+
+int WCount (FILE * fp )
+{
+	while ((file_char = getc(fp))!=EOF )
+	{
+		if (!iswspace(file_char))
+		{
+			while (!iswspace (file_char))
+			{
+				c_count ++ ;
+				C_m_count ++;
+				file_char = getc(fp);
+			}
+			w_count ++ ;
+		}
+		if (file_char == '\n')
+		{
+			l_count++;
+		}
+		c_count ++ ;
+		C_m_count ++ ;
+	}
+}
+
+int PrintOut ( int FileName, int FileNumber )
+{
+	int i;
+	for ( i = 1 ; i <= FileNumber ; i ++ )
+	{
+		if ( l_flag )
+		{
+			printf ("%8d", l_count );
+		}
+		if ( w_flag )
+		{
+			printf ("%8d", w_count );
+		}
+		if ( c_flag )
+		{
+			printf ("%8d", c_count );
+		}
+		if ( C_m_flag )
+		{
+			printf ("%8d", C_m_count );
+		}
+		printf ("%1c\n", FileName);
+	}
+	l_count_sum = l_count + l_count_sum;
+	w_count_sum = w_count + w_count_sum;
+	c_count_sum = c_count + c_count_sum;
+	C_m_count_sum = C_m_count + C_m_count_sum;
+	
+	if ( FileNumber > 1 )
+	{
+		printf ("%8d,%8d,%8d,%8d",l_count_sum,w_count_sum,c_count_sum,C_m_count_sum);
+	}
+	printf ("  total\n");
+
+}
+
+
+int main(int argc, char** argv) {
+
+    
+    while ((command_append = getopt ( argc, argv, "lwcmC"))!= -1)
+    {
+//	    printf ("optind:%d opterr:%d optopt:%d getopt:%c\n", optind, opterr, optopt, command_append);
+        switch ( command_append )
+        {
+            case 'l':
+                l_flag = 1;
+		break;
+            case 'w':
+                w_flag = 1;
+		break;
+            case 'c':
+                c_flag = 1;
+		if ( C_m_flag )
+		{
+			printf ("usage: wc [-c | -m | -C] [-lw] [file ...]\n");
+			return 1;
+		}
+		break;
+            case 'C':
+	    case 'm':
+                C_m_flag = 1;
+		if ( c_flag )
+		{
+			printf ("usage: wc [-c | -m | -C] [-lw] [file ...]\n");
+			return 1;
+		}
+		break;
+            default:
+		printf ("usage: wc [-c | -m | -C] [-lw] [file ...]\n");
+		return 1;
+        }
+    }
+
+//    printf("l_flag: %d, w_flag: %d, c_flag: %d, C_m_flag: %d\n", l_flag, w_flag, c_flag, C_m_flag);
+    
+    if (optind == 1)  //Default option -lwc
+    {
+	    l_flag = 1;
+	    w_flag = 1;
+	    c_flag = 1;
+    }
+
+//    printf("l_flag: %d, w_flag: %d, c_flag: %d, C_m_flag: %d\n", l_flag, w_flag, c_flag, C_m_flag);
+
+    /**********************************************************************************************/
+
+    if ( optind < argc ) //count from a file, otherwise, count from standard input
+    {
+	    int i;
+	    FILE * fp;
+	    for ( i = 1 + optind ; i <= argc ; i ++ )
+	    {
+		   fp= fopen (argv[i],"r");
+		   if (fp == NULL)
+			   printf("wc: cannot open %s",argv[i]);
+		   else
+			   WCount (fp);
+	    }
+	    PrintOut (argv[i],optind);
+
+    }
+    else if (optind == argc)
+    {
+	WCount (stdin);
+	if ( l_flag )
+	{
+		printf ("%8d", l_count);
+	}
+	if ( w_flag )
+	{
+		printf ("%8d", w_count);
+	}
+	if ( c_flag )
+	{
+		printf ("%8d", c_count);
+	}
+	if ( C_m_flag )
+	{
+		printf ("%8d", C_m_count);
+	}
+	printf ("\n");
+
+    }
+
+
+
+//    printf("l_count: %d, w_count: %d, c_count: %d, C_m_count: %d\n", l_count, w_count, c_count, C_m_count);
+    return (EXIT_SUCCESS);
+}
+
+
+
+Revision-number: 10
+Prop-content-length: 114
+Content-length: 114
+
+K 7
+svn:log
+V 13
+Notice output
+K 10
+svn:author
+V 6
+xiw412
+K 8
+svn:date
+V 27
+2012-09-16T03:41:33.860149Z
+PROPS-END
+
+Node-path: hw2/.make.state.Debug
+Node-kind: file
+Node-action: change
+Text-content-length: 1880
+Text-content-md5: e319136bf1319d8c890240b22c2d705f
+Text-content-sha1: f45d928fd14da523e55d3c5b227b338334df0dca
+Content-length: 1880
+
+.MAKE_VERSION:	VERSION-1.0
+.BUILT_LAST_MAKE_RUN:
+.build-conf:
+	"make"  -f nbproject/Makefile-Debug.mk dist/Debug/GNU-Solaris-x86/hw2
+.clean-conf:
+	rm -f -r build/Debug
+	rm -f dist/Debug/GNU-Solaris-x86/hw2
+.BUILT_LAST_MAKE_RUN:
+.depcheck-impl:
+	echo "# This code depends on make tool being used" >.dep.inc
+	if [ -n "" ]; then \
+	    echo "DEPFILES=\$(wildcard \$(addsuffix .d, \${OBJECTFILES}))" >>.dep.inc; \
+	    echo "ifneq (\${DEPFILES},)" >>.dep.inc; \
+	    echo "include \${DEPFILES}" >>.dep.inc; \
+	    echo "endif" >>.dep.inc; \
+	else \
+	    echo ".KEEP_STATE:" >>.dep.inc; \
+	    echo ".KEEP_STATE_FILE:.make.state.\${CONF}" >>.dep.inc; \
+	fi
+build/Debug/GNU-Solaris-x86/main.o:
+	mkdir -p build/Debug/GNU-Solaris-x86
+	rm -f build/Debug/GNU-Solaris-x86/main.o.d
+	gcc   -c -g -MMD -MP -MF build/Debug/GNU-Solaris-x86/main.o.d -o build/Debug/GNU-Solaris-x86/main.o main.c
+build/Debug/OracleSolarisStudio-Solaris-x86/main.o:	/usr/include/stdio.h /usr/include/sys/feature_tests.h /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h /usr/include/iso/stdio_iso.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h /usr/include/iso/stdlib_c99.h 
+	mkdir -p build/Debug/OracleSolarisStudio-Solaris-x86
+	cc   -c -g -o build/Debug/OracleSolarisStudio-Solaris-x86/main.o main.c
+dist/Debug/GNU-Solaris-x86/hw2:	/lib/libc.so /usr/sfw/lib/gcc/i386-pc-solaris2.10/3.4.3/libgcc_eh.a /usr/sfw/lib/gcc/i386-pc-solaris2.10/3.4.3/libgcc.a 
+	mkdir -p dist/Debug/GNU-Solaris-x86
+	gcc    -o dist/Debug/GNU-Solaris-x86/hw2 build/Debug/GNU-Solaris-x86/main.o  
+dist/Debug/OracleSolarisStudio-Solaris-x86/hw2:	/lib/libc.so 
+	mkdir -p dist/Debug/OracleSolarisStudio-Solaris-x86
+	cc    -o dist/Debug/OracleSolarisStudio-Solaris-x86/hw2 build/Debug/OracleSolarisStudio-Solaris-x86/main.o  
+
+
+Node-path: hw2/build/Debug
+Node-action: delete
+
+
+Node-path: hw2/dist/Debug/GNU-Solaris-x86/hw2
+Node-kind: file
+Node-action: change
+Text-content-length: 11756
+Text-content-md5: 4f46044079ecb980c1f6df450ec5585c
+Text-content-sha1: ce66b1bb4285f12d5d010037ecfcf8ef47c2c83f
+Content-length: 11756
+
+ELF              ô	4   L(      4    ( $ #    4   4                       Ô                                      C  C           D  D    p                   Ğ              /usr/lib/ld.so.1    5   5                                                           
+                                                                            "   $   &   (   )       +   .       1       2       3   4                                   	                                                                                     !       #       %       '           *       ,   -       /   0                                                         ´      $   è     -   D	       2         8   g    =   ô     I   ¤Ã     ,   T	       R   Ø     _   È     i   $	       p        ‚   ğ     Œ   ä     ”   ì     œ         ¦   À  !  «   À     ±   C      ¸   ”	       Á   Ø     Ê   d     Ò   ø     Ş   Ğ     å   4	       ï   ”      ü   ¤	       ¥   À      Ì       Œ
+{       	      4              E        T  `   !  \  ô	–     c  ÌØ     j       r  D      ˆ  Ô                   S  `     ­              Á  à     È  Ô      Í  Ü     Ô  ü     à  Ô	       æ  ä	    "   ş  ´	                     #  Ä	        __register_frame_info_bases _edata w_count _exit _init main l_count_sum PrintOut _lib_version file_char atexit __longdouble_used C_m_count l_count c_count _DYNAMIC __iob _fini _etext __filbuf C_m_flag ___Argv w_count_sum optind __fpstart __dso_handle iswspace command_append __fsr _PROCEDURE_LINKAGE_TABLE_ __fsr_init_value C_m_count_sum _environ _start WCount _mcount _GLOBAL_OFFSET_TABLE_ c_flag __deregister_frame_info_bases _Jv_RegisterClasses w_flag _end l_flag c_count_sum fopen _get_exit_frame_monitor printf __1cG__CrunMdo_exit_code6F_v_ getopt libc.so.1 SUNW_1.1 SUNWprivate_1.1 /usr/sfw/lib     *         ‘'=
+    4     qÌN    =      •
+!  `)  h  p+  l3  Ğ    P  T  X  \	  d)  l  t+  x  |  €2  „4  ˆ0  Œ1  ÿ5Hÿ%L    ÿ%Ph    éàÿÿÿÿ%Th   éĞÿÿÿÿ%Xh   éÀÿÿÿÿ%\h   é°ÿÿÿÿ%dh    é ÿÿÿÿ%lh(   éÿÿÿÿ%th0   é€ÿÿÿÿ%xh8   épÿÿÿÿ%|h@   é`ÿÿÿÿ%€hH   éPÿÿÿÿ%„hP   é@ÿÿÿÿ%ˆhX   é0ÿÿÿÿ%Œh`   é ÿÿÿj j ‹ì¸…Àt	RèÿÿÿƒÄhÀèÿÿÿƒÄh‹ …Àtl‹ …Àt	PèíşÿÿƒÄ‹E‹`…Òu
+T…‰`ƒäğRU‰dRPèÏşÿÿè"   è1  èó  ƒÄPPèÆşÿÿƒÄèÎşÿÿƒÄôU‹ìRQƒì¹    Ñéƒù t`›Ù|$ ‹ÑƒâŠ‚p D$ ÷Á   t€d$ ı‹Ñƒâ`t‹Âƒà Ñà3ĞÁâfd$ ÿóf	T$ á€  tñ€  Ñáfd$ ÿüf	L$ Ùl$ ƒÄYZ]ÃÃ   U‰åSè    [Ã/ R€»t   të:ƒÀ‰ƒl  ÿÒ‹ƒl  ‹…Òué‹ƒ   …Àtƒìƒd  PèşÿÿƒÄÆƒt  ‹]üÉÃU‰åSè    [ÃÓ P‹ƒ$   …ÀtSj ƒx  Pƒd  PèÛıÿÿƒÄ‹ƒh  …Àt‹‹,   …Étƒìƒh  PèÅıÿÿƒÄ‰ö‹]üÉÃ   U‰åƒì‹Eÿƒ8 yƒìÿuè­ıÿÿƒÄˆEÿë‹E‹Pÿ@ŠˆUÿŠEÿ¢È<ÿ„•   ƒì¾ÈPè‡ıÿÿƒÄ…Àu^ƒì¾ÈPèpıÿÿƒÄ…ÀuAÿìÿğ‹Eÿƒ8 yƒìÿuè8ıÿÿƒÄˆEşë‹E‹Pÿ@ŠˆUşŠEş¢Èë¨ÿè€=È
+uÿäÿìÿğé0ÿÿÿÉÃU‰åƒìƒ=Ü tƒìÿ5ähÜèîüÿÿƒÄƒ=à tƒìÿ5èhÜèÏüÿÿƒÄƒ=Ô tƒìÿ5ìhÜè°üÿÿƒÄƒ=Ø tƒìÿ5ğhÜè‘üÿÿƒÄƒìÿuhàè~üÿÿƒÄ¡äô¡èø¡ìü¡ğ ÉÃU‰åƒìƒäğ¸    ƒÀƒÀÁèÁà)Äƒìhåÿuÿuè.üÿÿƒÄ£Ìƒ=Ìÿ„Í   ¡Ì‰Eğƒ}ğlt%ƒ}ğlƒ}ğCtdƒ}ğct+éŒ   ƒ}ğmtSƒ}ğwtë~ÇÜ   ë™Çà   ëÇÔ   ƒ=Ø „vÿÿÿƒìhìèšûÿÿƒÄÇEô   é=  ÇØ   ƒ=Ô „CÿÿÿƒìhìègûÿÿƒÄÇEô   é
+  ƒìhìèKûÿÿƒÄÇEô   éî  ƒ=ĞuÇÜ   Çà   ÇÔ   ¡Ğ;E  ¡Ğ‰Eü‹Eü;E¦   Çä    Çè    Çì    Çğ    ƒìh‹Eü…    ‹Eÿ4èÎúÿÿƒÄ‰Eøƒ}ø u"ƒì‹Eü…    ‹Eÿ4hè…úÿÿƒÄëƒìÿuøèüÿÿƒÄƒì‹Eü…    ‹Eÿ4èJıÿÿƒÄEüÿ éNÿÿÿ¡Ğ‹U)Â‰Ğƒø~(ƒìÿ5 ÿ5üÿ5øÿ5ôh,èúÿÿƒÄ ƒìh9èúÿÿƒÄéª   ¡Ğ;E…œ   ƒìhèüûÿÿƒÄƒ=Ü tƒìÿ5ähÜèÅùÿÿƒÄƒ=à tƒìÿ5èhÜè¦ùÿÿƒÄƒ=Ô tƒìÿ5ìhÜè‡ùÿÿƒÄƒ=Ø tƒìÿ5ğhÜèhùÿÿƒÄƒìhAèXùÿÿƒÄÇEô    ‹EôÉÃ U‰åVSè    [ÃÎ  ƒX  pü‹@üëƒîÿĞ‹ƒøÿuô[^ÉÃ    U‹ìSè    [Ã›  è³úÿÿè²ÿÿÿ[ÉÃ   U‹ìSè    [Ã{  è7úÿÿ[ÉÃ   %8d  %s
+ lwcmC  usage: wc [-c | -m | -C] [-lw] [file ...]
+ r wc: cannot open %s %8d%8d%8d%8d  total
+ 
+          *	:	J	Z	    j	    z	    Š	š	ª	º	Ê	Ú	ê	   *         À   M     M     è    è
+   Z     ˜      øıÿoòj  şÿÿoDÿÿÿo             h            ¬   t                    üıÿo         ûÿÿo       D                ä	    ÿßûÛïÏëË÷×óÓçÇãÃşŞúÚîÎêÊöÖòÒæÆâÂ        ÿÿÿÿ    ÿÿÿÿ            ¤                            ñÿ    Ô           è           ˜          è          D          t          |          ”          œ     	     ¬     
+     	          ô	                     À          Ø          D                    `          ˜                     ¨          ¬          °          ¸                                                                                                                                    !              "              # N  Ô      T                       ñÿ&   h     C   l     V   p      a            ñÿh            ñÿt            ñÿ   ˜                ›   ¨      ®   ¬      »   °      ¿   ¸     Ë         á   ¼     ê   h      ö            ñÿt            ñÿı   œ      
+  ¤        ¨      %  ¬      1  l      G           ñÿ\              x  ´        è     ˆ  D	               “  g    ˜  ô     ¤  ¤Ã     ‡  T	       ­  Ø     º  È     Ä  $	       Ë       İ  ğ     ç  ä     ï  ì     ÷          À  !    À       C        ”	         Ø     %  d     -  ø     9  Ğ     @  4	       J  ”      W  ¤	          À    `  Ì     o  Œ
+{     u  	                             ¯  `   !  ·  ô	–     ¾  ÌØ     Å       Í  D      ã  Ô     ê              ®  `                     à     #  Ô      (  Ü     /  ü     ;  Ô	       A  ä	    "   Y  ´	       `              ~  Ä	        dist/Debug/GNU-Solaris-x86/hw2 fsr.s __get_exit_frame_monitor_ptr __do_exit_code_ptr trap_table crti.s values-Xa.c crtstuff.c __CTOR_LIST__ __DTOR_LIST__ __EH_FRAME_BEGIN__ __JCR_LIST__ p.0 completed.1 __do_global_dtors_aux object.2 frame_dummy main.c __CTOR_END__ __DTOR_END__ __FRAME_END__ __JCR_END__ __do_global_ctors_aux crtn.s _END_ _START_ __register_frame_info_bases _edata w_count _exit _init main l_count_sum PrintOut _lib_version file_char atexit __longdouble_used C_m_count l_count c_count _DYNAMIC __iob _fini _etext __filbuf C_m_flag ___Argv w_count_sum optind __fpstart __dso_handle iswspace command_append __fsr _PROCEDURE_LINKAGE_TABLE_ __fsr_init_value C_m_count_sum _environ _start WCount _mcount _GLOBAL_OFFSET_TABLE_ c_flag __deregister_frame_info_bases _Jv_RegisterClasses w_flag _end l_flag c_count_sum fopen _get_exit_frame_monitor printf __1cG__CrunMdo_exit_code6F_v_ getopt  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  @(#)SunOS 5.10 Generic January 2005 ld: Software Generation Utilities - Solaris Link Editors: 5.10-1.497 %  $ >   :;I  :;   :;I8
+   :;I8
+   I  $ >  	.?:;'I@
+  
+ :;I
+    .?:;I<     4 :;I
+  I  ! I/  4 :;I?<  4 :;I?
+   —           kÌGNU C 3.4.3 (csl-sol210-3_4-branch+sol_rpath) main.c /home/xiw412/NetBeansProject/hw2 char __FILE …   x  __FILE _cnt #x  # _ptr $  #_base &  #_flag '…  #_file (…  #__orientation *–  #__ionolock +–  #__seekable ,–  #__extendedfd -–  #__xf_nocheck .–  
+#__filler /–  
+ # int …  unsigned char     long long int FILE Jw   long int     short int short unsigned int long long unsigned int long unsigned int o   long double 	~  WCount $x  Ì¤U
+fp #~  ‘iswspace 'x     ®  	¸  PrintOut ;x  ¤gU
+FileName :  ‘ 	  main Zx  gkU
+argc Yx  ‘
+argv Y  ‘­°i Œx  ‘|fp ~  ‘x    ,  w   Æ  ; __iob ’  optind x  file_char o   Èc_flag x  ÔC_m_flag x  Øl_flag x  Üw_flag x  àl_count x  äw_count x  èc_count x  ìC_m_count x  ğcommand_append x  Ìl_count_sum x  ôw_count_sum x  øc_count_sum  x  üC_m_count_sum !x    ç    f   û
+    /usr/include/iso /usr/include  main.c    stdio_iso.h   stdio_tag.h   stdio_impl.h     Ì#d;eedd5eed«.hWWWW-ªªª«.ª(3œ-œ-œÇğ¼œÇğ»ğ½œœ¢×;œœœœ#dÿÔu››ÿ(LÕğWWWWór       ÿÿÿÿ |ˆ  $       ÌØ      …      . $       ¤Ã      …      . 4       g     …   '   .  .    .   ò        ›  4  WCount „  PrintOut ¸  main K  file_char c  c_flag x  C_m_flag   l_flag ¤  w_flag ¹  l_count Ï  w_count å  c_count û  C_m_count   command_append 0  l_count_sum J  w_count_sum d  c_count_sum ~  C_m_count_sum                  ÌŸ          unsigned int  .interp .hash .dynsym .dynstr .SUNW_version .rel.text .rel.got .rel.data .rel.bss .rel.plt .init .fini .rodata .dynamic .ctors .dtors .eh_frame .jcr .data.rel.local .symtab .strtab .comment .debug_abbrev .debug_info .debug_line .debug_frame .debug_pubnames .debug_aranges .debug_str .shstrtab                                                     Ô Ô                     	         è è   °                        ˜˜  P                    "   èè  Z                    şÿÿo   DD  0                -   	   B   tt                 7   	   B   ||                 @   	   B   ””                 J   	   B   œœ                 S   	   B   ¬¬  h               W         		  à                 1         ô	ô	  ¨                 \                               b         ÀÀ                    h         ØØ  k                  ;         DD  L                 p           Ğ                D         ``  8                  y         ˜˜                    €                               ‡         ¨¨                    ‘         ¬¬                    –         °°                    N         ¸¸                   ¦              ´  0     ?         ®              ä  …                 ¶              i  u                 ¿              Ş  ı                  Í              Û  ›                 Ù              v$  ë                  å              d%  œ                  ò               &  ö                               ö&                                  '                                 #'  &                 
+
+Node-path: hw2/main.c
+Node-kind: file
+Node-action: change
+Text-content-length: 3591
+Text-content-md5: c9eba504a2b310b86eb12688f0b05a44
+Text-content-sha1: c168c1919219ae4f49587e74ca9005c125c6c397
+Content-length: 3591
+
+/* 
+ * File:   main.c
+ * Author: xiw412
+ *
+ * Created on September 13, 2012, 12:02 PM
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+
+/*
+ * 
+ */
+extern int optind;
+extern int opterr;
+extern int optopt;
+
+char file_char; //characters in input file
+int c_flag = 0; //read options of wc command
+int C_m_flag = 0;
+int l_flag = 0;
+int w_flag = 0;
+int l_count = 0;
+int w_count = 0;
+int c_count = 0;
+int C_m_count = 0;
+int command_append; //options of command wc
+int l_count_sum = 0;
+int w_count_sum = 0;
+int c_count_sum = 0;
+int C_m_count_sum = 0;
+
+int WCount (FILE * fp )
+{
+	while ((file_char = getc(fp))!=EOF )
+	{
+		if (!iswspace(file_char))
+		{
+			while (!iswspace (file_char))
+			{
+				c_count ++ ;
+				C_m_count ++;
+				file_char = getc(fp);
+			}
+			w_count ++ ;
+		}
+		if (file_char == '\n')
+		{
+			l_count++;
+		}
+		c_count ++ ;
+		C_m_count ++ ;
+	}
+}
+
+int PrintOut ( char * FileName )
+{
+//	int i;
+//	for ( i = 1 ; i <= FileNumber ; i ++ )
+//	{
+	
+		if ( l_flag )
+		{
+			printf ("%8d", l_count );
+		}
+		if ( w_flag )
+		{
+			printf ("%8d", w_count );
+		}
+		if ( c_flag )
+		{
+			printf ("%8d", c_count );
+		}
+		if ( C_m_flag )
+		{
+			printf ("%8d", C_m_count );
+		}
+		printf (" %s\n", FileName);
+//	}
+	l_count_sum = l_count + l_count_sum;
+	w_count_sum = w_count + w_count_sum;
+	c_count_sum = c_count + c_count_sum;
+	C_m_count_sum = C_m_count + C_m_count_sum;
+	
+}
+
+int main(int argc, char** argv)
+{    
+    while ((command_append = getopt ( argc, argv, "lwcmC"))!= -1)
+    {
+//	    printf ("optind:%d opterr:%d optopt:%d getopt:%c\n", optind, opterr, optopt, command_append);
+        switch ( command_append )
+        {
+            case 'l':
+                l_flag = 1;
+		break;
+            case 'w':
+                w_flag = 1;
+		break;
+            case 'c':
+                c_flag = 1;
+		if ( C_m_flag )
+		{
+			printf ("usage: wc [-c | -m | -C] [-lw] [file ...]\n");
+			return 1;
+		}
+		break;
+            case 'C':
+	    case 'm':
+                C_m_flag = 1;
+		if ( c_flag )
+		{
+			printf ("usage: wc [-c | -m | -C] [-lw] [file ...]\n");
+			return 1;
+		}
+		break;
+            default:
+		printf ("usage: wc [-c | -m | -C] [-lw] [file ...]\n");
+		return 1;
+        }
+    }
+
+//    printf("l_flag: %d, w_flag: %d, c_flag: %d, C_m_flag: %d\n", l_flag, w_flag, c_flag, C_m_flag);
+    
+    if (optind == 1)  //Default option -lwc
+    {
+	    l_flag = 1;
+	    w_flag = 1;
+	    c_flag = 1;
+    }
+
+//    printf("l_flag: %d, w_flag: %d, c_flag: %d, C_m_flag: %d\n", l_flag, w_flag, c_flag, C_m_flag);
+
+    /**********************************************************************************************/
+
+    if ( optind < argc ) //count from a file, otherwise, count from standard input
+    {
+	    int i;
+	    FILE * fp;
+	    for ( i = optind ; i < argc ; i ++ )
+	    {
+		   l_count = 0;
+		   w_count = 0;
+		   c_count = 0;
+		   C_m_count = 0;
+		   fp = fopen (argv[i],"r");
+		   if (fp == NULL)
+			   printf("wc: cannot open %s",argv[i]);
+		   else
+			   WCount (fp);
+	    	   PrintOut (argv[i]);
+	    }
+	    if ( (argc - optind ) > 1 )
+		{
+			printf ("%8d%8d%8d%8d",l_count_sum,w_count_sum,c_count_sum,C_m_count_sum);
+		}
+	    printf (" total\n");
+
+
+    }
+
+    else if (optind == argc)
+    {
+	WCount (stdin);
+	if ( l_flag )
+	{
+		printf ("%8d", l_count);
+	}
+	if ( w_flag )
+	{
+		printf ("%8d", w_count);
+	}
+	if ( c_flag )
+	{
+		printf ("%8d", c_count);
+	}
+	if ( C_m_flag )
+	{
+		printf ("%8d", C_m_count);
+	}
+	printf ("\n");
+
+    }
+//    printf("l_count: %d, w_count: %d, c_count: %d, C_m_count: %d\n", l_count, w_count, c_count, C_m_count);
+    return (EXIT_SUCCESS);
+}
+
+
+
+Revision-number: 11
+Prop-content-length: 100
+Content-length: 100
+
+K 7
+svn:log
+V 0
+
+K 10
+svn:author
+V 6
+xiw412
+K 8
+svn:date
+V 27
+2012-09-16T03:47:29.945199Z
+PROPS-END
+
+Node-path: hw2/build/Debug
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: hw2/build/Debug/GNU-Solaris-x86
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: hw2/build/Debug/GNU-Solaris-x86/main.o.d
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 43
+Text-content-md5: cf3d0b5af6a785618abb179c25225f13
+Text-content-sha1: 11b2a17e4dd708d3e1f113e213d8ca1fd5c17245
+Content-length: 53
+
+PROPS-END
+build/Debug/GNU-Solaris-x86/main.o: main.c
+
+
+Revision-number: 12
+Prop-content-length: 124
+Content-length: 124
+
+K 7
+svn:log
+V 23
+verified with two files
+K 10
+svn:author
+V 6
+xiw412
+K 8
+svn:date
+V 27
+2012-09-16T04:06:50.714829Z
+PROPS-END
+
+Node-path: hw2/dist/Debug/GNU-Solaris-x86/hw2
+Node-kind: file
+Node-action: change
+Text-content-length: 11792
+Text-content-md5: fe8f36fbd6baa6c6570dc55ed730057a
+Text-content-sha1: 0bff3c805c08526de7856699c69db2171140f4f3
+Content-length: 11792
+
+ELF              ô	4   p(      4    ( $ #    4   4                       Ô                                      d  d           d  d    p             °  °    Ğ              /usr/lib/ld.so.1    5   5                                                           
+                                                                            "   $   &   (   )       +   .       1       2       3   4                                   	                                                                                     !       #       %       '           *       ,   -       /   0                                                         Ô      $        -   D	       2   Ğ     8       =        I   ¤ë     ,   T	       R        _   è     i   $	       p   °     ‚        Œ        ”        œ   °      ¦   (À  !  «   ğ     ±   d      ¸   ”	       Á   ø     Ê   „     Ò        Ş   ğ     å   4	       ï   ´      ü   ¤	       ¥   (À      ì       Œ
+{       	      4              E        T  €   !  \  ô	–     c  ÌØ     j       r  d      ˆ  ô                   S  €     ­              Á        È  ô      Í  ü     Ô       à  Ô	       æ  ä	    "   ş  ´	                     #  Ä	        __register_frame_info_bases _edata w_count _exit _init main l_count_sum PrintOut _lib_version file_char atexit __longdouble_used C_m_count l_count c_count _DYNAMIC __iob _fini _etext __filbuf C_m_flag ___Argv w_count_sum optind __fpstart __dso_handle iswspace command_append __fsr _PROCEDURE_LINKAGE_TABLE_ __fsr_init_value C_m_count_sum _environ _start WCount _mcount _GLOBAL_OFFSET_TABLE_ c_flag __deregister_frame_info_bases _Jv_RegisterClasses w_flag _end l_flag c_count_sum fopen _get_exit_frame_monitor printf __1cG__CrunMdo_exit_code6F_v_ getopt libc.so.1 SUNW_1.1 SUNWprivate_1.1 /usr/sfw/lib     *         ‘'=
+    4     qÌN    =      •
+!  €)  ˆ  +  Œ3  ğ  (  p  t  x  |	  „)  Œ  ”+  ˜  œ   2  ¤4  ¨0  ¬1  ÿ5hÿ%l    ÿ%ph    éàÿÿÿÿ%th   éĞÿÿÿÿ%xh   éÀÿÿÿÿ%|h   é°ÿÿÿÿ%„h    é ÿÿÿÿ%Œh(   éÿÿÿÿ%”h0   é€ÿÿÿÿ%˜h8   épÿÿÿÿ%œh@   é`ÿÿÿÿ% hH   éPÿÿÿÿ%¤hP   é@ÿÿÿÿ%¨hX   é0ÿÿÿÿ%¬h`   é ÿÿÿj j ‹ì¸°…Àt	RèÿÿÿƒÄhğèÿÿÿƒÄˆ‹ …ÀtŒ‹ …Àt	PèíşÿÿƒÄ‹E‹€…Òu
+T…‰€ƒäğRU‰„RPèÏşÿÿè"   èa  è  ƒÄPPèÆşÿÿƒÄèÎşÿÿƒÄôU‹ìRQƒì¹    Ñéƒù t`›Ù|$ ‹ÑƒâŠ‚ D$ ÷Á   t€d$ ı‹Ñƒâ`t‹Âƒà Ñà3ĞÁâfd$ ÿóf	T$ á€  tñ€  Ñáfd$ ÿüf	L$ Ùl$ ƒÄYZ]ÃÃ   U‰åSè    [ÃO R€»t   të:ƒÀ‰ƒl  ÿÒ‹ƒl  ‹…Òué‹ƒ   …Àtƒìƒd  PèşÿÿƒÄÆƒt  ‹]üÉÃU‰åSè    [Ãó P‹ƒ$   …ÀtSj ƒx  Pƒd  PèÛıÿÿƒÄ‹ƒh  …Àt‹‹,   …Étƒìƒh  PèÅıÿÿƒÄ‰ö‹]üÉÃ   U‰åƒì‹Eÿƒ8 yƒìÿuè­ıÿÿƒÄˆEÿë‹E‹Pÿ@ŠˆUÿŠEÿ¢è<ÿ„•   ƒì¾èPè‡ıÿÿƒÄ…Àu^ƒì¾èPèpıÿÿƒÄ…ÀuAÿÿ‹Eÿƒ8 yƒìÿuè8ıÿÿƒÄˆEşë‹E‹Pÿ@ŠˆUşŠEş¢èë¨ÿ€=è
+uÿÿÿé0ÿÿÿÉÃU‰åƒìƒ=ü t+ƒìƒ} t
+¡‰Eüë¡‰EüÿuühèÙüÿÿƒÄƒ=  t+ƒìƒ} t
+¡‰Eøë¡‰Eøÿuøhè¥üÿÿƒÄƒ=ô t+ƒìƒ} t
+¡‰Eôë¡‰EôÿuôhèqüÿÿƒÄƒ=ø t+ƒìƒ} t
+¡ ‰Eğë¡‰Eğÿuğhè=üÿÿƒÄƒìÿuhè*üÿÿƒÄÉÃU‰åƒìƒäğ¸    ƒÀƒÀÁèÁà)ÄƒìhÿuÿuèüÿÿƒÄ£ìƒ=ìÿ„Í   ¡ì‰Eğƒ}ğlt%ƒ}ğlƒ}ğCtdƒ}ğct+éŒ   ƒ}ğmtSƒ}ğwtë~Çü   ë™Ç    ëÇô   ƒ=ø „vÿÿÿƒìhèrûÿÿƒÄÇEô   éI  Çø   ƒ=ô „Cÿÿÿƒìhè?ûÿÿƒÄÇEô   é  ƒìhè#ûÿÿƒÄÇEô   éú  ƒ=ğuÇü   Ç    Çô   ¡ğ;E  ¡ğ‰Eü‹Eü;EÔ   Ç    Ç    Ç    Ç    ƒìhG‹Eü…    ‹Eÿ4è¦úÿÿƒÄ‰Eøƒ}ø u"ƒì‹Eü…    ‹Eÿ4hIè]úÿÿƒÄëƒìÿuøèeüÿÿƒÄƒìj ‹Eü…    ‹Eÿ4è ıÿÿƒÄ¡¡¡¡ Eüÿ é ÿÿÿ¡ğ‹U)Â‰ĞƒøÁ   ƒìjh\èÃüÿÿƒÄéª   ¡ğ;E…œ   ƒìh(èÈûÿÿƒÄƒ=ü tƒìÿ5hè‘ùÿÿƒÄƒ=  tƒìÿ5hèrùÿÿƒÄƒ=ô tƒìÿ5hèSùÿÿƒÄƒ=ø tƒìÿ5hè4ùÿÿƒÄƒìhbè$ùÿÿƒÄÇEô    ‹EôÉÃ U‰åVSè    [Ãº  ƒX  pü‹@üëƒîÿĞ‹ƒøÿuô[^ÉÃU‹ìSè    [Ã‹  èƒúÿÿè¶ÿÿÿ[ÉÃ   U‹ìSè    [Ãk  èúÿÿ[ÉÃ   %8d  %s
+ lwcmC  usage: wc [-c | -m | -C] [-lw] [file ...]
+ r wc: cannot open %s total 
+ °        *	:	J	Z	    j	    z	    Š	š	ª	º	Ê	Ú	ê	   *     Ğ   ğ   M     M     è    è
+   Z     ˜      øıÿo_  şÿÿoDÿÿÿo             h            ¬   t                    üıÿo         ûÿÿo       d                ä	    ÿßûÛïÏëË÷×óÓçÇãÃşŞúÚîÎêÊöÖòÒæÆâÂ        ÿÿÿÿ    ÿÿÿÿ            Ä                            ñÿ    Ô           è           ˜          è          D          t          |          ”          œ     	     ¬     
+     	          ô	          Ğ          ğ                    d          °          €          ¸          À          È          Ì          Ğ          Ø                                                                                                                                    !              "              # N  ô      T                       ñÿ&   ˆ     C   Œ     V         a            ñÿh            ñÿt            ñÿ   ¸         À      ›   È      ®   Ì      »   Ğ      ¿   Ø     Ë         á   Ü     ê   h      ö            ñÿt            ñÿı   ¼      
+  Ä        È      %  Ì      1         G           ñÿ\              x  Ô             ˆ  D	         Ğ     “      ˜       ¤  ¤ë     ‡  T	       ­       º  è     Ä  $	       Ë  °     İ       ç       ï       ÷  °        (À  !    ğ       d        ”	         ø     %  „     -       9  ğ     @  4	       J  ´      W  ¤	          (À    `  ì     o  Œ
+{     u  	                             ¯  €   !  ·  ô	–     ¾  ÌØ     Å       Í  d      ã  ô     ê              ®  €                           #  ô      (  ü     /       ;  Ô	       A  ä	    "   Y  ´	       `              ~  Ä	        dist/Debug/GNU-Solaris-x86/hw2 fsr.s __get_exit_frame_monitor_ptr __do_exit_code_ptr trap_table crti.s values-Xa.c crtstuff.c __CTOR_LIST__ __DTOR_LIST__ __EH_FRAME_BEGIN__ __JCR_LIST__ p.0 completed.1 __do_global_dtors_aux object.2 frame_dummy main.c __CTOR_END__ __DTOR_END__ __FRAME_END__ __JCR_END__ __do_global_ctors_aux crtn.s _END_ _START_ __register_frame_info_bases _edata w_count _exit _init main l_count_sum PrintOut _lib_version file_char atexit __longdouble_used C_m_count l_count c_count _DYNAMIC __iob _fini _etext __filbuf C_m_flag ___Argv w_count_sum optind __fpstart __dso_handle iswspace command_append __fsr _PROCEDURE_LINKAGE_TABLE_ __fsr_init_value C_m_count_sum _environ _start WCount _mcount _GLOBAL_OFFSET_TABLE_ c_flag __deregister_frame_info_bases _Jv_RegisterClasses w_flag _end l_flag c_count_sum fopen _get_exit_frame_monitor printf __1cG__CrunMdo_exit_code6F_v_ getopt  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  @(#)SunOS 5.10 Generic January 2005 ld: Software Generation Utilities - Solaris Link Editors: 5.10-1.497 %  $ >   :;I  :;   :;I8
+   :;I8
+   I  $ >  	.?:;'I@
+  
+ :;I
+    .?:;I<     4 :;I
+  I  ! I/  4 :;I?<  4 :;I?
+   ©           ŸÌGNU C 3.4.3 (csl-sol210-3_4-branch+sol_rpath) main.c /home/xiw412/NetBeansProject/hw2 char __FILE …   x  __FILE _cnt #x  # _ptr $  #_base &  #_flag '…  #_file (…  #__orientation *–  #__ionolock +–  #__seekable ,–  #__extendedfd -–  #__xf_nocheck .–  
+#__filler /–  
+ # int …  unsigned char     long long int FILE Jw   long int     short int short unsigned int long long unsigned int long unsigned int o   long double 	~  WCount $x  Ì¤U
+fp #~  ‘iswspace 'x     ®  	Ê  PrintOut ;x  ¤U
+FileName :  ‘
+IfTotal :x  ‘ 	(  main Vx  ŸU
+argc Ux  ‘
+argv U(  ‘Õäi ˆx  ‘|fp ‰~  ‘x    >  w   Æ  ; __iob ’.  optind x  file_char o   èc_flag x  ôC_m_flag x  øl_flag x  üw_flag x   l_count x  w_count x  c_count x  C_m_count x  command_append x  ìl_count_sum x  w_count_sum x  c_count_sum  x  C_m_count_sum !x    é    f   û
+    /usr/include/iso /usr/include  main.c    stdio_iso.h   stdio_tag.h   stdio_impl.h     Ì#d;eedd5eed«.h++++..ª(3œ-œ-œÇğ¼œÇğ»ğ½œœ¢×;œœœœ#dÿÔ¸ªªªq©›IiÕğWWWWór       ÿÿÿÿ |ˆ  $       ÌØ      …      . $       ¤ë      …   /   . $            …   '   . ò        ­  4  WCount „  PrintOut Ê  main ]  file_char u  c_flag Š  C_m_flag ¡  l_flag ¶  w_flag Ë  l_count á  w_count ÷  c_count   C_m_count %  command_append B  l_count_sum \  w_count_sum v  c_count_sum   C_m_count_sum                  ÌÓ          unsigned int  .interp .hash .dynsym .dynstr .SUNW_version .rel.text .rel.got .rel.data .rel.bss .rel.plt .init .fini .rodata .dynamic .ctors .dtors .eh_frame .jcr .data.rel.local .symtab .strtab .comment .debug_abbrev .debug_info .debug_line .debug_frame .debug_pubnames .debug_aranges .debug_str .shstrtab                                                     Ô Ô                     	         è è   °                        ˜˜  P                    "   èè  Z                    şÿÿo   DD  0                -   	   B   tt                 7   	   B   ||                 @   	   B   ””                 J   	   B   œœ                 S   	   B   ¬¬  h               W         		  à                 1         ô	ô	  Ü                 \         ĞĞ                    b         ğğ                    h           \                  ;         dd  L                 p         °°  Ğ                D         €€  8                  y         ¸¸                    €         ÀÀ                    ‡         ÈÈ                    ‘         ÌÌ                    –         ĞĞ                    N         ØØ                   ¦              Ô  0     ?         ®                …                 ¶              ‰  u                 ¿              ş  ı                  Í              û  ­                 Ù              ¨$  í                  å              ˜%  Œ                  ò              $&  ö                               '                                  :'                                 G'  &                 
+
+Node-path: hw2/main.c
+Node-kind: file
+Node-action: change
+Text-content-length: 3641
+Text-content-md5: f8c6040f43d4f48ee789a494bc40b6ad
+Text-content-sha1: cefd65a3f986fd10766ec32d5f40ff77de2faf97
+Content-length: 3641
+
+/* 
+ * File:   main.c
+ * Author: xiw412
+ *
+ * Created on September 13, 2012, 12:02 PM
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+
+/*
+ * 
+ */
+extern int optind;
+extern int opterr;
+extern int optopt;
+
+char file_char; //characters in input file
+int c_flag = 0; //read options of wc command
+int C_m_flag = 0;
+int l_flag = 0;
+int w_flag = 0;
+int l_count = 0;
+int w_count = 0;
+int c_count = 0;
+int C_m_count = 0;
+int command_append; //options of command wc
+int l_count_sum = 0;
+int w_count_sum = 0;
+int c_count_sum = 0;
+int C_m_count_sum = 0;
+
+int WCount (FILE * fp )
+{
+	while ((file_char = getc(fp))!=EOF )
+	{
+		if (!iswspace(file_char))
+		{
+			while (!iswspace (file_char))
+			{
+				c_count ++ ;
+				C_m_count ++;
+				file_char = getc(fp);
+			}
+			w_count ++ ;
+		}
+		if (file_char == '\n')
+		{
+			l_count++;
+		}
+		c_count ++ ;
+		C_m_count ++ ;
+	}
+}
+
+int PrintOut ( char * FileName, int IfTotal )
+{
+//	int i;
+//	for ( i = 1 ; i <= FileNumber ; i ++ )
+//	{
+	
+		if ( l_flag )
+		{
+			printf ("%8d", IfTotal ? l_count_sum : l_count);
+		}
+		if ( w_flag )
+		{
+			printf ("%8d", IfTotal ? w_count_sum : w_count );
+		}
+		if ( c_flag )
+		{
+			printf ("%8d", IfTotal ? c_count_sum : c_count );
+		}
+		if ( C_m_flag )
+		{
+			printf ("%8d", IfTotal ? C_m_count_sum : C_m_count );
+		}
+		printf (" %s\n", FileName);
+//	}
+	
+}
+
+int main(int argc, char** argv)
+{    
+    while ((command_append = getopt ( argc, argv, "lwcmC"))!= -1)
+    {
+//	    printf ("optind:%d opterr:%d optopt:%d getopt:%c\n", optind, opterr, optopt, command_append);
+        switch ( command_append )
+        {
+            case 'l':
+                l_flag = 1;
+		break;
+            case 'w':
+                w_flag = 1;
+		break;
+            case 'c':
+                c_flag = 1;
+		if ( C_m_flag )
+		{
+			printf ("usage: wc [-c | -m | -C] [-lw] [file ...]\n");
+			return 1;
+		}
+		break;
+            case 'C':
+	    case 'm':
+                C_m_flag = 1;
+		if ( c_flag )
+		{
+			printf ("usage: wc [-c | -m | -C] [-lw] [file ...]\n");
+			return 1;
+		}
+		break;
+            default:
+		printf ("usage: wc [-c | -m | -C] [-lw] [file ...]\n");
+		return 1;
+        }
+    }
+
+//    printf("l_flag: %d, w_flag: %d, c_flag: %d, C_m_flag: %d\n", l_flag, w_flag, c_flag, C_m_flag);
+    
+    if (optind == 1)  //Default option -lwc
+    {
+	    l_flag = 1;
+	    w_flag = 1;
+	    c_flag = 1;
+    }
+
+//    printf("l_flag: %d, w_flag: %d, c_flag: %d, C_m_flag: %d\n", l_flag, w_flag, c_flag, C_m_flag);
+
+    /**********************************************************************************************/
+
+    if ( optind < argc ) //count from a file, otherwise, count from standard input
+    {
+	    int i;
+	    FILE * fp;
+	    for ( i = optind ; i < argc ; i ++ )
+	    {
+		   l_count = 0;
+		   w_count = 0;
+		   c_count = 0;
+		   C_m_count = 0;
+		   fp = fopen (argv[i],"r");
+		   if (fp == NULL)
+			   printf("wc: cannot open %s",argv[i]);
+		   else
+			   WCount (fp);
+	    	   PrintOut (argv[i],0);
+		   l_count_sum = l_count + l_count_sum;
+		   w_count_sum = w_count + w_count_sum;
+		   c_count_sum = c_count + c_count_sum;
+		   C_m_count_sum = C_m_count + C_m_count_sum;
+
+	    }
+	    if ( (argc - optind ) > 1 )
+		{
+			PrintOut("total",1 );
+		}
+
+
+    }
+
+    else if (optind == argc)
+    {
+	WCount (stdin);
+	if ( l_flag )
+	{
+		printf ("%8d", l_count);
+	}
+	if ( w_flag )
+	{
+		printf ("%8d", w_count);
+	}
+	if ( c_flag )
+	{
+		printf ("%8d", c_count);
+	}
+	if ( C_m_flag )
+	{
+		printf ("%8d", C_m_count);
+	}
+	printf ("\n");
+
+    }
+//    printf("l_count: %d, w_count: %d, c_count: %d, C_m_count: %d\n", l_count, w_count, c_count, C_m_count);
+    return (EXIT_SUCCESS);
+}
+
+
+
+Revision-number: 13
+Prop-content-length: 139
+Content-length: 139
+
+K 7
+svn:log
+V 38
+tested by two files and a virtual file
+K 10
+svn:author
+V 6
+xiw412
+K 8
+svn:date
+V 27
+2012-09-16T04:11:47.071384Z
+PROPS-END
+
+Node-path: hw2/dist/Debug/GNU-Solaris-x86/hw2
+Node-kind: file
+Node-action: change
+Text-content-length: 11796
+Text-content-md5: a0efc571eeb590791bca61ae249d603a
+Text-content-sha1: d607459fff37f2985229daa88990718052144ba1
+Content-length: 11796
+
+ELF              ô	4   t(      4    ( $ #    4   4                       Ô                                      e  e           h  h    p  Œ           ´  ´    Ğ              /usr/lib/ld.so.1    5   5                                                           
+                                                                            "   $   &   (   )       +   .       1       2       3   4                                   	                                                                                     !       #       %       '           *       ,   -       /   0                                                         Ø      $        -   D	       2   Ğ     8       =        I   ¤ë     ,   T	       R        _   è     i   $	       p   ´     ‚        Œ        ”        œ   ´      ¦   (À  !  «   ğ     ±   e      ¸   ”	       Á   ø     Ê   ˆ     Ò        Ş   ğ     å   4	       ï   ¸      ü   ¤	       ¥   (À      ì       Œ
+{       	      4              E        T  „   !  \  ô	–     c  ÌØ     j       r  h      ˆ  ô                   S  „     ­              Á        È  ô      Í  ü     Ô       à  Ô	       æ  ä	    "   ş  ´	                     #  Ä	        __register_frame_info_bases _edata w_count _exit _init main l_count_sum PrintOut _lib_version file_char atexit __longdouble_used C_m_count l_count c_count _DYNAMIC __iob _fini _etext __filbuf C_m_flag ___Argv w_count_sum optind __fpstart __dso_handle iswspace command_append __fsr _PROCEDURE_LINKAGE_TABLE_ __fsr_init_value C_m_count_sum _environ _start WCount _mcount _GLOBAL_OFFSET_TABLE_ c_flag __deregister_frame_info_bases _Jv_RegisterClasses w_flag _end l_flag c_count_sum fopen _get_exit_frame_monitor printf __1cG__CrunMdo_exit_code6F_v_ getopt libc.so.1 SUNW_1.1 SUNWprivate_1.1 /usr/sfw/lib     *         ‘'=
+    4     qÌN    =      •
+!  „)  Œ  ”+  3  ğ  (  t  x  |  €	  ˆ)    ˜+  œ     ¤2  ¨4  ¬0  °1  ÿ5lÿ%p    ÿ%th    éàÿÿÿÿ%xh   éĞÿÿÿÿ%|h   éÀÿÿÿÿ%€h   é°ÿÿÿÿ%ˆh    é ÿÿÿÿ%h(   éÿÿÿÿ%˜h0   é€ÿÿÿÿ%œh8   épÿÿÿÿ% h@   é`ÿÿÿÿ%¤hH   éPÿÿÿÿ%¨hP   é@ÿÿÿÿ%¬hX   é0ÿÿÿÿ%°h`   é ÿÿÿj j ‹ì¸´…Àt	RèÿÿÿƒÄhğèÿÿÿƒÄŒ‹ …Àt‹ …Àt	PèíşÿÿƒÄ‹E‹„…Òu
+T…‰„ƒäğRU‰ˆRPèÏşÿÿè"   èa  è  ƒÄPPèÆşÿÿƒÄèÎşÿÿƒÄôU‹ìRQƒì¹    Ñéƒù t`›Ù|$ ‹ÑƒâŠ‚” D$ ÷Á   t€d$ ı‹Ñƒâ`t‹Âƒà Ñà3ĞÁâfd$ ÿóf	T$ á€  tñ€  Ñáfd$ ÿüf	L$ Ùl$ ƒÄYZ]ÃÃ   U‰åSè    [ÃS R€»p   të:ƒÀ‰ƒl  ÿÒ‹ƒl  ‹…Òué‹ƒ   …Àtƒìƒd  PèşÿÿƒÄÆƒp  ‹]üÉÃU‰åSè    [Ã÷ P‹ƒ$   …ÀtSj ƒt  Pƒd  PèÛıÿÿƒÄ‹ƒh  …Àt‹‹,   …Étƒìƒh  PèÅıÿÿƒÄ‰ö‹]üÉÃ   U‰åƒì‹Eÿƒ8 yƒìÿuè­ıÿÿƒÄˆEÿë‹E‹Pÿ@ŠˆUÿŠEÿ¢è<ÿ„•   ƒì¾èPè‡ıÿÿƒÄ…Àu^ƒì¾èPèpıÿÿƒÄ…ÀuAÿÿ‹Eÿƒ8 yƒìÿuè8ıÿÿƒÄˆEşë‹E‹Pÿ@ŠˆUşŠEş¢èë¨ÿ€=è
+uÿÿÿé0ÿÿÿÉÃU‰åƒìƒ=ü t+ƒìƒ} t
+¡‰Eüë¡‰EüÿuühèÙüÿÿƒÄƒ=  t+ƒìƒ} t
+¡‰Eøë¡‰Eøÿuøhè¥üÿÿƒÄƒ=ô t+ƒìƒ} t
+¡‰Eôë¡‰EôÿuôhèqüÿÿƒÄƒ=ø t+ƒìƒ} t
+¡ ‰Eğë¡‰Eğÿuğhè=üÿÿƒÄƒìÿuhè*üÿÿƒÄÉÃU‰åƒìƒäğ¸    ƒÀƒÀÁèÁà)ÄƒìhÿuÿuèüÿÿƒÄ£ìƒ=ìÿ„Í   ¡ì‰Eğƒ}ğlt%ƒ}ğlƒ}ğCtdƒ}ğct+éŒ   ƒ}ğmtSƒ}ğwtë~Çü   ë™Ç    ëÇô   ƒ=ø „vÿÿÿƒìhèrûÿÿƒÄÇEô   éI  Çø   ƒ=ô „Cÿÿÿƒìhè?ûÿÿƒÄÇEô   é  ƒìhè#ûÿÿƒÄÇEô   éú  ƒ=ğuÇü   Ç    Çô   ¡ğ;E  ¡ğ‰Eü‹Eü;EÔ   Ç    Ç    Ç    Ç    ƒìhG‹Eü…    ‹Eÿ4è¦úÿÿƒÄ‰Eøƒ}ø u"ƒì‹Eü…    ‹Eÿ4hIè]úÿÿƒÄëWƒìÿuøèeüÿÿƒÄƒìj ‹Eü…    ‹Eÿ4è ıÿÿƒÄ¡¡¡¡ Eüÿ é ÿÿÿ¡ğ‹U)Â‰ĞƒøÁ   ƒìjh]èÃüÿÿƒÄéª   ¡ğ;E…œ   ƒìh(èÈûÿÿƒÄƒ=ü tƒìÿ5hè‘ùÿÿƒÄƒ=  tƒìÿ5hèrùÿÿƒÄƒ=ô tƒìÿ5hèSùÿÿƒÄƒ=ø tƒìÿ5hè4ùÿÿƒÄƒìhcè$ùÿÿƒÄÇEô    ‹EôÉÃ U‰åVSè    [Ã¾  ƒX  pü‹@üëƒîÿĞ‹ƒøÿuô[^ÉÃU‹ìSè    [Ã  èƒúÿÿè¶ÿÿÿ[ÉÃ   U‹ìSè    [Ão  èúÿÿ[ÉÃ   %8d  %s
+ lwcmC  usage: wc [-c | -m | -C] [-lw] [file ...]
+ r wc: cannot open %s
+ total 
+    ´        *	:	J	Z	    j	    z	    Š	š	ª	º	Ê	Ú	ê	   *     Ğ   ğ   M     M     è    è
+   Z     ˜      øıÿo`  şÿÿoDÿÿÿo             h            ¬   t                    üıÿo         ûÿÿo       h                ä	    ÿßûÛïÏëË÷×óÓçÇãÃşŞúÚîÎêÊöÖòÒæÆâÂ        ÿÿÿÿ    ÿÿÿÿ            È                            ñÿ    Ô           è           ˜          è          D          t          |          ”          œ     	     ¬     
+     	          ô	          Ğ          ğ                    h          ´          „          ¼          Ä          Ì          Ğ          Ô          Ø                                                                                                                                    !              "              # N  ô      T                       ñÿ&   Œ     C        V   ”      a            ñÿh            ñÿt            ñÿ   ¼         Ä      ›   Ì      ®   Ğ      »   Ô      ¿   Ø     Ë         á   Ü     ê   h      ö            ñÿt            ñÿı   À      
+  È        Ì      %  Ğ      1         G           ñÿ\              x  Ø             ˆ  D	         Ğ     “      ˜       ¤  ¤ë     ‡  T	       ­       º  è     Ä  $	       Ë  ´     İ       ç       ï       ÷  ´        (À  !    ğ       e        ”	         ø     %  ˆ     -       9  ğ     @  4	       J  ¸      W  ¤	          (À    `  ì     o  Œ
+{     u  	                             ¯  „   !  ·  ô	–     ¾  ÌØ     Å       Í  h      ã  ô     ê              ®  „                           #  ô      (  ü     /       ;  Ô	       A  ä	    "   Y  ´	       `              ~  Ä	        dist/Debug/GNU-Solaris-x86/hw2 fsr.s __get_exit_frame_monitor_ptr __do_exit_code_ptr trap_table crti.s values-Xa.c crtstuff.c __CTOR_LIST__ __DTOR_LIST__ __EH_FRAME_BEGIN__ __JCR_LIST__ p.0 completed.1 __do_global_dtors_aux object.2 frame_dummy main.c __CTOR_END__ __DTOR_END__ __FRAME_END__ __JCR_END__ __do_global_ctors_aux crtn.s _END_ _START_ __register_frame_info_bases _edata w_count _exit _init main l_count_sum PrintOut _lib_version file_char atexit __longdouble_used C_m_count l_count c_count _DYNAMIC __iob _fini _etext __filbuf C_m_flag ___Argv w_count_sum optind __fpstart __dso_handle iswspace command_append __fsr _PROCEDURE_LINKAGE_TABLE_ __fsr_init_value C_m_count_sum _environ _start WCount _mcount _GLOBAL_OFFSET_TABLE_ c_flag __deregister_frame_info_bases _Jv_RegisterClasses w_flag _end l_flag c_count_sum fopen _get_exit_frame_monitor printf __1cG__CrunMdo_exit_code6F_v_ getopt  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  @(#)SunOS 5.10 Generic January 2005 ld: Software Generation Utilities - Solaris Link Editors: 5.10-1.497 %  $ >   :;I  :;   :;I8
+   :;I8
+   I  $ >  	.?:;'I@
+  
+ :;I
+    .?:;I<     4 :;I
+  I  ! I/  4 :;I?<  4 :;I?
+   ©           ŸÌGNU C 3.4.3 (csl-sol210-3_4-branch+sol_rpath) main.c /home/xiw412/NetBeansProject/hw2 char __FILE …   x  __FILE _cnt #x  # _ptr $  #_base &  #_flag '…  #_file (…  #__orientation *–  #__ionolock +–  #__seekable ,–  #__extendedfd -–  #__xf_nocheck .–  
+#__filler /–  
+ # int …  unsigned char     long long int FILE Jw   long int     short int short unsigned int long long unsigned int long unsigned int o   long double 	~  WCount $x  Ì¤U
+fp #~  ‘iswspace 'x     ®  	Ê  PrintOut ;x  ¤U
+FileName :  ‘
+IfTotal :x  ‘ 	(  main Vx  ŸU
+argc Ux  ‘
+argv U(  ‘Õäi ˆx  ‘|fp ‰~  ‘x    >  w   Æ  ; __iob ’.  optind x  file_char o   èc_flag x  ôC_m_flag x  øl_flag x  üw_flag x   l_count x  w_count x  c_count x  C_m_count x  command_append x  ìl_count_sum x  w_count_sum x  c_count_sum  x  C_m_count_sum !x    ê    f   û
+    /usr/include/iso /usr/include  main.c    stdio_iso.h   stdio_tag.h   stdio_impl.h     Ì#d;eedd5eed«.h++++..ª(3œ-œ-œÇğ¼œÇğ»ğ½œœ¢×;œœœœ#d"Ô¸ªªªp©›IiÕğWWWWór      ÿÿÿÿ |ˆ  $       ÌØ      …      . $       ¤ë      …   /   . $            …   '   . ò        ­  4  WCount „  PrintOut Ê  main ]  file_char u  c_flag Š  C_m_flag ¡  l_flag ¶  w_flag Ë  l_count á  w_count ÷  c_count   C_m_count %  command_append B  l_count_sum \  w_count_sum v  c_count_sum   C_m_count_sum                  ÌÓ          unsigned int  .interp .hash .dynsym .dynstr .SUNW_version .rel.text .rel.got .rel.data .rel.bss .rel.plt .init .fini .rodata .dynamic .ctors .dtors .eh_frame .jcr .data.rel.local .symtab .strtab .comment .debug_abbrev .debug_info .debug_line .debug_frame .debug_pubnames .debug_aranges .debug_str .shstrtab                                                     Ô Ô                     	         è è   °                        ˜˜  P                    "   èè  Z                    şÿÿo   DD  0                -   	   B   tt                 7   	   B   ||                 @   	   B   ””                 J   	   B   œœ                 S   	   B   ¬¬  h               W         		  à                 1         ô	ô	  Ü                 \         ĞĞ                    b         ğğ                    h           ]                  ;         hh  L                 p         ´´  Ğ                D         „„  8                  y         ¼¼                    €         ÄÄ                    ‡         ÌÌ                    ‘         ĞĞ                    –         ÔÔ                    N         ØØ                   ¦              Ø  0     ?         ®                …                 ¶                u                 ¿                ı                  Í              ÿ  ­                 Ù              ¬$  î                  å              œ%  Œ                  ò              (&  ö                               '                                  >'                                 K'  &                 
+
+Node-path: hw2/main.c
+Node-kind: file
+Node-action: change
+Text-content-length: 3667
+Text-content-md5: 9953a2d25b956618d80b6d53e4b2304e
+Text-content-sha1: 726c5ccac00adc994182f6f380f91d3c81427559
+Content-length: 3667
+
+/* 
+ * File:   main.c
+ * Author: xiw412
+ *
+ * Created on September 13, 2012, 12:02 PM
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+
+/*
+ * 
+ */
+extern int optind;
+extern int opterr;
+extern int optopt;
+
+char file_char; //characters in input file
+int c_flag = 0; //read options of wc command
+int C_m_flag = 0;
+int l_flag = 0;
+int w_flag = 0;
+int l_count = 0;
+int w_count = 0;
+int c_count = 0;
+int C_m_count = 0;
+int command_append; //options of command wc
+int l_count_sum = 0;
+int w_count_sum = 0;
+int c_count_sum = 0;
+int C_m_count_sum = 0;
+
+int WCount (FILE * fp )
+{
+	while ((file_char = getc(fp))!=EOF )
+	{
+		if (!iswspace(file_char))
+		{
+			while (!iswspace (file_char))
+			{
+				c_count ++ ;
+				C_m_count ++;
+				file_char = getc(fp);
+			}
+			w_count ++ ;
+		}
+		if (file_char == '\n')
+		{
+			l_count++;
+		}
+		c_count ++ ;
+		C_m_count ++ ;
+	}
+}
+
+int PrintOut ( char * FileName, int IfTotal )
+{
+//	int i;
+//	for ( i = 1 ; i <= FileNumber ; i ++ )
+//	{
+	
+		if ( l_flag )
+		{
+			printf ("%8d", IfTotal ? l_count_sum : l_count);
+		}
+		if ( w_flag )
+		{
+			printf ("%8d", IfTotal ? w_count_sum : w_count );
+		}
+		if ( c_flag )
+		{
+			printf ("%8d", IfTotal ? c_count_sum : c_count );
+		}
+		if ( C_m_flag )
+		{
+			printf ("%8d", IfTotal ? C_m_count_sum : C_m_count );
+		}
+		printf (" %s\n", FileName);
+//	}
+	
+}
+
+int main(int argc, char** argv)
+{    
+    while ((command_append = getopt ( argc, argv, "lwcmC"))!= -1)
+    {
+//	    printf ("optind:%d opterr:%d optopt:%d getopt:%c\n", optind, opterr, optopt, command_append);
+        switch ( command_append )
+        {
+            case 'l':
+                l_flag = 1;
+		break;
+            case 'w':
+                w_flag = 1;
+		break;
+            case 'c':
+                c_flag = 1;
+		if ( C_m_flag )
+		{
+			printf ("usage: wc [-c | -m | -C] [-lw] [file ...]\n");
+			return 1;
+		}
+		break;
+            case 'C':
+	    case 'm':
+                C_m_flag = 1;
+		if ( c_flag )
+		{
+			printf ("usage: wc [-c | -m | -C] [-lw] [file ...]\n");
+			return 1;
+		}
+		break;
+            default:
+		printf ("usage: wc [-c | -m | -C] [-lw] [file ...]\n");
+		return 1;
+        }
+    }
+
+//    printf("l_flag: %d, w_flag: %d, c_flag: %d, C_m_flag: %d\n", l_flag, w_flag, c_flag, C_m_flag);
+    
+    if (optind == 1)  //Default option -lwc
+    {
+	    l_flag = 1;
+	    w_flag = 1;
+	    c_flag = 1;
+    }
+
+//    printf("l_flag: %d, w_flag: %d, c_flag: %d, C_m_flag: %d\n", l_flag, w_flag, c_flag, C_m_flag);
+
+    /**********************************************************************************************/
+
+    if ( optind < argc ) //count from a file, otherwise, count from standard input
+    {
+	    int i;
+	    FILE * fp;
+	    for ( i = optind ; i < argc ; i ++ )
+	    {
+		   l_count = 0;
+		   w_count = 0;
+		   c_count = 0;
+		   C_m_count = 0;
+		   fp = fopen (argv[i],"r");
+		   if (fp == NULL)
+			   printf("wc: cannot open %s\n",argv[i]);
+		   else
+		   {
+			   WCount (fp);
+			   PrintOut (argv[i],0);
+		   	   l_count_sum = l_count + l_count_sum;
+		  	   w_count_sum = w_count + w_count_sum;
+		  	   c_count_sum = c_count + c_count_sum;
+		  	   C_m_count_sum = C_m_count + C_m_count_sum;
+		   }
+
+	    }
+	    if ( (argc - optind ) > 1 )
+		{
+			PrintOut("total",1 );
+		}
+
+
+    }
+
+    else if (optind == argc)
+    {
+	WCount (stdin);
+	if ( l_flag )
+	{
+		printf ("%8d", l_count);
+	}
+	if ( w_flag )
+	{
+		printf ("%8d", w_count);
+	}
+	if ( c_flag )
+	{
+		printf ("%8d", c_count);
+	}
+	if ( C_m_flag )
+	{
+		printf ("%8d", C_m_count);
+	}
+	printf ("\n");
+
+    }
+//    printf("l_count: %d, w_count: %d, c_count: %d, C_m_count: %d\n", l_count, w_count, c_count, C_m_count);
+    return (EXIT_SUCCESS);
+}
+
+
+
+Revision-number: 14
+Prop-content-length: 100
+Content-length: 100
+
+K 7
+svn:log
+V 0
+
+K 10
+svn:author
+V 6
+xiw412
+K 8
+svn:date
+V 27
+2012-09-16T04:32:16.356882Z
+PROPS-END
+
+Node-path: hw2/.dep.inc
+Node-kind: file
+Node-action: change
+Text-content-length: 144
+Text-content-md5: 229af530443d9bac2a54035c9debd137
+Text-content-sha1: dca483b93fb1122ae3eb86e74325d0694cc3b408
+Content-length: 144
+
+# This code depends on make tool being used
+DEPFILES=$(wildcard $(addsuffix .d, ${OBJECTFILES}))
+ifneq (${DEPFILES},)
+include ${DEPFILES}
+endif
+
+
+Node-path: hw2/nbproject/private/configurations.xml
+Node-kind: file
+Node-action: change
+Text-content-length: 2648
+Text-content-md5: c0d9c6072ace5df6322136bba87932e0
+Text-content-sha1: fc183b0c00a209c159e8d0c354fbd31b260f398c
+Content-length: 2648
+
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>1</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -l -w -c /home/xiw412/NetBeansProject/hw2/ main.c Makefile</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" -l -w -c /home/xiw412/NetBeansProject/hw2/ main.c Makefile</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>1</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
+
+
+Revision-number: 15
+Prop-content-length: 100
+Content-length: 100
+
+K 7
+svn:log
+V 0
+
+K 10
+svn:author
+V 6
+xiw412
+K 8
+svn:date
+V 27
+2012-09-16T18:18:29.847998Z
+PROPS-END
+
+Node-path: hw2/.dep.inc
+Node-kind: file
+Node-action: change
+Text-content-length: 94
+Text-content-md5: 5e392b271bdbe3f61a988080f686b6f7
+Text-content-sha1: c9cf1ed954ab518518be70ce96776e0c638ee932
+Content-length: 94
+
+# This code depends on make tool being used
+.KEEP_STATE:
+.KEEP_STATE_FILE:.make.state.${CONF}
+
+
+Node-path: hw2/dist/Debug/GNU-Solaris-x86/hw2
+Node-kind: file
+Node-action: change
+Text-content-length: 11784
+Text-content-md5: 694847ae741fde65f657d9affa268ec4
+Text-content-sha1: 54a6fb1c7a47eb3eccd38f793cac93ec97cf525c
+Content-length: 11784
+
+ELF              ô	4   h(      4    ( $ #    4   4                       Ô                                      e  e           h  h    p  Œ           ´  ´    Ğ              /usr/lib/ld.so.1    5   5                                                           
+                                                                            "   $   &   (   )       +   .       1       2       3   4                                   	                                                                                     !       #       %       '           *       ,   -       /   0                                                         Ø      $        -   D	       2   Ğ     8       =        I   ¤ë     ,   T	       R        _   è     i   $	       p   ´     ‚        Œ        ”        œ   ´      ¦   (À  !  «   ğ     ±   e      ¸   ”	       Á   ø     Ê   ˆ     Ò        Ş   ğ     å   4	       ï   ¸      ü   ¤	       ¥   (À      ì       Œ
+{       	      4              E        T  „   !  \  ô	–     c  ÌØ     j       r  h      ˆ  ô                   S  „     ­              Á        È  ô      Í  ü     Ô       à  Ô	       æ  ä	    "   ş  ´	                     #  Ä	        __register_frame_info_bases _edata w_count _exit _init main l_count_sum PrintOut _lib_version file_char atexit __longdouble_used C_m_count l_count c_count _DYNAMIC __iob _fini _etext __filbuf C_m_flag ___Argv w_count_sum optind __fpstart __dso_handle iswspace command_append __fsr _PROCEDURE_LINKAGE_TABLE_ __fsr_init_value C_m_count_sum _environ _start WCount _mcount _GLOBAL_OFFSET_TABLE_ c_flag __deregister_frame_info_bases _Jv_RegisterClasses w_flag _end l_flag c_count_sum fopen _get_exit_frame_monitor printf __1cG__CrunMdo_exit_code6F_v_ getopt libc.so.1 SUNW_1.1 SUNWprivate_1.1 /usr/sfw/lib     *         ‘'=
+    4     qÌN    =      •
+!  „)  Œ  ”+  3  ğ  (  t  x  |  €	  ˆ)    ˜+  œ     ¤2  ¨4  ¬0  °1  ÿ5lÿ%p    ÿ%th    éàÿÿÿÿ%xh   éĞÿÿÿÿ%|h   éÀÿÿÿÿ%€h   é°ÿÿÿÿ%ˆh    é ÿÿÿÿ%h(   éÿÿÿÿ%˜h0   é€ÿÿÿÿ%œh8   épÿÿÿÿ% h@   é`ÿÿÿÿ%¤hH   éPÿÿÿÿ%¨hP   é@ÿÿÿÿ%¬hX   é0ÿÿÿÿ%°h`   é ÿÿÿj j ‹ì¸´…Àt	RèÿÿÿƒÄhğèÿÿÿƒÄŒ‹ …Àt‹ …Àt	PèíşÿÿƒÄ‹E‹„…Òu
+T…‰„ƒäğRU‰ˆRPèÏşÿÿè"   èa  è  ƒÄPPèÆşÿÿƒÄèÎşÿÿƒÄôU‹ìRQƒì¹    Ñéƒù t`›Ù|$ ‹ÑƒâŠ‚” D$ ÷Á   t€d$ ı‹Ñƒâ`t‹Âƒà Ñà3ĞÁâfd$ ÿóf	T$ á€  tñ€  Ñáfd$ ÿüf	L$ Ùl$ ƒÄYZ]ÃÃ   U‰åSè    [ÃS R€»p   të:ƒÀ‰ƒl  ÿÒ‹ƒl  ‹…Òué‹ƒ   …Àtƒìƒd  PèşÿÿƒÄÆƒp  ‹]üÉÃU‰åSè    [Ã÷ P‹ƒ$   …ÀtSj ƒt  Pƒd  PèÛıÿÿƒÄ‹ƒh  …Àt‹‹,   …Étƒìƒh  PèÅıÿÿƒÄ‰ö‹]üÉÃ   U‰åƒì‹Eÿƒ8 yƒìÿuè­ıÿÿƒÄˆEÿë‹E‹Pÿ@ŠˆUÿŠEÿ¢è<ÿ„•   ƒì¾èPè‡ıÿÿƒÄ…Àu^ƒì¾èPèpıÿÿƒÄ…ÀuAÿÿ‹Eÿƒ8 yƒìÿuè8ıÿÿƒÄˆEşë‹E‹Pÿ@ŠˆUşŠEş¢èë¨ÿ€=è
+uÿÿÿé0ÿÿÿÉÃU‰åƒìƒ=ü t+ƒìƒ} t
+¡‰Eüë¡‰EüÿuühèÙüÿÿƒÄƒ=  t+ƒìƒ} t
+¡‰Eøë¡‰Eøÿuøhè¥üÿÿƒÄƒ=ô t+ƒìƒ} t
+¡‰Eôë¡‰EôÿuôhèqüÿÿƒÄƒ=ø t+ƒìƒ} t
+¡ ‰Eğë¡‰Eğÿuğhè=üÿÿƒÄƒìÿuhè*üÿÿƒÄÉÃU‰åƒìƒäğ¸    ƒÀƒÀÁèÁà)ÄƒìhÿuÿuèüÿÿƒÄ£ìƒ=ìÿ„Í   ¡ì‰Eğƒ}ğlt%ƒ}ğlƒ}ğCtdƒ}ğct+éŒ   ƒ}ğmtSƒ}ğwtë~Çü   ë™Ç    ëÇô   ƒ=ø „vÿÿÿƒìhèrûÿÿƒÄÇEô   éI  Çø   ƒ=ô „Cÿÿÿƒìhè?ûÿÿƒÄÇEô   é  ƒìhè#ûÿÿƒÄÇEô   éú  ƒ=ğuÇü   Ç    Çô   ¡ğ;E  ¡ğ‰Eü‹Eü;EÔ   Ç    Ç    Ç    Ç    ƒìhG‹Eü…    ‹Eÿ4è¦úÿÿƒÄ‰Eøƒ}ø u"ƒì‹Eü…    ‹Eÿ4hIè]úÿÿƒÄëWƒìÿuøèeüÿÿƒÄƒìj ‹Eü…    ‹Eÿ4è ıÿÿƒÄ¡¡¡¡ Eüÿ é ÿÿÿ¡ğ‹U)Â‰ĞƒøÁ   ƒìjh]èÃüÿÿƒÄéª   ¡ğ;E…œ   ƒìh(èÈûÿÿƒÄƒ=ü tƒìÿ5hè‘ùÿÿƒÄƒ=  tƒìÿ5hèrùÿÿƒÄƒ=ô tƒìÿ5hèSùÿÿƒÄƒ=ø tƒìÿ5hè4ùÿÿƒÄƒìhcè$ùÿÿƒÄÇEô    ‹EôÉÃ U‰åVSè    [Ã¾  ƒX  pü‹@üëƒîÿĞ‹ƒøÿuô[^ÉÃU‹ìSè    [Ã  èƒúÿÿè¶ÿÿÿ[ÉÃ   U‹ìSè    [Ão  èúÿÿ[ÉÃ   %8d  %s
+ lwcmC  usage: wc [-c | -m | -C] [-lw] [file ...]
+ r wc: cannot open %s
+ total 
+    ´        *	:	J	Z	    j	    z	    Š	š	ª	º	Ê	Ú	ê	   *     Ğ   ğ   M     M     è    è
+   Z     ˜      øıÿo`  şÿÿoDÿÿÿo             h            ¬   t                    üıÿo         ûÿÿo       h                ä	    ÿßûÛïÏëË÷×óÓçÇãÃşŞúÚîÎêÊöÖòÒæÆâÂ        ÿÿÿÿ    ÿÿÿÿ            È                            ñÿ    Ô           è           ˜          è          D          t          |          ”          œ     	     ¬     
+     	          ô	          Ğ          ğ                    h          ´          „          ¼          Ä          Ì          Ğ          Ô          Ø                                                                                                                                    !              "              # N  ô      T                       ñÿ&   Œ     C        V   ”      a            ñÿh            ñÿt            ñÿ   ¼         Ä      ›   Ì      ®   Ğ      »   Ô      ¿   Ø     Ë         á   Ü     ê   h      ö            ñÿt            ñÿı   À      
+  È        Ì      %  Ğ      1         G           ñÿ\              x  Ø             ˆ  D	         Ğ     “      ˜       ¤  ¤ë     ‡  T	       ­       º  è     Ä  $	       Ë  ´     İ       ç       ï       ÷  ´        (À  !    ğ       e        ”	         ø     %  ˆ     -       9  ğ     @  4	       J  ¸      W  ¤	          (À    `  ì     o  Œ
+{     u  	                             ¯  „   !  ·  ô	–     ¾  ÌØ     Å       Í  h      ã  ô     ê              ®  „                           #  ô      (  ü     /       ;  Ô	       A  ä	    "   Y  ´	       `              ~  Ä	        dist/Debug/GNU-Solaris-x86/hw2 fsr.s __get_exit_frame_monitor_ptr __do_exit_code_ptr trap_table crti.s values-Xa.c crtstuff.c __CTOR_LIST__ __DTOR_LIST__ __EH_FRAME_BEGIN__ __JCR_LIST__ p.0 completed.1 __do_global_dtors_aux object.2 frame_dummy main.c __CTOR_END__ __DTOR_END__ __FRAME_END__ __JCR_END__ __do_global_ctors_aux crtn.s _END_ _START_ __register_frame_info_bases _edata w_count _exit _init main l_count_sum PrintOut _lib_version file_char atexit __longdouble_used C_m_count l_count c_count _DYNAMIC __iob _fini _etext __filbuf C_m_flag ___Argv w_count_sum optind __fpstart __dso_handle iswspace command_append __fsr _PROCEDURE_LINKAGE_TABLE_ __fsr_init_value C_m_count_sum _environ _start WCount _mcount _GLOBAL_OFFSET_TABLE_ c_flag __deregister_frame_info_bases _Jv_RegisterClasses w_flag _end l_flag c_count_sum fopen _get_exit_frame_monitor printf __1cG__CrunMdo_exit_code6F_v_ getopt  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  @(#)SunOS 5.10 Generic January 2005  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  GCC: (GNU) 3.4.3 (csl-sol210-3_4-branch+sol_rpath)  @(#)SunOS 5.10 Generic January 2005 ld: Software Generation Utilities - Solaris Link Editors: 5.10-1.497 %  $ >   :;I  :;   :;I8
+   :;I8
+   I  $ >  	.?:;'I@
+  
+ :;I
+    .?:;I<     4 :;I
+  I  ! I/  4 :;I?<  4 :;I?
+              ŸÌGNU C 3.4.3 (csl-sol210-3_4-branch+sol_rpath) main.c //home/xiw412/svn/hw2 char __FILE z   m  __FILE _cnt #m  # _ptr $t  #_base &t  #_flag 'z  #_file (z  #__orientation *‹  #__ionolock +‹  #__seekable ,‹  #__extendedfd -‹  #__xf_nocheck .‹  
+#__filler /‹  
+ # int z  unsigned char     long long int FILE Jl   long int     short int short unsigned int long long unsigned int long unsigned int d   long double 	s  WCount $m  Ì¤U
+fp #s  ‘iswspace 'm     £  	¿  PrintOut ;m  ¤U
+FileName :  ‘
+IfTotal :m  ‘ 	  main Vm  ŸU
+argc Um  ‘
+argv U  ‘Õäi ˆm  ‘|fp ‰s  ‘x    3  l   »  ; __iob ’#  optind m  file_char d   èc_flag m  ôC_m_flag m  øl_flag m  üw_flag m   l_count m  w_count m  c_count m  C_m_count m  command_append m  ìl_count_sum m  w_count_sum m  c_count_sum  m  C_m_count_sum !m    ê    f   û
+    /usr/include/iso /usr/include  main.c    stdio_iso.h   stdio_tag.h   stdio_impl.h     Ì#d;eedd5eed«.h++++..ª(3œ-œ-œÇğ¼œÇğ»ğ½œœ¢×;œœœœ#d"Ô¸ªªªp©›IiÕğWWWWór     ÿÿÿÿ |ˆ  $       ÌØ      …      . $       ¤ë      …   /   . $            …   '   . ò        ¢  )  WCount y  PrintOut ¿  main R  file_char j  c_flag   C_m_flag –  l_flag «  w_flag À  l_count Ö  w_count ì  c_count   C_m_count   command_append 7  l_count_sum Q  w_count_sum k  c_count_sum …  C_m_count_sum                  ÌÓ          unsigned int  .interp .hash .dynsym .dynstr .SUNW_version .rel.text .rel.got .rel.data .rel.bss .rel.plt .init .fini .rodata .dynamic .ctors .dtors .eh_frame .jcr .data.rel.local .symtab .strtab .comment .debug_abbrev .debug_info .debug_line .debug_frame .debug_pubnames .debug_aranges .debug_str .shstrtab                                                     Ô Ô                     	         è è   °                        ˜˜  P                    "   èè  Z                    şÿÿo   DD  0                -   	   B   tt                 7   	   B   ||                 @   	   B   ””                 J   	   B   œœ                 S   	   B   ¬¬  h               W         		  à                 1         ô	ô	  Ü                 \         ĞĞ                    b         ğğ                    h           ]                  ;         hh  L                 p         ´´  Ğ                D         „„  8                  y         ¼¼                    €         ÄÄ                    ‡         ÌÌ                    ‘         ĞĞ                    –         ÔÔ                    N         ØØ                   ¦              Ø  0     ?         ®                …                 ¶                u                 ¿                ı                  Í              ÿ  ¢                 Ù              ¡$  î                  å              %  Œ                  ò              &  ö                               '                                  2'                                 ?'  &                 
+

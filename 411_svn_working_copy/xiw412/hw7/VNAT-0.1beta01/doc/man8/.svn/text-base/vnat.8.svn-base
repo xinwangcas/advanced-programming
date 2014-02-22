@@ -1,0 +1,156 @@
+.TH "vnat" 8 "20 Nov 2002" "VNAT" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+vnat \- VNAT module. 
+More...
+.SS "Modules"
+
+.in +1c
+.ti -1c
+.RI "\fBvnat\fP"
+.br
+.in -1c
+.SH "DETAILED DESCRIPTION"
+.PP 
+VNAT module.
+.PP
+VNAT kernel module implements the VNAT network virtualization and translation functions to support migration of live end-to-end transport layer network connections.
+.PP
+VNAT module is loaded into the running kernel by the 'modprobe' or 'insmod' command. 'modprobe' is recommanded since it automatically resolves module dependencies. To load the VNAT module (assuming it has been compiled and installed):
+.PP
+modprobe kvnat [options]...
+.PP
+To unload the VNAT module:
+.PP
+modprobe -r kvnat
+.PP
+Note that the VNAT module cannot be unloaded if there are active network connections being virtualized. This is reflected in the module usage counter when you do 'lsmod'.
+.PP
+Options are in the form of name=value. Valid option names and their values are:
+.PP
+\fBdebug=mask\fP
+.PP
+Debugging level. \fIMask\fP is a bit mask that controls the type of runtime debugging information to be printed to console and syslog. Bits can be combined to obtain more than one type of information. This optioni is only available when VNAT has been compiled with the symbol DEBUG defined.
+.PP
+.TP
+ \fI0x00\fP: don't print any runtime debugging information
+.PP
+.TP
+ \fI0x01\fP: print socket calls that are intercepted and virtualized
+.PP
+.TP
+ \fI0x02\fP: print socket calls that are intercepted but not virtualized
+.PP
+.TP
+ \fI0x04\fP: print general information about what VNAT is doing
+.PP
+\fBtimeo=n\fP
+.PP
+VNAT protocol timeout. Set the timeout for VNAT protocol interaction (connection setup, message read and write) to be n seconds.
+.PP
+\fBinver={0|1}\fP
+.PP
+Process list inversion. Determine whether the list of processes whose network connections are to be virtualized is inclusive or exclusive. If the list is inclusive, then only the connections of the processes whose names are in the list will be virtualized. If the list is exclusive, then only the connections of the processes whose names are \fInot\fP in the list will be virtualized. This will become clearer below with the description of the VNAT /proc file system entries.
+.PP
+.TP
+ \fI0\fP: the list is inclusive
+.PP
+.TP
+ \fI1\fP: the list is exclusive
+.PP
+\fBpmask={0x1|0x2}\fP
+.PP
+Protocol mask. Bit mask to determine which transport layer protocol to virtualize.
+.PP
+.TP
+ \fI0x1\fP: TCP
+.PP
+.TP
+ \fI0x2\fP: UPD
+.PP
+\fBtcpka=n\fP
+.PP
+TCP keepalive timer. Set the TCP keepalive timer (in seconds) to be negotiated with the remote peer when the local host is suspended. A value of 0 means to disable the TCP keepalive timer on the remote peer for the migrating connections, i.e., to keep the migrating connections alive indefinitely.
+.PP
+\fBfflag={0|1}\fP
+.PP
+Fixup flag. By default, VNAT always reports to applications the physical IP address of the current host. Some applications, such as FTP, explicitly check the current IP address against a saved one when making new connections. These applications will not work if moved. The \fIfflag\fP option allows VNAT to report to applications the virtual IP address rather than the physical IP address so the movement of the host will be transparent to the applications.
+.PP
+.TP
+ \fI0\fP: report physical IP address
+.PP
+.TP
+ \fI1\fP: report virtual IP address
+.PP
+\fBtrans={0|1}\fP
+.PP
+Forced translation. Normally, VNAT installs translation rules only when necessary, i.e., when the virtual addresses are different from the physical addresses. This flag forces VNAT to install (dummy) translation rules even when the virtual addresses are the same as the physical addresses. This is only intended for certain performance measurement purpose and is almost never used under normal circumstances.
+.PP
+.TP
+ \fI0\fP: no forced translation
+.PP
+.TP
+ \fI1\fP: forced translation
+.PP
+When VNAT is loaded into the running kernel, it hooks into the socket system calls and virtualizes connections according to a list of process names. The list can be either inclusive, i.e., containing process names whose connections are to be virtualized, or exclusive, i.e., containing process names whose connections are \fInot\fP to be virtualized. This list, along with other states of VNAT, is managed at runtime through the /proc file system entries exported by VNAT. The following entries are exported when VNAT is loaded:
+.PP
+\fB/proc/sys/net/vnat/command\fP
+.PP
+To add or remove a process name from the list of process names whose connections are being virtualized:
+.PP
+echo '{+|-}process_name tcpka pmask fflag trans' > /proc/sys/net/vnat/command
+.PP
+The values for \fItcpka\fP, \fIpmask\fP, \fIfflag\fP, and \fItrans\fP have the same meaning as those one specifies as the options when loading VNAT module. The difference is that here these values are per process, i.e., they only apply to the connections created by the particular process. The values one specifies as the options when loading VNAT module are global values that apply to all processes whose connections are being virtualized. When both types of values are present, the per process values always take precedence over the global values.
+.PP
+The command:
+.PP
+echo 'process_name tcpka pmask fflag trans' > /proc/sys/net/vnat/command
+.PP
+will modify the values of \fItcpka\fP, \fIpmask\fP, \fIfflag\fP, and \fItrans\fP for the specified process if it is in the list; otherwise, this command has no effect.
+.PP
+The following command:
+.PP
+cat /proc/sys/net/vnat/command
+.PP
+will give a list of processes currently being virtualized along with their respective \fItcpka\fP, \fIpmask\fP, \fIfflag\fP, and \fItrans\fP values.
+.PP
+\fB/proc/sys/net/vnat/debug\fP
+.PP
+Examine or modify the debugging level value at runtime.
+.PP
+\fB/proc/sys/net/vnat/timeo\fP
+.PP
+Examine or modity the VNAT protocol timeout value at runtime.
+.PP
+\fB/proc/sys/net/vnat/inver\fP
+.PP
+Examine or modify the process list inversion value at runtime.
+.PP
+\fB/proc/sys/net/vnat/pmask\fP
+.PP
+Examine or modify the global protocol mask value at runtime.
+.PP
+\fB/proc/sys/net/vnat/tcpka\fP
+.PP
+Examine or modify the global TCP keepalive timer value at runtime.
+.PP
+\fB/proc/sys/net/vnat/fflag\fP
+.PP
+Examine or modify the global fixup flag value at runtime.
+.PP
+\fB/proc/sys/net/vnat/trans\fP
+.PP
+Examine or modify the global forced translation value at runtime.
+.PP
+\fB/proc/sys/net/vnat/suspend\fP and \fB/proc/sys/net/vnat/resume\fP
+.PP
+These are read-only entries. The use of these entries is to notify VNAT of system suspension and resumption events and to interface VNAT with other system mechanisms, e.g., apmd, that handle suspension and resumption events. Reading from \fB/proc/sys/net/vnat/suspend\fP signals VNAT that the system is being suspended so that states of virtualized connections will be saved to allow the connections to be suspended and migrated. Reading from \fB/proc/sys/net/vnat/resume\fP signals VNAT that the system is being resumed so that states of the virtualized connections can be restored to allow the suspend connections to be resumed. Writing into these entries has no effect.
+.PP
+\fBBug\fP:
+.PP
+Migrating FTP client in active mode (or server in passive mode) is not yet working.
+.PP
+Copyright (c) 2001-2002 Gong Su, All rights reserved.
+.PP
+See the file 'COPYRIGHT' for information on usage and redistribution of this file. 

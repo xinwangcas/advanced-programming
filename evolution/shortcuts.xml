@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<shortcuts><group title="Shortcuts" icon_size="large"><item name="Summary" type="summary">evolution:/summary</item><item name="Inbox" type="mail" icon="inbox">default:mail</item><item name="Calendar" type="calendar">default:calendar</item><item name="Tasks" type="tasks">default:tasks</item><item name="Contacts" type="contacts">default:contacts</item></group></shortcuts>

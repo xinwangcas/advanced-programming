@@ -1,0 +1,81 @@
+=== How to compile MPI and OpenMP programs in the SunLab ===
+
+==== Compiler Configuration ====
+First, you should be sure to *always* use a recent version of gcc.  Versions of
+gcc starting with 4.2 have built-in OpenMP support, which is enabled via the
+-fopenmp flag.  For this assignment, you should include the line 'source
+~spear/303.env' in your .bashrc, so that your environment is properly
+configured for building and running OpenMP codes, and for having the right
+behavior for MPI.
+
+To build MPI programs, you need a special MPI compiler.  This is actually a
+wrapper around gcc.  This can be done by placing the following two lines in
+your .bashrc:
+
+export LAMRSH="ssh -q -x"
+source /opt/lam-mpi/etc/lam-mpi.env
+
+Once this is done, you can compile using 'mpicc' or 'mpic++', depending on the
+language your program uses.
+
+==== Running OpenMP Programs ====
+
+Once you've built an OpenMP program, there are no special steps to take in
+order to run it.  But note that you might want to #include <omp.h> in your
+program if you want to use special OpenMP functions, such as
+"omp_get_thread_num()".
+
+==== Getting Ready to Run MPI Programs ====
+
+The first thing that you must do is follow the instructions in ssh_setup.txt.
+The key point here is that from *any* sunlab machine, you must be able to ssh
+into *any other* sunlab machine *without* having to enter a password, or answer
+a question, or provide a passphrase, or anything else.
+
+The second thing is that you cannot run MPI programs across the network unless
+you start an MPI client on every machine.  In your working directory, you will
+need a program called "hostfile" that lists all the machines that you wish to
+use.  The hostfile we provide will suffice.
+
+>From there, you can check if your configuration is correct by typing:
+    recon hostfile
+If this works, then you can start up MPI support on remote machines by typing:
+    lamboot -v hostfile
+
+An obvious corollary to this is that when you are done testing your program,
+you should turn off MPI support on the remote machines.  You do this by typing:
+    lamhalt hostfile
+
+Note that these commands only work when you are logged into a machine that is
+named in the hostfile.  In other words, you must be on one of the SunLab Xeon
+machines, not an Opteron or SPARC.
+
+==== Running MPI Programs ====
+
+Now let's look at how to run MPI programs.  You can't just run the program by
+typing its name.  Instead, you must use the mpirun command to run your
+program.  The mpirun command takes a few arguments, the first of which is most
+important.  This first argument specifies which cores and/or nodes from the
+hostfile should be used.
+
+Here's a simple example.  Suppose that I want to use 8 nodes to run my program,
+and I want those nodes to be the 0th through 7th entries in my hostfile.
+Furthermore, suppose that my program takes two arguments: -a and -b.  Instead
+of running:
+    ./myprog -a7 -b14
+I would do this:
+    mpirun n0-7 -ssi rpi usysv ./myprog -a7 -b14
+
+The 'n1-8' flag indicates that I want to run on nodes 1-8.
+
+If I wanted to run on 6 cores of the first machine in my hostfile listing, I
+would type:
+    mpirun c0-5 -ssi rpi usysv ./myprog -a7 -b14
+
+Obviously, I can script this pretty easily.  Suppose I want to test on 1-8
+nodes.  I could just type this at the command line:
+    for nodes in `seq 8`
+    do
+        echo "testing with $nodes nodes"
+        mpirun n1-$nodes -ssi rpi usysv ./myprog -a7 -b14
+    done

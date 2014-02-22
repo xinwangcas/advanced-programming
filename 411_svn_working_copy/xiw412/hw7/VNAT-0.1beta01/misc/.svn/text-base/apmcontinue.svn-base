@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Import useful functions
+. /etc/rc.d/init.d/functions
+
+action $"apmcontinue: " echo $1 $2 $3
+
+case "$1" in
+	suspend|standby)
+		# Send TSTP signal to VNAT daemon to suspend connections
+		kill -TSTP `pidofproc kvnatd`
+
+		# Wait for VNAT daemon to finish
+		sleep 3
+
+		# Some job of apmscript are moved here
+		/etc/rc.d/init.d/netfs stop
+                /etc/rc.d/init.d/network stop
+                interfaces=`cat /etc/modules.conf|grep eth[0-9]|sed 's/alias eth[0-9] //g'`
+                for i in $interfaces; do
+                        /sbin/modprobe -r $i
+                done
+
+		;;
+	resume)
+		# Some job of apmscript are moved here
+		/etc/rc.d/init.d/network start
+		/etc/rc.d/init.d/netfs start
+
+		# Wait for the route to come up
+		while ! route | grep -q -c "default" >& /dev/null; do
+			sleep 1
+		done
+
+		# Send CONT signal to VNAT daemon to resume connections
+		kill -HUP `pidofproc kvnatd`
+
+		;;
+	*)
+		;;
+esac
